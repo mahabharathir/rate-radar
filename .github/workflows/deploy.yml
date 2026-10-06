@@ -51,28 +51,7 @@ jobs:
           echo "Validating core HTML files..."
           node -e '
             const fs = require("fs");
-            const requiredFiles = [
-              "index.html",
-              "rates/index.html",
-              "rates/rbi/index.html",
-              "rates/home-loan/index.html",
-              "rates/fd/index.html",
-              "rates/rd/index.html",
-              "rates/government-schemes/index.html",
-              "metals/index.html",
-              "metals/gold/index.html",
-              "metals/silver/index.html",
-              "market/index.html",
-              "currency/index.html",
-              "currency/converter/index.html",
-              "energy/index.html",
-              "credit/index.html",
-              "credit/cibil-score/index.html",
-              "credit/loan-eligibility/index.html",
-              "calendar/index.html",
-              "sources/index.html",
-              "404.html"
-            ];
+            const requiredFiles = ["index.html", "404.html"];
             for (const f of requiredFiles) {
               if (!fs.existsSync(f)) {
                 console.error(`Missing required page: ${f}`);

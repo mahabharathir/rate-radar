@@ -1,6 +1,0 @@
-{
-  "name": "Rate Radar - Financial Rates, Prices & Market Dashboard",
-  "description": "An open-source static financial dashboard tracking RBI rates, loan rates, fixed deposits, gold, silver, currencies, energy prices, and financial market indices.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

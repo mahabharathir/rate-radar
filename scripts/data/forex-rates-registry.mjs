@@ -1,6 +1,7 @@
 /**
  * Comprehensive Foreign Exchange Rates vs Indian Rupee (INR) Registry
  * Live central bank benchmark reference rates across 18 major international currencies against the Indian Rupee.
+ * Auto-refreshed from the last successful live scrape; used as fallback when the live feed is unreachable.
  */
 
 export const forexRatesCatalog = [
@@ -21,8 +22,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 96.3804
   },
   {
     "pair": "EUR/INR",
@@ -41,8 +43,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 108.0363
   },
   {
     "pair": "GBP/INR",
@@ -61,8 +64,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 127.4056
   },
   {
     "pair": "AED/INR",
@@ -81,8 +85,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 26.2438
   },
   {
     "pair": "SGD/INR",
@@ -101,8 +106,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 75.3074
   },
   {
     "pair": "AUD/INR",
@@ -121,8 +127,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 67.13
   },
   {
     "pair": "CAD/INR",
@@ -141,8 +148,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 67.6059
   },
   {
     "pair": "JPY/INR",
@@ -152,8 +160,8 @@ export const forexRatesCatalog = [
     "country": "Japan",
     "flag": "🇯🇵",
     "symbol": "¥",
-    "rate": 61.0072,
-    "rateDisplay": "₹61.01 (per 100 ¥)",
+    "rate": 0.6101,
+    "rateDisplay": "₹0.61",
     "inverseRate": 1.6391,
     "inverseRateDisplay": "1.64 JPY per ₹1",
     "unit": "100 JPY = X INR",
@@ -161,8 +169,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 0.6101
   },
   {
     "pair": "SAR/INR",
@@ -181,8 +190,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 25.7014
   },
   {
     "pair": "CHF/INR",
@@ -201,8 +211,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 115.9618
   },
   {
     "pair": "KWD/INR",
@@ -221,8 +232,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 311.7039
   },
   {
     "pair": "QAR/INR",
@@ -241,8 +253,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 26.4781
   },
   {
     "pair": "BHD/INR",
@@ -261,8 +274,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 256.3309
   },
   {
     "pair": "OMR/INR",
@@ -281,8 +295,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 250.6662
   },
   {
     "pair": "CNY/INR",
@@ -301,8 +316,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 14.3541
   },
   {
     "pair": "NZD/INR",
@@ -321,8 +337,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 53.9535
   },
   {
     "pair": "THB/INR",
@@ -341,8 +358,9 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 2.8607
   },
   {
     "pair": "MYR/INR",
@@ -361,7 +379,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T02:31:27.451Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:31 am IST"
+    "lastUpdated": "2026-10-06T10:11:46.688Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "currentRate": 23.5826
   }
 ];

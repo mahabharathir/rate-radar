@@ -10,18 +10,18 @@ All records are structured as clean, typed JSON arrays designed for seamless con
 
 | Registry File | Description | Record Count | Authority / Primary Source | Update Frequency |
 |---|---|---|---|---|
-| `banks-register.json` | Comprehensive Directory of Scheduled Commercial, PSB, Private, Small Finance & Foreign Banks in India with Benchmark Lending Rates (EBLR/RLLR/MCLR), FD Rates & URLs | 53 Banks | Reserve Bank of India (RBI) & Bank Portals | Real-time / Daily |
-| `credit-cards-registry.json` | Complete Master Registry of Active Indian Credit Cards with Fees, Joining Benefits, Reward Rates, Lounge Quotas, Forex Markup, and APR Schedules | 159 Cards across 27 Issuers | Official MITC Schedules & Bank Product Portals | Continuous Ingestion |
-| `rbi-rates-registry.json` | RBI Monetary Policy Benchmark Rates, Policy Corridors (SDF/MSF) & Statutory Reserve Ratios (CRR, SLR) | 17 Key Policy Rates & Ratios | Reserve Bank of India (RBI Monetary Policy Committee) | Bi-monthly Policy Review |
-| `forex-rates-registry.json` | Global Foreign Exchange Rates vs Indian Rupee (INR) for Major & Trading Partner Currencies | 43 Currency Pairs | Open Exchange Rates / European Central Bank / RBI Reference | Daily Fixings |
-| `government-schemes-registry.json` | Government Small Savings Scheme Rates, Compounding Frequency, Tax Status under 80C, and Maturity Periods | 12 Sovereign Schemes | Ministry of Finance, Dept of Economic Affairs (DEA Gazette) | Quarterly Gazette Notification |
-| `sources-registry.json` | Provenance Directory & Audit Registry of all Monitored Regulatory and Banking Portals | 25 Authorities & Issuers | Official Central Bank, Exchange & Bank Domains | System Audit |
+| `bank-register.json` | Comprehensive Directory of Scheduled Commercial, PSB, Private, Small Finance & Foreign Banks in India with Benchmark Lending Rates (EBLR/RLLR/MCLR), FD Rates & URLs | 53 Banks | Reserve Bank of India (RBI) & Bank Portals | Real-time / Daily |
+| `credit-cards-register.json` | Complete Master Registry of Active Indian Credit Cards with Fees, Joining Benefits, Reward Rates, Lounge Quotas, Forex Markup, and APR Schedules | 159 Cards across 27 Issuers | Official MITC Schedules & Bank Product Portals | Continuous Ingestion |
+| `rbi-rates-register.json` | RBI Monetary Policy Benchmark Rates, Policy Corridors (SDF/MSF) & Statutory Reserve Ratios (CRR, SLR) | 17 Key Policy Rates & Ratios | Reserve Bank of India (RBI Monetary Policy Committee) | Bi-monthly Policy Review |
+| `forex-rates-register.json` | Global Foreign Exchange Rates vs Indian Rupee (INR) for Major & Trading Partner Currencies | 43 Currency Pairs | Open Exchange Rates / European Central Bank / RBI Reference | Daily Fixings |
+| `government-schemes-register.json` | Government Small Savings Scheme Rates, Compounding Frequency, Tax Status under 80C, and Maturity Periods | 12 Sovereign Schemes | Ministry of Finance, Dept of Economic Affairs (DEA Gazette) | Quarterly Gazette Notification |
+| `sources-register.json` | Provenance Directory & Audit Registry of all Monitored Regulatory and Banking Portals | 25 Authorities & Issuers | Official Central Bank, Exchange & Bank Domains | System Audit |
 
 ---
 
 ## Schema Specifications
 
-### 1. `banks-register.json`
+### 1. `bank-register.json`
 ```json
 {
   "bankName": "State Bank of India",
@@ -71,7 +71,7 @@ All records are structured as clean, typed JSON arrays designed for seamless con
 }
 ```
 
-### 2. `credit-cards-registry.json`
+### 2. `credit-cards-register.json`
 ```json
 {
   "bank": "Canara Bank",
@@ -90,7 +90,7 @@ All records are structured as clean, typed JSON arrays designed for seamless con
 }
 ```
 
-### 3. `rbi-rates-registry.json`
+### 3. `rbi-rates-register.json`
 ```json
 {
   "key": "repo_rate",
@@ -103,7 +103,7 @@ All records are structured as clean, typed JSON arrays designed for seamless con
 }
 ```
 
-### 4. `forex-rates-registry.json`
+### 4. `forex-rates-register.json`
 ```json
 {
   "baseCode": "USD",
@@ -117,7 +117,7 @@ All records are structured as clean, typed JSON arrays designed for seamless con
 }
 ```
 
-### 5. `government-schemes-registry.json`
+### 5. `government-schemes-register.json`
 ```json
 {
   "schemeName": "Sukanya Samriddhi Account (SSA)",
@@ -142,4 +142,4 @@ To trigger a live refresh of all registries and feeds directly from official ban
 ```bash
 npm run update-data
 ```
-Execution logs and verification status are recorded in `data/scrape-log.json`.
+

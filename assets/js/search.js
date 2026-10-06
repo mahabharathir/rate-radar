@@ -2,15 +2,25 @@
  * Rate Radar - Single-Page Client-Side Search
  */
 
+const SEARCH_INDEX_ITEMS = [
+  { title: "RBI Policy Rates", category: "Monetary Policy", url: "#rbi", description: "Repo Rate, SDF, MSF, Bank Rate, CRR & SLR set by the Reserve Bank of India.", keywords: "rbi repo rate reverse repo sdf msf bank rate crr slr monetary policy" },
+  { title: "Foreign Exchange Rates", category: "Currency", url: "#currency", description: "Live USD, EUR, GBP, AED, SGD and other major currency pairs against the Indian Rupee.", keywords: "forex currency exchange rate usd eur gbp aed sgd dollar rupee" },
+  { title: "Stock Market Benchmarks & Sectors", category: "Markets", url: "#market", description: "NIFTY 50, NIFTY BANK and other key sectoral equity indices.", keywords: "nifty sensex market index stock equity bank it auto fmcg pharma metal midcap smallcap" },
+  { title: "Fixed Deposit Rates", category: "Banking", url: "#fd", description: "Commercial bank fixed deposit interest rates for general public and senior citizens.", keywords: "fd fixed deposit interest rate tenure senior citizen bank" },
+  { title: "Home Loan Rates", category: "Banking", url: "#loans", description: "Retail home loan interest rates and external benchmark linkages across Indian banks.", keywords: "home loan rate eblr rllr brlr mortgage interest bank" },
+  { title: "Government Savings Schemes", category: "Savings", url: "#schemes", description: "PPF, SSY, SCSS, NSC, POMIS, KVP and other small savings scheme interest rates.", keywords: "ppf sukanya samriddhi scss nsc kvp pomis government savings scheme" },
+  { title: "Credit Cards Charges & Tariffs", category: "Banking", url: "#credit", description: "Joining fees, annual fees, rewards, lounge access and forex markup across 159 credit cards.", keywords: "credit card joining fee annual fee rewards lounge forex markup" },
+  { title: "All Indian Banks Directory", category: "Banking", url: "#banks", description: "Directory of all 53 scheduled commercial banks with rates, categories and official portals.", keywords: "bank directory psb private sfb foreign payments bank sbi hdfc icici axis" },
+  { title: "Trading Holidays & RBI MPC Calendar", category: "Calendar", url: "#calendar", description: "NSE/BSE trading holidays and RBI Monetary Policy Committee meeting schedule.", keywords: "trading holiday calendar mpc meeting schedule nse bse rbi" },
+  { title: "Official Sources & Scraper Directory", category: "Transparency", url: "#sources", description: "Full provenance directory of every official source, method and status used by Rate Radar.", keywords: "sources provenance scraper directory official transparency method status" }
+];
+
 let searchIndexData = [];
 let selectedSearchIndex = -1;
 
-async function loadSearchIndex() {
+function loadSearchIndex() {
   if (searchIndexData.length === 0) {
-    const data = await fetchData("search-index.json");
-    if (data && data.items) {
-      searchIndexData = data.items;
-    }
+    searchIndexData = SEARCH_INDEX_ITEMS;
   }
 }
 
@@ -75,19 +85,6 @@ function renderSearchResults(query) {
       </a>
     `;
   }).join("");
-}
-
-function escapeHtml(str) {
-  if (!str) return "";
-  return str.replace(/[&<>"']/g, function (m) {
-    return {
-      "&": "&amp;",
-      "<": "&lt;",
-      ">": "&gt;",
-      '"': "&quot;",
-      "'": "&#039;"
-    }[m];
-  });
 }
 
 function scrollToAnchor(hash) {

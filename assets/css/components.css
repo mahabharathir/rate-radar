@@ -1,5 +1,20 @@
 /* Rate Radar - Components Stylesheet */
 
+/* Table Cell Helpers */
+.font-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
 /* Buttons */
 .btn {
   display: inline-flex;
@@ -247,72 +262,3 @@
   border-left: 3px solid #cbd5e1;
 }
 
-/* Currency Converter UI */
-.converter-box {
-  background: #ffffff;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-lg);
-  padding: 24px;
-  max-width: 640px;
-  margin: 0 auto;
-}
-
-.converter-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.converter-input {
-  flex: 1;
-  padding: 10px 14px;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-  font-size: 18px;
-  font-weight: 600;
-  outline: none;
-  font-variant-numeric: tabular-nums;
-}
-
-.converter-input:focus {
-  border-color: var(--border-focus);
-}
-
-.converter-select {
-  width: 140px;
-  padding: 10px 12px;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-  font-size: 14px;
-  font-weight: 600;
-  background: #f8fafc;
-  cursor: pointer;
-}
-
-.converter-swap-btn {
-  background: #f1f5f9;
-  border: 1px solid var(--border-color);
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 16px auto;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.converter-swap-btn:hover {
-  background: #e2e8f0;
-}
-
-.converter-rate-info {
-  font-size: 13px;
-  color: var(--text-subtle);
-  text-align: center;
-  margin-top: 14px;
-  padding-top: 14px;
-  border-top: 1px solid var(--border-color);
-}

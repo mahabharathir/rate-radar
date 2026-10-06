@@ -3,6 +3,23 @@
  */
 
 /**
+ * Escape a string for safe interpolation into innerHTML
+ * @param {*} str
+ */
+function escapeHtml(str) {
+  if (str === null || str === undefined) return "";
+  return String(str).replace(/[&<>"']/g, function (m) {
+    return {
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#039;"
+    }[m];
+  });
+}
+
+/**
  * Fetch static JSON data with fallback error handling
  * @param {string} fileName - Name or relative path of JSON file in /data/
  */

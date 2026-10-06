@@ -5,14 +5,12 @@ import * as cheerio from 'cheerio';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const DATA_DIR = path.resolve(__dirname, '../data');
 const REGISTRIES_DIR = path.resolve(__dirname, '../data/registries');
-const HTML_DIR = path.resolve(__dirname, '../data/html');
 
 if (!fs.existsSync(REGISTRIES_DIR)) fs.mkdirSync(REGISTRIES_DIR, { recursive: true });
-if (!fs.existsSync(HTML_DIR)) fs.mkdirSync(HTML_DIR, { recursive: true });
 
 import { creditCardsCatalog } from './data/credit-cards-registry.mjs';
+import { startFileLogging, stopFileLogging } from './logger.mjs';
 
 const NOW = new Date();
 const TIMESTAMP_ISO = NOW.toISOString();
@@ -25,22 +23,6 @@ const TIMESTAMP_DISPLAY = NOW.toLocaleDateString('en-IN', {
 function saveRegistry(filename, data) {
   const filePath = path.join(REGISTRIES_DIR, filename);
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
-  const linkPath = path.join(DATA_DIR, filename);
-  try {
-    if (fs.existsSync(linkPath)) fs.unlinkSync(linkPath);
-    fs.symlinkSync(path.join('registries', filename), linkPath);
-  } catch (e) {
-    fs.writeFileSync(linkPath, JSON.stringify(data, null, 2), 'utf8');
-  }
-}
-
-function escapeHtml(str) {
-  if (str === null || str === undefined) return '';
-  return String(str)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
 }
 
 const issuerPortals = {
@@ -105,7 +87,7 @@ export async function runCreditScraper() {
         return { code, status: res.status, latency, ok: res.ok };
       } catch (err) {
         const latency = Date.now() - t0;
-        console.log(`  ! [${code.toUpperCase()}] Probe Note: ${err.message}`);
+        console.log(`  ! [${code.toUpperCase()}] Probe Note: ${err.message} - ${url}`);
         return { code, status: err.name === 'TimeoutError' ? 408 : 503, latency, ok: false };
       }
     });
@@ -130,82 +112,22 @@ export async function runCreditScraper() {
   });
 
   // Save to master registry
-  saveRegistry('credit-cards-registry.json', enrichedCards);
-  console.log(`✓ Saved ${enrichedCards.length} verified cards to data/registries/credit-cards-registry.json\n`);
+  saveRegistry('credit-cards-register.json', enrichedCards);
+  console.log(`✓ Saved ${enrichedCards.length} verified cards to data/registries/credit-cards-register.json\n`);
 
-  // Generate & save HTML table
-  const cardRows = enrichedCards.map(c => `
-    <tr data-card-bank="${escapeHtml(c.bankCode || '')}" data-card-cat="${escapeHtml((c.category || '').toLowerCase())}">
-      <td style="font-weight: 600; white-space: nowrap;">
-        <span class="badge" style="background: #e0f2fe; color: #0369a1; margin-right: 6px;">${escapeHtml(c.bank)}</span>
-        <br/><strong style="font-size: 13px;">${escapeHtml(c.card)}</strong>
-      </td>
-      <td>
-        <span class="badge" style="background: #f3e8ff; color: #7e22ce;">${escapeHtml(c.category)}</span>
-      </td>
-      <td style="font-size: 12px;">
-        <div style="font-weight: 600; color: var(--text-main);">Join: ${escapeHtml(c.joiningFee)}</div>
-        <div style="color: var(--text-muted); margin-top: 2px;">Annual: ${escapeHtml(c.annualFee)}</div>
-      </td>
-      <td style="font-size: 12px; max-width: 280px;">
-        <div style="color: #047857; font-weight: 500;">${escapeHtml(c.welcomeBenefit)}</div>
-        <div style="color: var(--text-main); margin-top: 3px;">${escapeHtml(c.rewards)}</div>
-      </td>
-      <td style="font-size: 12px; color: var(--text-main);">
-        ${escapeHtml(c.loungeAccess)}
-      </td>
-      <td class="align-right font-mono" style="font-size: 12px;">
-        <div style="font-weight: 600; color: #b45309;">Forex: ${escapeHtml(c.forexMarkup)}</div>
-        <div style="color: var(--text-muted); font-size: 11px;">${escapeHtml(c.monthlyInterest)}</div>
-      </td>
-      <td style="white-space: nowrap; font-size: 12px;">
-        <a href="${escapeHtml(c.productUrl)}" target="_blank" rel="noopener" style="color: var(--accent-blue); text-decoration: underline;">Apply / Portal &nearr;</a>
-      </td>
-    </tr>
-  `).join('');
-
-  const creditHtml = `
-    <div class="table-container" id="credit">
-      <div class="table-toolbar">
-        <div style="font-weight: 600; font-size: 15px;">💳 All Indian Credit Cards Radar (${enrichedCards.length} Cards across 27 Banks)</div>
-        <div class="meta-unboxed">
-          <span class="verified-badge-pill" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600;">✓ Live Scraped (Verified)</span>
-          <span class="meta-sep">·</span>
-          <span>MITC &amp; Product Schedules</span>
-        </div>
-      </div>
-      <div class="table-responsive">
-        <table class="data-table" id="all-credit-cards-table">
-          <thead>
-            <tr>
-              <th>Bank &amp; Card Name</th>
-              <th>Category</th>
-              <th>Joining &amp; Annual Fee (Waiver)</th>
-              <th>Rewards Program &amp; Welcome Perks</th>
-              <th>Airport Lounge Access</th>
-              <th class="align-right">Forex &amp; APR</th>
-              <th>Official Bank Link</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${cardRows}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  `;
-  fs.writeFileSync(path.join(HTML_DIR, 'credit-cards-table.html'), creditHtml, 'utf8');
-
-  return { cards: enrichedCards, creditHtml };
+  return { cards: enrichedCards };
 }
 
 // Allow direct CLI execution
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  startFileLogging('Credit Cards Scraper');
   runCreditScraper().then(() => {
     console.log('✓ Credit cards live scrape finished successfully.');
+    stopFileLogging();
     process.exit(0);
   }).catch(err => {
     console.error('Error during credit cards scrape:', err);
+    stopFileLogging();
     process.exit(1);
   });
 }

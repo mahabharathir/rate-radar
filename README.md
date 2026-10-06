@@ -10,14 +10,12 @@ The project is designed to run completely on **GitHub Pages** (or any static web
 
 ## Features
 
-- **Rate Radar**: RBI Policy Rates (Repo, SDF, MSF, Bank Rate, CRR, SLR), Home Loan rates comparison across 8 major banks, Fixed Deposit (FD) rates, Recurring Deposit (RD) rates, and Government Small Savings Schemes (PPF, SSA, SCSS, NSC, KVP, MIS).
-- **Metals Radar**: Daily Gold bullion (24K) and retail jewellery benchmarks (22K, 18K), Silver 999 purity rates per 10g and 1 kg, and LBMA international spot prices.
-- **Market Radar**: Nifty 50, BSE Sensex, Bank Nifty, equities price directory, top gainers, top losers, and sector distributions.
-- **Currencies & FX**: 9 global currency pairs against INR with an interactive, instant client-side currency converter.
-- **Energy & Fuel**: Brent Crude and WTI Crude benchmarks, city-wise retail pump prices for petrol and diesel, and domestic/commercial LPG cylinder rates.
-- **Credit Radar**: Comprehensive CIBIL score guide (ranges, score factors, dispute resolution, direct link to official TransUnion CIBIL site) and client-side loan eligibility & affordable EMI calculator.
-- **Financial Calendar**: NSE/BSE trading & clearing holidays schedule for 2026, state-wise bank holiday directory, and RBI Monetary Policy Committee meeting calendar.
-- **Client-Side Global Search**: Instant spotlight search (`⌘K` / `Ctrl+K`) across all rates, banks, schemes, commodities, and calculators.
+- **Rate Radar**: RBI Policy Rates (Repo, SDF, MSF, Bank Rate, CRR, SLR), Home Loan rates comparison across major banks, Fixed Deposit (FD) rates, and Government Small Savings Schemes (PPF, SSA, SCSS, NSC, KVP, MIS).
+- **Market Radar**: NIFTY 50, NIFTY BANK, sector indices, P/E and P/B ratios.
+- **Currencies & FX**: Major global currency pairs against INR sourced from a live exchange rate feed.
+- **Credit Radar**: Comprehensive credit card tariff directory across 27 issuers — fees, rewards, lounge access, and forex markup.
+- **Financial Calendar**: NSE/BSE trading holidays and RBI Monetary Policy Committee meeting calendar.
+- **Client-Side Global Search**: Instant spotlight search (`⌘K` / `Ctrl+K`) across all rates, banks, and schemes.
 - **Stale Data Detection**: Dynamic client-side indicator flagging whether data is fresh (updated today), recent, or potentially outdated.
 
 ---
@@ -27,7 +25,7 @@ The project is designed to run completely on **GitHub Pages** (or any static web
 Rate Radar uses **only**:
 - **HTML5**: Semantic, accessible markup with OpenGraph, Twitter cards, and Schema.org structured data.
 - **CSS3**: Lightweight modern styling with clean typography, tabular figures (`font-variant-numeric: tabular-nums`), responsive cards, and zero heavy frameworks.
-- **Vanilla JavaScript**: Pure ES modules and utility scripts (`common.js`, `navigation.js`, `search.js`, `tables.js`, `currency.js`, `calculators.js`).
+- **Vanilla JavaScript**: Pure ES modules and utility scripts (`common.js`, `navigation.js`, `search.js`, `tables.js`, `dashboard.js`).
 - **JSON**: Static datasets located in `/data/` storing financial figures and metadata.
 
 **No backend is required or utilized:**
@@ -44,50 +42,40 @@ Rate Radar uses **only**:
 
 ```text
 /
-├── index.html                     # Unified single-page financial dashboard with all tables
+├── index.html                     # Standalone dashboard that fetches & renders registries client-side
 │
-├── data/                          # Official scraped JSON & HTML tables
-│   ├── html/                      # Pre-rendered semantic HTML tables
-│   │   ├── rbi-table.html         # RBI Monetary Policy table
-│   │   ├── home-loans-table.html  # Bank home loans table
-│   │   ├── fd-table.html          # Fixed deposit rates table
-│   │   ├── government-schemes-table.html # Small savings schemes table
-│   │   ├── metals-table.html      # Gold & Silver bullion table
-│   │   ├── currency-table.html    # FBIL foreign exchange table
-│   │   ├── energy-table.html      # Fuel & crude oil table
-│   │   ├── market-table.html      # Equity benchmarks & sectors table
-│   │   ├── credit-cards-table.html# Credit cards tariff table
-│   │   ├── calendar-table.html    # Bank & market holidays table
-│   │   ├── sources-table.html     # Official data sources directory table
-│   │   └── all-sections-dashboard.html # Master compiled HTML tables
-│   │
-│   ├── rbi.json                   # Structured JSON data files
-│   ├── home-loans.json
-│   ├── fd.json
-│   ├── rd.json
-│   ├── government-schemes.json
-│   ├── gold.json
-│   ├── silver.json
-│   ├── currency.json
-│   ├── crude-oil.json
-│   ├── petrol.json
-│   ├── diesel.json
-│   ├── lpg.json
-│   ├── market.json
-│   ├── stocks.json
-│   ├── credit-cards.json
-│   ├── market-holidays.json
-│   ├── bank-holidays.json
-│   ├── rbi-policy.json
-│   └── search-index.json
+├── data/
+│   └── registries/                # Canonical JSON catalogs, one file per category
+│       ├── bank-register.json
+│       ├── fd-rates-register.json
+│       ├── home-loan-register.json
+│       ├── credit-cards-register.json
+│       ├── rbi-rates-register.json
+│       ├── forex-rates-register.json
+│       ├── government-schemes-register.json
+│       ├── market-indices-register.json
+│       ├── calendars-register.json
+│       └── sources-register.json
 │
 ├── scripts/
-│   ├── scrape-official.mjs        # Official institutional scraper & HTML table generator
-│   └── update-data.js             # Entrypoint utility for local & CI updates
+│   ├── banks-scrape.mjs           # Commercial bank FD & home loan rate scraper
+│   ├── credit-scrape.mjs          # Credit card tariff scraper
+│   ├── forex-scrape.mjs           # Foreign exchange rates scraper
+│   ├── government-scrape.mjs      # Government small savings schemes scraper
+│   ├── market-scrape.mjs          # Equity market indices scraper
+│   ├── rbi-scrape.mjs             # RBI monetary policy rates scraper
+│   ├── calendar-scrape.mjs        # NSE trading holidays & RBI MPC calendar scraper
+│   ├── scrape-official.mjs        # Sources & provenance directory generator
+│   ├── update-data.mjs            # Entrypoint utility for local & CI updates
+│   ├── logger.mjs                 # Shared file logger (tees console output to logs/scrape.log)
+│   └── data/                      # Static seed/fallback catalogs used by the scrapers (mjs)
+│
+├── logs/
+│   └── scrape.log                 # Appended log of every scraper run (gitignored, local-only)
 │
 ├── assets/
 │   ├── css/ (style.css, responsive.css, components.css)
-│   ├── js/  (site-config.js, common.js, navigation.js, search.js, dashboard.js, currency.js)
+│   ├── js/  (site-config.js, common.js, navigation.js, search.js, tables.js, dashboard.js)
 │   └── icons/
 │
 ├── robots.txt
@@ -157,7 +145,7 @@ All internal navigation uses the `getUrl(path)` helper and relative paths, guara
 
 ## 5. Official Data Scraper & Ingestion Pipeline
 
-Rate Radar includes a complete data scraping and ingestion engine in `scripts/scrape-official.mjs` (executed via `scripts/update-data.js` or `npm run update-data`).
+Rate Radar includes a complete data scraping and ingestion engine in `scripts/scrape-official.mjs` (executed via `scripts/update-data.mjs` or `npm run update-data`).
 
 ### Where Data is Scraped From:
 | Category | Official Source / Regulatory Body | Official Portal | Ingestion Frequency |
@@ -180,15 +168,18 @@ You can trigger the scraper locally or in CI at any time:
 npm run update-data
 
 # Or directly via node
-node scripts/update-data.js
+node scripts/update-data.mjs
 ```
 
 ### Continuous Automation with GitHub Actions:
 The repository includes an automated workflow (`.github/workflows/data-sync.yml`) configured to execute daily at 01:00 UTC (06:30 IST). The workflow:
-1. Runs `node scripts/update-data.js` to scrape fresh rates from official endpoints.
+1. Runs `node scripts/update-data.mjs` to scrape fresh rates from official endpoints.
 2. Formats and validates the structured JSON in `/data/*.json`.
 3. Sets `dataStatus: "verified"` with exact timestamps and source URLs.
 4. Commits changes back to the repository automatically.
+
+### Viewing Scraper Logs:
+Every run of `update-data.mjs` or any individual `scripts/*-scrape.mjs` file appends a timestamped block to **`logs/scrape.log`** (created automatically on first run). The file is never overwritten — each run's output is appended below the previous one, so it builds a full history over time. It's gitignored (matches the `*.log` rule), so it stays local and never bloats the repository.
 
 ---
 
