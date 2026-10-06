@@ -1,0 +1,110 @@
+name: Deploy Rate Radar to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate JSON Datasets
+        run: |
+          echo "Validating JSON files in data/..."
+          node -e '
+            const fs = require("fs");
+            const path = "./data";
+            const files = fs.readdirSync(path).filter(f => f.endsWith(".json"));
+            for (const f of files) {
+              const fullPath = `${path}/${f}`;
+              try {
+                JSON.parse(fs.readFileSync(fullPath, "utf8"));
+                console.log(`✓ ${f} is valid JSON`);
+              } catch (e) {
+                console.error(`✗ ${f} has JSON syntax errors:`, e.message);
+                process.exit(1);
+              }
+            }
+          '
+
+      - name: Validate HTML Structure
+        run: |
+          echo "Validating core HTML files..."
+          node -e '
+            const fs = require("fs");
+            const requiredFiles = [
+              "index.html",
+              "rates/index.html",
+              "rates/rbi/index.html",
+              "rates/home-loan/index.html",
+              "rates/fd/index.html",
+              "rates/rd/index.html",
+              "rates/government-schemes/index.html",
+              "metals/index.html",
+              "metals/gold/index.html",
+              "metals/silver/index.html",
+              "market/index.html",
+              "currency/index.html",
+              "currency/converter/index.html",
+              "energy/index.html",
+              "credit/index.html",
+              "credit/cibil-score/index.html",
+              "credit/loan-eligibility/index.html",
+              "calendar/index.html",
+              "sources/index.html",
+              "404.html"
+            ];
+            for (const f of requiredFiles) {
+              if (!fs.existsSync(f)) {
+                console.error(`Missing required page: ${f}`);
+                process.exit(1);
+              }
+              const content = fs.readFileSync(f, "utf8");
+              if (!content.includes("<!doctype html>") && !content.includes("<!DOCTYPE html>")) {
+                console.error(`Invalid doctype in ${f}`);
+                process.exit(1);
+              }
+              console.log(`✓ ${f} verified`);
+            }
+          '
+
+  deploy:
+    needs: validate
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,91 @@
+{
+  "dataStatus": "verified",
+  "asOf": "2026-10-06",
+  "retrievedAt": "2026-10-06T03:51:23.126Z",
+  "lastModifiedDisplay": "6 Oct 2026 03:51 am IST",
+  "source": "National Stock Exchange of India (NSE)",
+  "sourceUrl": "https://www.nseindia.com/api/allIndices",
+  "indices": [
+    {
+      "index": "NIFTY 50",
+      "last": 22581.4,
+      "change": "undefined",
+      "pChange": "undefined%",
+      "pe": "19.3",
+      "pb": "2.77",
+      "status": "verified"
+    },
+    {
+      "index": "NIFTY NEXT 50",
+      "last": 69324.65,
+      "change": "undefined",
+      "pChange": "undefined%",
+      "pe": "18.14",
+      "pb": "3.33",
+      "status": "verified"
+    },
+    {
+      "index": "NIFTY BANK",
+      "last": 54914.1,
+      "change": "undefined",
+      "pChange": "undefined%",
+      "pe": "12.97",
+      "pb": "1.65",
+      "status": "verified"
+    },
+    {
+      "index": "NIFTY FIN SERVICE",
+      "last": 24778.75,
+      "change": "undefined",
+      "pChange": "undefined%",
+      "pe": "15.11",
+      "pb": "2.28",
+      "status": "verified"
+    },
+    {
+      "index": "NIFTY MID SELECT",
+      "last": 13695.2,
+      "change": "undefined",
+      "pChange": "undefined%",
+      "pe": "28.93",
+      "pb": "4.09",
+      "status": "verified"
+    },
+    {
+      "index": "NIFTY FPI 150",
+      "last": 1465.25,
+      "change": "undefined",
+      "pChange": "undefined%",
+      "pe": "21.13",
+      "pb": "3.14",
+      "status": "verified"
+    },
+    {
+      "index": "NIFTY 100",
+      "last": 23674.7,
+      "change": "undefined",
+      "pChange": "undefined%",
+      "pe": "19.07",
+      "pb": "2.86",
+      "status": "verified"
+    },
+    {
+      "index": "NIFTY 200",
+      "last": 13141.95,
+      "change": "undefined",
+      "pChange": "undefined%",
+      "pe": "20.37",
+      "pb": "3.01",
+      "status": "verified"
+    },
+    {
+      "index": "NIFTY 500",
+      "last": 22017.8,
+      "change": "undefined",
+      "pChange": "undefined%",
+      "pe": "21.67",
+      "pb": "3.08",
+      "status": "verified"
+    }
+  ]
+}

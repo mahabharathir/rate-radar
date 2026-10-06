@@ -1,0 +1,106 @@
+[
+  {
+    "authority": "Reserve Bank of India (RBI)",
+    "coverage": "Policy Repo, SDF, MSF, Bank Rate, CRR, SLR",
+    "url": "https://www.rbi.org.in",
+    "method": "HTML / Cheerio live scrape",
+    "status": "verified",
+    "notes": "Live parsed from rbi.org.in homepage rates table"
+  },
+  {
+    "authority": "ExchangeRate-API",
+    "coverage": "Foreign Exchange (USD, EUR, GBP, AED, SGD, AUD, CAD, JPY, SAR vs INR)",
+    "url": "https://open.er-api.com/v6/latest/USD",
+    "method": "JSON API live fetch",
+    "status": "verified",
+    "notes": "Real live currency quotes from open.er-api.com"
+  },
+  {
+    "authority": "Defeat Beta API (defeat-beta/defeatbeta-api)",
+    "coverage": "Financial Market Data Engine, 10,444 Equities, Parquet Storage",
+    "url": "https://github.com/defeat-beta/defeatbeta-api",
+    "method": "DefeatBeta API / Hugging Face Spec",
+    "status": "verified",
+    "notes": "Open-source reproducible market data engine replacing legacy scrapers (github.com/defeat-beta/defeatbeta-api)"
+  },
+  {
+    "authority": "National Stock Exchange of India (NSE)",
+    "coverage": "NIFTY 50, NIFTY BANK, Sector Indices, Trading Holidays",
+    "url": "https://www.nseindia.com",
+    "method": "JSON API live fetch",
+    "status": "verified",
+    "notes": "Real live index quotes from nseindia.com/api/allIndices"
+  },
+  {
+    "authority": "India Bullion & Jewellers Association (IBJA)",
+    "coverage": "Gold 24K, 22K, 18K and Silver 999 AM/PM Fixings",
+    "url": "https://www.ibja.co",
+    "method": "HTML / Cheerio live scrape",
+    "status": "verified",
+    "notes": "Live ingested from official IBJA portal ibja.co (rates engine ibjarates.com)"
+  },
+  {
+    "authority": "Multi Commodity Exchange of India (MCX)",
+    "coverage": "Commodity Derivatives (Gold, Silver, Copper, Zinc, Aluminium)",
+    "url": "https://www.mcxindia.com/market-data/market-watch",
+    "method": "HTTP GET (Akamai Probe)",
+    "status": "requires_api",
+    "notes": "Protected by Akamai Bot Manager (HTTP 403); requires licensed MCX market data feed"
+  },
+  {
+    "authority": "Department of Economic Affairs (DEA)",
+    "coverage": "Government Small Savings Schemes (PPF, SSY, SCSS, NSC, POMIS, KVP)",
+    "url": "https://dea.gov.in",
+    "method": "Ministry Gazette Notifications",
+    "status": "requires_manual_update",
+    "notes": "Quarterly official gazette schedules issued by Ministry of Finance"
+  },
+  {
+    "authority": "Indian Oil Corporation Ltd (IOCL)",
+    "coverage": "Daily Metro Petrol & Diesel Retail Selling Prices",
+    "url": "https://iocl.com",
+    "method": "HTTP GET (307 Redirect)",
+    "status": "requires_manual_update",
+    "notes": "Daily city prices published in PDF announcements / internal portal"
+  },
+  {
+    "authority": "Petroleum Planning & Analysis Cell (PPAC)",
+    "coverage": "Indian Basket Crude Oil",
+    "url": "https://ppac.gov.in",
+    "method": "HTML / Cheerio",
+    "status": "requires_manual_update",
+    "notes": "Periodic retrospective reports"
+  },
+  {
+    "authority": "Intercontinental Exchange (ICE) / NYMEX",
+    "coverage": "Brent Crude & WTI Crude Live Futures",
+    "url": "https://www.theice.com",
+    "method": "Licensed Financial API",
+    "status": "requires_api",
+    "notes": "Requires licensed commodities exchange subscription (ICE/CME)"
+  },
+  {
+    "authority": "BSE Limited",
+    "coverage": "BSE SENSEX (30 Constituents)",
+    "url": "https://www.bseindia.com",
+    "method": "Licensed Market Data API",
+    "status": "requires_api",
+    "notes": "Requires dedicated licensed BSE session token / feed"
+  },
+  {
+    "authority": "Commercial Banks Master Scraper (banks-scrape.mjs)",
+    "coverage": "All 53 Scheduled Indian Banks, FD, RD, and Home Loans",
+    "url": "https://rbi.org.in/scripts/banklinks.aspx",
+    "method": "Dedicated Live Bank Scraper Engine",
+    "status": "verified",
+    "notes": "Managed by scripts/banks-scrape.mjs: live scraping official bank deposit and loan portals"
+  },
+  {
+    "authority": "Commercial Card Issuers Scraper (credit-scrape.mjs)",
+    "coverage": "159 Card Offerings across 27 Banks",
+    "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+    "method": "Dedicated Credit Scraper Engine",
+    "status": "verified",
+    "notes": "Managed by scripts/credit-scrape.mjs: live probing 27 bank credit card issuer portals"
+  }
+]

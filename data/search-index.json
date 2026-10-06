@@ -1,0 +1,97 @@
+{
+  "dataStatus": "verified",
+  "lastGenerated": "2026-10-06T03:51:23.126Z",
+  "items": [
+    {
+      "title": "RBI Policy Rates",
+      "category": "Rates",
+      "url": "#rbi",
+      "description": "Repo Rate (5.25%), SDF, MSF, Bank Rate, CRR, SLR",
+      "keywords": "repo rate rbi standing deposit reverse repo crr slr central bank monetary policy"
+    },
+    {
+      "title": "Foreign Exchange Rates",
+      "category": "Currency",
+      "url": "#currency",
+      "description": "Live USD/INR, EUR/INR, GBP/INR, AED/INR from ExchangeRate-API",
+      "keywords": "currency forex exchange rate usd inr eur gbp aed exchangerate-api"
+    },
+    {
+      "title": "Gold & Silver Bullion Rates",
+      "category": "Metals",
+      "url": "#metals",
+      "description": "24K, 22K, 18K gold and 999 silver spot opening/closing fixings from IBJA benchmark",
+      "keywords": "gold rate 24k 22k 18k silver hallmark bullion ibja"
+    },
+    {
+      "title": "MCX Commodity Metals & Futures",
+      "category": "Metals",
+      "url": "#mcx",
+      "description": "MCX Market Watch futures for Gold, Silver, Copper, Zinc, Aluminium",
+      "keywords": "mcx commodity gold silver copper zinc aluminium futures market watch akamai"
+    },
+    {
+      "title": "Stock Market Benchmarks & Sectors",
+      "category": "Market",
+      "url": "#market",
+      "description": "Live Nifty 50, Bank Nifty, and sector performance from NSE India",
+      "keywords": "market nse bse stock market indices equities trading nifty"
+    },
+    {
+      "title": "Fixed Deposit (FD) Rates",
+      "category": "Rates",
+      "url": "#fd",
+      "description": "Live term deposit yields from State Bank of India, HDFC, PNB, ICICI and 53 banks",
+      "keywords": "fixed deposit fd term deposit sbi interest rates"
+    },
+    {
+      "title": "Home Loan Rates",
+      "category": "Rates",
+      "url": "#loans",
+      "description": "Compare SBI, HDFC, ICICI, Bank of Baroda, PNB home loans",
+      "keywords": "home loan housing loan interest rate sbi hdfc icici pnb eblr rllr"
+    },
+    {
+      "title": "Government Savings Schemes",
+      "category": "Rates",
+      "url": "#schemes",
+      "description": "PPF, Sukanya Samriddhi, SCSS, NSC, POMIS, KVP",
+      "keywords": "ppf ssy scss nsc kvp pomis government schemes post office small savings"
+    },
+    {
+      "title": "Fuel Prices & Crude Oil",
+      "category": "Energy",
+      "url": "#energy",
+      "description": "Retail petrol, diesel, and crude oil benchmark audit",
+      "keywords": "petrol price fuel iocl diesel lpg crude brent wti"
+    },
+    {
+      "title": "Credit Cards Charges & Tariffs",
+      "category": "Credit",
+      "url": "#credit",
+      "description": "Issuer schedule of charges and MITC documents across 27 major banks (159 cards)",
+      "keywords": "credit cards apr interest rate hdfc sbi icici axis kotak indusind amex au rbl bobcard charges lounge rupay ltf"
+    },
+    {
+      "title": "All Indian Banks Directory & Portal Hub",
+      "category": "Banks",
+      "url": "#banks",
+      "description": "Comprehensive directory of 53 Scheduled Commercial Banks across Public Sector, Private, Small Finance, and Foreign banks in India with official rates and credit card portals",
+      "keywords": "indian banks all banks sbi hdfc icici pnb canara bob rbi scheduled commercial banks ifsc rates portals directory"
+    },
+    {
+      "title": "Trading Holidays & RBI MPC Calendar",
+      "category": "Calendar",
+      "url": "#calendar",
+      "description": "NSE trading holidays and official RBI MPC meeting schedule",
+      "keywords": "trading holidays nse calendar mpc meeting dates monetary policy"
+    },
+    {
+      "title": "Official Sources & Scraper Directory",
+      "category": "Sources",
+      "url": "#sources",
+      "description": "Directory of regulatory authorities and ingestion provenance audit",
+      "keywords": "official sources data scraper rbi dea nse ibja"
+    }
+  ]
+}

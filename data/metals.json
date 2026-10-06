@@ -1,0 +1,18 @@
+{
+  "dataStatus": "requires_manual_update",
+  "asOf": "2026-10-06",
+  "retrievedAt": "2026-10-06T03:51:23.126Z",
+  "lastModifiedDisplay": "6 Oct 2026 03:51 am IST",
+  "source": "India Bullion and Jewellers Association Ltd (IBJA)",
+  "sourceUrl": "https://www.ibja.co",
+  "gold": {
+    "purity24k": 88450,
+    "purity22k": 81020,
+    "purity18k": 66340,
+    "unit": "10 Grams (excl. 3% GST)"
+  },
+  "silver": {
+    "purity999": 98200,
+    "unit": "1 Kilogram (excl. 3% GST)"
+  }
+}

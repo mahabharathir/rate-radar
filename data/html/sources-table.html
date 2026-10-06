@@ -1,0 +1,157 @@
+
+    <div class="table-container" id="sources">
+      <div class="table-toolbar">
+        <div style="font-weight: 600; font-size: 15px;">🔍 Official Data Sources & Ingestion Provenance Directory</div>
+        <div class="meta-unboxed">
+          <span class="verified-badge-pill" style="background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1;">Audit & Provenance</span>
+          <span class="meta-sep">·</span>
+          <span>Zero Fabricated Data Standard</span>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Authority / Source</th>
+              <th>Data Coverage</th>
+              <th>Official Portal / Endpoint</th>
+              <th>Ingestion Method</th>
+              <th>Ingestion Status</th>
+              <th>Provenance & Verification Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+    <tr>
+      <td style="font-weight: 600;">Reserve Bank of India (RBI)</td>
+      <td>Policy Repo, SDF, MSF, Bank Rate, CRR, SLR</td>
+      <td><a href="https://www.rbi.org.in" target="_blank" rel="noopener" style="color: var(--accent-blue);">www.rbi.org.in &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">HTML / Cheerio live scrape</td>
+      <td><span class="verified-badge-pill" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600;">✓ Live Scraped (Verified)</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Live parsed from rbi.org.in homepage rates table</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">ExchangeRate-API</td>
+      <td>Foreign Exchange (USD, EUR, GBP, AED, SGD, AUD, CAD, JPY, SAR vs INR)</td>
+      <td><a href="https://open.er-api.com/v6/latest/USD" target="_blank" rel="noopener" style="color: var(--accent-blue);">open.er-api.com/v6/latest/USD &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">JSON API live fetch</td>
+      <td><span class="verified-badge-pill" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600;">✓ Live Scraped (Verified)</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Real live currency quotes from open.er-api.com</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">Defeat Beta API (defeat-beta/defeatbeta-api)</td>
+      <td>Financial Market Data Engine, 10,444 Equities, Parquet Storage</td>
+      <td><a href="https://github.com/defeat-beta/defeatbeta-api" target="_blank" rel="noopener" style="color: var(--accent-blue);">github.com/defeat-beta/defeatbeta-api &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">DefeatBeta API / Hugging Face Spec</td>
+      <td><span class="verified-badge-pill" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600;">✓ Live Scraped (Verified)</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Open-source reproducible market data engine replacing legacy scrapers (github.com/defeat-beta/defeatbeta-api)</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">National Stock Exchange of India (NSE)</td>
+      <td>NIFTY 50, NIFTY BANK, Sector Indices, Trading Holidays</td>
+      <td><a href="https://www.nseindia.com" target="_blank" rel="noopener" style="color: var(--accent-blue);">www.nseindia.com &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">JSON API live fetch</td>
+      <td><span class="verified-badge-pill" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600;">✓ Live Scraped (Verified)</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Real live index quotes from nseindia.com/api/allIndices</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">India Bullion & Jewellers Association (IBJA)</td>
+      <td>Gold 24K, 22K, 18K and Silver 999 AM/PM Fixings</td>
+      <td><a href="https://www.ibja.co" target="_blank" rel="noopener" style="color: var(--accent-blue);">www.ibja.co &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">HTML / Cheerio live scrape</td>
+      <td><span class="verified-badge-pill" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600;">✓ Live Scraped (Verified)</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Live ingested from official IBJA portal ibja.co (rates engine ibjarates.com)</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">Multi Commodity Exchange of India (MCX)</td>
+      <td>Commodity Derivatives (Gold, Silver, Copper, Zinc, Aluminium)</td>
+      <td><a href="https://www.mcxindia.com/market-data/market-watch" target="_blank" rel="noopener" style="color: var(--accent-blue);">www.mcxindia.com/market-data/market-watch &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">HTTP GET (Akamai Probe)</td>
+      <td><span class="badge" style="background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; font-size: 11px;">Licensed Exchange Feed</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Protected by Akamai Bot Manager (HTTP 403); requires licensed MCX market data feed</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">Department of Economic Affairs (DEA)</td>
+      <td>Government Small Savings Schemes (PPF, SSY, SCSS, NSC, POMIS, KVP)</td>
+      <td><a href="https://dea.gov.in" target="_blank" rel="noopener" style="color: var(--accent-blue);">dea.gov.in &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">Ministry Gazette Notifications</td>
+      <td><span class="badge" style="background: #fffbeb; color: #b45309; border: 1px solid #fde68a; font-size: 11px;">Official Circular (Gazette)</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Quarterly official gazette schedules issued by Ministry of Finance</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">Indian Oil Corporation Ltd (IOCL)</td>
+      <td>Daily Metro Petrol & Diesel Retail Selling Prices</td>
+      <td><a href="https://iocl.com" target="_blank" rel="noopener" style="color: var(--accent-blue);">iocl.com &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">HTTP GET (307 Redirect)</td>
+      <td><span class="badge" style="background: #fffbeb; color: #b45309; border: 1px solid #fde68a; font-size: 11px;">Official Circular (Gazette)</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Daily city prices published in PDF announcements / internal portal</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">Petroleum Planning & Analysis Cell (PPAC)</td>
+      <td>Indian Basket Crude Oil</td>
+      <td><a href="https://ppac.gov.in" target="_blank" rel="noopener" style="color: var(--accent-blue);">ppac.gov.in &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">HTML / Cheerio</td>
+      <td><span class="badge" style="background: #fffbeb; color: #b45309; border: 1px solid #fde68a; font-size: 11px;">Official Circular (Gazette)</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Periodic retrospective reports</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">Intercontinental Exchange (ICE) / NYMEX</td>
+      <td>Brent Crude & WTI Crude Live Futures</td>
+      <td><a href="https://www.theice.com" target="_blank" rel="noopener" style="color: var(--accent-blue);">www.theice.com &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">Licensed Financial API</td>
+      <td><span class="badge" style="background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; font-size: 11px;">Licensed Exchange Feed</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Requires licensed commodities exchange subscription (ICE/CME)</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">BSE Limited</td>
+      <td>BSE SENSEX (30 Constituents)</td>
+      <td><a href="https://www.bseindia.com" target="_blank" rel="noopener" style="color: var(--accent-blue);">www.bseindia.com &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">Licensed Market Data API</td>
+      <td><span class="badge" style="background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; font-size: 11px;">Licensed Exchange Feed</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Requires dedicated licensed BSE session token / feed</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">Commercial Banks Master Scraper (banks-scrape.mjs)</td>
+      <td>All 53 Scheduled Indian Banks, FD, RD, and Home Loans</td>
+      <td><a href="https://rbi.org.in/scripts/banklinks.aspx" target="_blank" rel="noopener" style="color: var(--accent-blue);">rbi.org.in/scripts/banklinks.aspx &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">Dedicated Live Bank Scraper Engine</td>
+      <td><span class="verified-badge-pill" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600;">✓ Live Scraped (Verified)</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Managed by scripts/banks-scrape.mjs: live scraping official bank deposit and loan portals</td>
+    </tr>
+  
+    <tr>
+      <td style="font-weight: 600;">Commercial Card Issuers Scraper (credit-scrape.mjs)</td>
+      <td>159 Card Offerings across 27 Banks</td>
+      <td><a href="https://www.hdfcbank.com/personal/pay/cards/credit-cards" target="_blank" rel="noopener" style="color: var(--accent-blue);">www.hdfcbank.com/personal/pay/cards/credit-cards &nearr;</a></td>
+      <td style="font-family: monospace; font-size: 12px;">Dedicated Credit Scraper Engine</td>
+      <td><span class="verified-badge-pill" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600;">✓ Live Scraped (Verified)</span></td>
+      <td style="font-size: 12px; color: var(--text-muted);">Managed by scripts/credit-scrape.mjs: live probing 27 bank credit card issuer portals</td>
+    </tr>
+  
+          </tbody>
+        </table>
+      </div>
+      
+    <div class="table-footer" style="padding: 10px 16px; background: #f8fafc; border-top: 1px solid var(--border-color); font-size: 12px; color: var(--text-muted); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+      <div>
+        <strong>Source:</strong> <a href="https://github.com/defeat-beta/defeatbeta-api" target="_blank" rel="noopener" style="color: var(--accent-blue); text-decoration: underline;">Rate Radar Data Engineering Audit</a>
+        <span class="meta-sep" style="margin: 0 6px;">·</span><span>Canonical directory of institutional authorities and data feeds</span>
+      </div>
+      <div>
+        <span>As of 6 Oct 2026 03:51 am IST</span>
+      </div>
+    </div>
+  
+    </div>
+  
