@@ -1,0 +1,62 @@
+[
+  {
+    "authority": "Reserve Bank of India (RBI)",
+    "coverage": "Policy Repo, SDF, MSF, Bank Rate, CRR, SLR",
+    "url": "https://www.rbi.org.in",
+    "method": "HTML / Cheerio live scrape",
+    "status": "verified",
+    "notes": "Managed by scripts/rbi-scrape.mjs: live parsed from rbi.org.in homepage rates table",
+    "lastUpdated": "2026-10-06T10:14:38.448Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST"
+  },
+  {
+    "authority": "ExchangeRate-API",
+    "coverage": "Foreign Exchange (USD, EUR, GBP, AED, SGD, AUD, CAD, JPY, SAR vs INR)",
+    "url": "https://open.er-api.com/v6/latest/USD",
+    "method": "JSON API live fetch",
+    "status": "verified",
+    "notes": "Managed by scripts/forex-scrape.mjs: real live currency quotes from open.er-api.com",
+    "lastUpdated": "2026-10-06T10:14:38.448Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST"
+  },
+  {
+    "authority": "National Stock Exchange of India (NSE)",
+    "coverage": "NIFTY 50, NIFTY BANK, Sector Indices, Trading Holidays",
+    "url": "https://www.nseindia.com",
+    "method": "JSON API live fetch",
+    "status": "verified",
+    "notes": "Managed by scripts/market-scrape.mjs and scripts/calendar-scrape.mjs: live index quotes and trading holidays from nseindia.com",
+    "lastUpdated": "2026-10-06T10:14:38.448Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST"
+  },
+  {
+    "authority": "Department of Economic Affairs (DEA)",
+    "coverage": "Government Small Savings Schemes (PPF, SSY, SCSS, NSC, POMIS, KVP)",
+    "url": "https://dea.gov.in",
+    "method": "Ministry Gazette Notifications",
+    "status": "requires_manual_update",
+    "notes": "Managed by scripts/government-scrape.mjs: quarterly official gazette schedules issued by Ministry of Finance",
+    "lastUpdated": "2026-10-06T10:14:38.448Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST"
+  },
+  {
+    "authority": "Commercial Banks Master Scraper (banks-scrape.mjs)",
+    "coverage": "All 53 Scheduled Indian Banks, FD, RD, and Home Loans",
+    "url": "https://rbi.org.in/scripts/banklinks.aspx",
+    "method": "Dedicated Live Bank Scraper Engine",
+    "status": "verified",
+    "notes": "Managed by scripts/banks-scrape.mjs: live scraping official bank deposit and loan portals",
+    "lastUpdated": "2026-10-06T10:14:38.448Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST"
+  },
+  {
+    "authority": "Commercial Card Issuers Scraper (credit-scrape.mjs)",
+    "coverage": "159 Card Offerings across 27 Banks",
+    "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
+    "method": "Dedicated Credit Scraper Engine",
+    "status": "verified",
+    "notes": "Managed by scripts/credit-scrape.mjs: live probing 27 bank credit card issuer portals",
+    "lastUpdated": "2026-10-06T10:14:38.448Z",
+    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST"
+  }
+]
