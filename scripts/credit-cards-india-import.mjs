@@ -35,10 +35,10 @@ const BATCH_SIZE = 12;
 /**
  * Maps the dataset's issuer folder code to Rate Radar's internal bankCode +
  * display name. Where we already track the same bank under a different
- * code (asset folders / BANK_BRAND_PALETTES in scrape-images.mjs), we reuse
- * that code so logos/brand colors keep working automatically. Issuers with
- * no existing entry (onecard, slice, idbi) fall back to the generic
- * placeholder card graphic already built into scrape-images.mjs.
+ * code (asset folders / BANK_BRAND_PALETTES in data/bank-brand-palettes.mjs),
+ * we reuse that code so logos/brand colors keep working automatically.
+ * Issuers with no existing entry (onecard, slice, idbi) fall back to the
+ * generic placeholder card graphic built into scrape-card-images.mjs.
  */
 const ISSUER_MAP = {
   amex: { bankCode: 'amex', bankName: 'American Express' },
