@@ -14,13 +14,20 @@
     "scrape:banks": "node scripts/banks-scrape.mjs",
     "scrape:credit": "node scripts/credit-scrape.mjs",
     "scrape:images": "node scripts/scrape-images.mjs",
+    "scrape:onepaisa-images": "node scripts/onepaisa-images-scrape.mjs",
     "scrape:forex": "node scripts/forex-scrape.mjs",
     "scrape:government": "node scripts/government-scrape.mjs",
     "scrape:market": "node scripts/market-scrape.mjs",
     "scrape:rbi": "node scripts/rbi-scrape.mjs",
-    "scrape:calendar": "node scripts/calendar-scrape.mjs"
+    "scrape:calendar": "node scripts/calendar-scrape.mjs",
+    "import:credit-cards-india": "node scripts/credit-cards-india-import.mjs",
+    "postinstall": "playwright install chromium"
   },
   "dependencies": {
-    "cheerio": "^1.2.0"
+    "cheerio": "^1.2.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
   }
 }

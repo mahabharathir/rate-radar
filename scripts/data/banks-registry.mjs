@@ -51,8 +51,8 @@ export const banksCatalog = [
     "fdRate": "400 Days (Amrit Kalash 7.25% / 7.75% Senior)",
     "rdRate": "6.50% - 7.00% p.a.",
     "homeLoansUrl": "https://sbi.co.in/web/personal-banking/loans/home-loans",
-    "logoUrl": "/assets/images/banks/sbi.svg",
-    "imagePath": "assets/images/banks/sbi.svg"
+    "logoUrl": "/assets/images/banks/sbi/symbol.svg",
+    "imagePath": "assets/images/banks/sbi/symbol.svg"
   },
   {
     "bankName": "Punjab National Bank",
@@ -99,8 +99,8 @@ export const banksCatalog = [
     "fdRate": "400 Days (7.30% / 7.80% Senior)",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://pnb.bank.in/housing-loan.html",
-    "logoUrl": "/assets/images/banks/pnb.svg",
-    "imagePath": "assets/images/banks/pnb.svg"
+    "logoUrl": "/assets/images/banks/pnb/symbol.svg",
+    "imagePath": "assets/images/banks/pnb/symbol.svg"
   },
   {
     "bankName": "Bank of Baroda",
@@ -147,8 +147,8 @@ export const banksCatalog = [
     "fdRate": "399 Days (Baroda Tiranga Plus 7.25% / 7.75% Senior)",
     "rdRate": "6.50% - 7.15% p.a.",
     "homeLoansUrl": "https://bankofbaroda.bank.in/personal-banking/loans/home-loan",
-    "logoUrl": "/assets/images/banks/bob.svg",
-    "imagePath": "assets/images/banks/bob.svg"
+    "logoUrl": "/assets/images/banks/bob/symbol.svg",
+    "imagePath": "assets/images/banks/bob/symbol.svg"
   },
   {
     "bankName": "Canara Bank",
@@ -195,8 +195,8 @@ export const banksCatalog = [
     "fdRate": "444 Days (7.25% / 7.75% Senior)",
     "rdRate": "6.70% - 7.25% p.a.",
     "homeLoansUrl": "https://canarabank.com/pages/housing-loan",
-    "logoUrl": "/assets/images/banks/canbk.png",
-    "imagePath": "assets/images/banks/canbk.png"
+    "logoUrl": "/assets/images/banks/canbk/symbol.svg",
+    "imagePath": "assets/images/banks/canbk/symbol.svg"
   },
   {
     "bankName": "Union Bank of India",
@@ -243,8 +243,8 @@ export const banksCatalog = [
     "fdRate": "333 Days (Union Samriddhi 7.40% / 7.90% Senior)",
     "rdRate": "6.50% - 7.30% p.a.",
     "homeLoansUrl": "https://www.unionbankofindia.co.in/english/home-loans.aspx",
-    "logoUrl": "/assets/images/banks/ubi.svg",
-    "imagePath": "assets/images/banks/ubi.svg"
+    "logoUrl": "/assets/images/banks/ubi/symbol.svg",
+    "imagePath": "assets/images/banks/ubi/symbol.svg"
   },
   {
     "bankName": "Bank of India",
@@ -291,8 +291,8 @@ export const banksCatalog = [
     "fdRate": "666 Days (Star Dhan 7.30% / 7.80% Senior)",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://bankofindia.co.in/personal/loans/home-loan",
-    "logoUrl": "/assets/images/banks/boi.svg",
-    "imagePath": "assets/images/banks/boi.svg"
+    "logoUrl": "/assets/images/banks/boi/symbol.svg",
+    "imagePath": "assets/images/banks/boi/symbol.svg"
   },
   {
     "bankName": "Indian Bank",
@@ -339,8 +339,8 @@ export const banksCatalog = [
     "fdRate": "400 Days (Ind Super 400 Days @ 7.30% / 7.80% Senior)",
     "rdRate": "6.50% - 7.10% p.a.",
     "homeLoansUrl": "https://indianbank.in/departments/home-loan/",
-    "logoUrl": "/assets/images/banks/indianb.svg",
-    "imagePath": "assets/images/banks/indianb.svg"
+    "logoUrl": "/assets/images/banks/indianb/symbol.svg",
+    "imagePath": "assets/images/banks/indianb/symbol.svg"
   },
   {
     "bankName": "Central Bank of India",
@@ -387,8 +387,8 @@ export const banksCatalog = [
     "fdRate": "444 Days (Cent 444 @ 7.25% / 7.75% Senior)",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://centralbankofindia.co.in/en/personal-banking/loans/housing-loan",
-    "logoUrl": "/assets/images/banks/centralbk.svg",
-    "imagePath": "assets/images/banks/centralbk.svg"
+    "logoUrl": "/assets/images/banks/centralbk/symbol.svg",
+    "imagePath": "assets/images/banks/centralbk/symbol.svg"
   },
   {
     "bankName": "Indian Overseas Bank",
@@ -435,8 +435,8 @@ export const banksCatalog = [
     "fdRate": "444 Days (IOB 444 @ 7.30% / 7.80% Senior)",
     "rdRate": "6.50% - 7.30% p.a.",
     "homeLoansUrl": "https://www.iob.bank.in/Home-Loans",
-    "logoUrl": "/assets/images/banks/iob.svg",
-    "imagePath": "assets/images/banks/iob.svg"
+    "logoUrl": "/assets/images/banks/iob/symbol.svg",
+    "imagePath": "assets/images/banks/iob/symbol.svg"
   },
   {
     "bankName": "UCO Bank",
@@ -483,8 +483,8 @@ export const banksCatalog = [
     "fdRate": "444 Days (UCO 444 @ 7.05% / 7.55% Senior)",
     "rdRate": "6.25% - 7.05% p.a.",
     "homeLoansUrl": "https://www.ucobank.com/english/home-loans.aspx",
-    "logoUrl": "/assets/images/banks/ucobank.png",
-    "imagePath": "assets/images/banks/ucobank.png"
+    "logoUrl": "/assets/images/banks/ucobank/symbol.svg",
+    "imagePath": "assets/images/banks/ucobank/symbol.svg"
   },
   {
     "bankName": "Bank of Maharashtra",
@@ -531,8 +531,8 @@ export const banksCatalog = [
     "fdRate": "400 Days (Maha 400 @ 7.25% / 7.75% Senior)",
     "rdRate": "6.50% - 7.10% p.a.",
     "homeLoansUrl": "https://bankofmaharashtra.in/maha-super-housing-loan",
-    "logoUrl": "/assets/images/banks/mahabank.svg",
-    "imagePath": "assets/images/banks/mahabank.svg"
+    "logoUrl": "/assets/images/banks/mahabank/symbol.svg",
+    "imagePath": "assets/images/banks/mahabank/symbol.svg"
   },
   {
     "bankName": "Punjab & Sind Bank",
@@ -579,8 +579,8 @@ export const banksCatalog = [
     "fdRate": "444 Days (PSB 444 @ 7.25% / 7.75% Senior)",
     "rdRate": "6.30% - 7.10% p.a.",
     "homeLoansUrl": "https://punjabandsindbank.co.in/content/apnaghar",
-    "logoUrl": "/assets/images/banks/psb.svg",
-    "imagePath": "assets/images/banks/psb.svg"
+    "logoUrl": "/assets/images/banks/psb/symbol.svg",
+    "imagePath": "assets/images/banks/psb/symbol.svg"
   },
   {
     "bankName": "HDFC Bank",
@@ -627,8 +627,8 @@ export const banksCatalog = [
     "fdRate": "18 Months to 2 Years",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.hdfcbank.com/personal/resources/rates",
-    "logoUrl": "/assets/images/banks/hdfcbank.png",
-    "imagePath": "assets/images/banks/hdfcbank.png"
+    "logoUrl": "/assets/images/banks/hdfcbank/symbol.svg",
+    "imagePath": "assets/images/banks/hdfcbank/symbol.svg"
   },
   {
     "bankName": "ICICI Bank",
@@ -675,8 +675,8 @@ export const banksCatalog = [
     "fdRate": "18 Months to 2 Years",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates",
-    "logoUrl": "/assets/images/banks/icicibank.png",
-    "imagePath": "assets/images/banks/icicibank.png"
+    "logoUrl": "/assets/images/banks/icicibank/symbol.svg",
+    "imagePath": "assets/images/banks/icicibank/symbol.svg"
   },
   {
     "bankName": "Axis Bank",
@@ -723,8 +723,8 @@ export const banksCatalog = [
     "fdRate": "18 Months to 2 Years",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.axisbank.com/retail/fixed-deposits",
-    "logoUrl": "/assets/images/banks/axisbank.png",
-    "imagePath": "assets/images/banks/axisbank.png"
+    "logoUrl": "/assets/images/banks/axisbank/symbol.svg",
+    "imagePath": "assets/images/banks/axisbank/symbol.svg"
   },
   {
     "bankName": "Kotak Mahindra Bank",
@@ -771,8 +771,8 @@ export const banksCatalog = [
     "fdRate": "18 Months to 2 Years",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.kotak.com/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html",
-    "logoUrl": "/assets/images/banks/kotakbank.png",
-    "imagePath": "assets/images/banks/kotakbank.png"
+    "logoUrl": "/assets/images/banks/kotakbank/symbol.svg",
+    "imagePath": "assets/images/banks/kotakbank/symbol.svg"
   },
   {
     "bankName": "IndusInd Bank",
@@ -819,8 +819,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.indusind.com/in/en/personal/rates.html",
-    "logoUrl": "/assets/images/banks/indusindbk.png",
-    "imagePath": "assets/images/banks/indusindbk.png"
+    "logoUrl": "/assets/images/banks/indusindbk/symbol.svg",
+    "imagePath": "assets/images/banks/indusindbk/symbol.svg"
   },
   {
     "bankName": "IDFC FIRST Bank",
@@ -867,8 +867,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.idfcfirstbank.com/interest-rate",
-    "logoUrl": "/assets/images/banks/idfcfirstb.png",
-    "imagePath": "assets/images/banks/idfcfirstb.png"
+    "logoUrl": "/assets/images/banks/idfcfirstb/symbol.svg",
+    "imagePath": "assets/images/banks/idfcfirstb/symbol.svg"
   },
   {
     "bankName": "Federal Bank",
@@ -915,8 +915,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.federalbank.co.in/deposit-rate",
-    "logoUrl": "/assets/images/banks/federalbnk.svg",
-    "imagePath": "assets/images/banks/federalbnk.svg"
+    "logoUrl": "/assets/images/banks/federalbnk/symbol.svg",
+    "imagePath": "assets/images/banks/federalbnk/symbol.svg"
   },
   {
     "bankName": "Yes Bank",
@@ -963,8 +963,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.yesbank.in/personal-banking/yes-individual/deposits/fixed-deposit",
-    "logoUrl": "/assets/images/banks/yesbank.png",
-    "imagePath": "assets/images/banks/yesbank.png"
+    "logoUrl": "/assets/images/banks/yesbank/symbol.svg",
+    "imagePath": "assets/images/banks/yesbank/symbol.svg"
   },
   {
     "bankName": "Bandhan Bank",
@@ -1011,8 +1011,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://bandhanbank.com/rates-and-charges",
-    "logoUrl": "/assets/images/banks/bandhanbnk.svg",
-    "imagePath": "assets/images/banks/bandhanbnk.svg"
+    "logoUrl": "/assets/images/banks/bandhanbnk/symbol.svg",
+    "imagePath": "assets/images/banks/bandhanbnk/symbol.svg"
   },
   {
     "bankName": "RBL Bank",
@@ -1059,8 +1059,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.rblbank.com/interest-rates",
-    "logoUrl": "/assets/images/banks/rblbank.png",
-    "imagePath": "assets/images/banks/rblbank.png"
+    "logoUrl": "/assets/images/banks/rblbank/symbol.svg",
+    "imagePath": "assets/images/banks/rblbank/symbol.svg"
   },
   {
     "bankName": "IDBI Bank",
@@ -1107,8 +1107,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.idbibank.in/interest-rates.asp",
-    "logoUrl": "/assets/images/banks/idbi.png",
-    "imagePath": "assets/images/banks/idbi.png"
+    "logoUrl": "/assets/images/banks/idbi/symbol.svg",
+    "imagePath": "assets/images/banks/idbi/symbol.svg"
   },
   {
     "bankName": "South Indian Bank",
@@ -1155,8 +1155,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.southindianbank.com/interestrate/interestrates.aspx",
-    "logoUrl": "/assets/images/banks/southbank.png",
-    "imagePath": "assets/images/banks/southbank.png"
+    "logoUrl": "/assets/images/banks/southbank/symbol.svg",
+    "imagePath": "assets/images/banks/southbank/symbol.svg"
   },
   {
     "bankName": "City Union Bank",
@@ -1203,8 +1203,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.cityunionbank.com/deposit-interest-rates",
-    "logoUrl": "/assets/images/banks/cub.png",
-    "imagePath": "assets/images/banks/cub.png"
+    "logoUrl": "/assets/images/banks/cub/symbol.svg",
+    "imagePath": "assets/images/banks/cub/symbol.svg"
   },
   {
     "bankName": "Karur Vysya Bank",
@@ -1251,8 +1251,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.kvb.co.in/interest-rates/",
-    "logoUrl": "/assets/images/banks/kvb.svg",
-    "imagePath": "assets/images/banks/kvb.svg"
+    "logoUrl": "/assets/images/banks/kvb/symbol.svg",
+    "imagePath": "assets/images/banks/kvb/symbol.svg"
   },
   {
     "bankName": "Karnataka Bank",
@@ -1299,8 +1299,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://karnatakabank.com/personal/rates-and-charges/deposit-interest-rates",
-    "logoUrl": "/assets/images/banks/ktkbank.png",
-    "imagePath": "assets/images/banks/ktkbank.png"
+    "logoUrl": "/assets/images/banks/ktkbank/symbol.svg",
+    "imagePath": "assets/images/banks/ktkbank/symbol.svg"
   },
   {
     "bankName": "Tamilnad Mercantile Bank",
@@ -1347,8 +1347,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.tmbnet.net/interest-rates",
-    "logoUrl": "/assets/images/banks/tmb.svg",
-    "imagePath": "assets/images/banks/tmb.svg"
+    "logoUrl": "/assets/images/banks/tmb/symbol.svg",
+    "imagePath": "assets/images/banks/tmb/symbol.svg"
   },
   {
     "bankName": "CSB Bank",
@@ -1395,8 +1395,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.csb.co.in/interest-rates",
-    "logoUrl": "/assets/images/banks/csbbank.svg",
-    "imagePath": "assets/images/banks/csbbank.svg"
+    "logoUrl": "/assets/images/banks/csbbank/symbol.svg",
+    "imagePath": "assets/images/banks/csbbank/symbol.svg"
   },
   {
     "bankName": "DCB Bank",
@@ -1443,8 +1443,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.dcbbank.com/interest-rates",
-    "logoUrl": "/assets/images/banks/dcbbank.svg",
-    "imagePath": "assets/images/banks/dcbbank.svg"
+    "logoUrl": "/assets/images/banks/dcbbank/symbol.svg",
+    "imagePath": "assets/images/banks/dcbbank/symbol.svg"
   },
   {
     "bankName": "Dhanlaxmi Bank",
@@ -1491,8 +1491,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.dhanbank.com/interest-rates/",
-    "logoUrl": "/assets/images/banks/dhanbank.png",
-    "imagePath": "assets/images/banks/dhanbank.png"
+    "logoUrl": "/assets/images/banks/dhanbank/symbol.svg",
+    "imagePath": "assets/images/banks/dhanbank/symbol.svg"
   },
   {
     "bankName": "Jammu & Kashmir Bank",
@@ -1539,8 +1539,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.jkbank.com/interest-rates",
-    "logoUrl": "/assets/images/banks/jkbank.svg",
-    "imagePath": "assets/images/banks/jkbank.svg"
+    "logoUrl": "/assets/images/banks/jkbank/symbol.svg",
+    "imagePath": "assets/images/banks/jkbank/symbol.svg"
   },
   {
     "bankName": "Nainital Bank",
@@ -1587,8 +1587,8 @@ export const banksCatalog = [
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.nainitalbank.co.in/interest_rates.asp",
-    "logoUrl": "/assets/images/banks/nainital.svg",
-    "imagePath": "assets/images/banks/nainital.svg"
+    "logoUrl": "/assets/images/banks/nainital/symbol.svg",
+    "imagePath": "assets/images/banks/nainital/symbol.svg"
   },
   {
     "bankName": "AU Small Finance Bank",
@@ -1635,8 +1635,8 @@ export const banksCatalog = [
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.aubank.in/interest-rates/fixed-deposit-interest-rates",
-    "logoUrl": "/assets/images/banks/aubank.png",
-    "imagePath": "assets/images/banks/aubank.png"
+    "logoUrl": "/assets/images/banks/aubank/symbol.svg",
+    "imagePath": "assets/images/banks/aubank/symbol.svg"
   },
   {
     "bankName": "Equitas Small Finance Bank",
@@ -1683,8 +1683,8 @@ export const banksCatalog = [
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.equitasbank.com/fixed-deposit",
-    "logoUrl": "/assets/images/banks/equitasbnk.svg",
-    "imagePath": "assets/images/banks/equitasbnk.svg"
+    "logoUrl": "/assets/images/banks/equitasbnk/logo.svg",
+    "imagePath": "assets/images/banks/equitasbnk/logo.svg"
   },
   {
     "bankName": "Ujjivan Small Finance Bank",
@@ -1731,8 +1731,8 @@ export const banksCatalog = [
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.ujjivansfb.in/fixed-deposit-interest-rates",
-    "logoUrl": "/assets/images/banks/ujjivansfb.svg",
-    "imagePath": "assets/images/banks/ujjivansfb.svg"
+    "logoUrl": "/assets/images/banks/ujjivansfb/symbol.svg",
+    "imagePath": "assets/images/banks/ujjivansfb/symbol.svg"
   },
   {
     "bankName": "Jana Small Finance Bank",
@@ -1779,8 +1779,8 @@ export const banksCatalog = [
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.janabank.com/deposits/fixed-deposit-interest-rates/",
-    "logoUrl": "/assets/images/banks/janabank.svg",
-    "imagePath": "assets/images/banks/janabank.svg"
+    "logoUrl": "/assets/images/banks/janabank/logo.svg",
+    "imagePath": "assets/images/banks/janabank/logo.svg"
   },
   {
     "bankName": "Unity Small Finance Bank",
@@ -1827,8 +1827,8 @@ export const banksCatalog = [
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://theunitybank.com/interest-rates.html",
-    "logoUrl": "/assets/images/banks/unitybank.svg",
-    "imagePath": "assets/images/banks/unitybank.svg"
+    "logoUrl": "/assets/images/banks/unitybank/symbol.png",
+    "imagePath": "assets/images/banks/unitybank/symbol.png"
   },
   {
     "bankName": "Utkarsh Small Finance Bank",
@@ -1875,8 +1875,8 @@ export const banksCatalog = [
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.utkarsh.bank/interest-rates",
-    "logoUrl": "/assets/images/banks/utkarshbnk.svg",
-    "imagePath": "assets/images/banks/utkarshbnk.svg"
+    "logoUrl": "/assets/images/banks/utkarshbnk/symbol.png",
+    "imagePath": "assets/images/banks/utkarshbnk/symbol.png"
   },
   {
     "bankName": "ESAF Small Finance Bank",
@@ -1923,8 +1923,8 @@ export const banksCatalog = [
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.esafbank.com/interest-rates/",
-    "logoUrl": "/assets/images/banks/esafsfb.png",
-    "imagePath": "assets/images/banks/esafsfb.png"
+    "logoUrl": "/assets/images/banks/esafsfb/symbol.svg",
+    "imagePath": "assets/images/banks/esafsfb/symbol.svg"
   },
   {
     "bankName": "Suryoday Small Finance Bank",
@@ -1971,8 +1971,8 @@ export const banksCatalog = [
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.suryodaybank.com/interest-rates",
-    "logoUrl": "/assets/images/banks/suryoday.svg",
-    "imagePath": "assets/images/banks/suryoday.svg"
+    "logoUrl": "/assets/images/banks/suryoday/logo.svg",
+    "imagePath": "assets/images/banks/suryoday/logo.svg"
   },
   {
     "bankName": "Capital Small Finance Bank",
@@ -2019,8 +2019,8 @@ export const banksCatalog = [
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.capitalbank.co.in/rates-charges",
-    "logoUrl": "/assets/images/banks/capitalsfb.svg",
-    "imagePath": "assets/images/banks/capitalsfb.svg"
+    "logoUrl": "/assets/images/banks/capitalsfb/logo.svg",
+    "imagePath": "assets/images/banks/capitalsfb/logo.svg"
   },
   {
     "bankName": "North East Small Finance Bank",
@@ -2067,8 +2067,8 @@ export const banksCatalog = [
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.nesfb.com/interest-rates",
-    "logoUrl": "/assets/images/banks/nesfb.png",
-    "imagePath": "assets/images/banks/nesfb.png"
+    "logoUrl": "/assets/images/banks/nesfb/logo.svg",
+    "imagePath": "assets/images/banks/nesfb/logo.svg"
   },
   {
     "bankName": "Standard Chartered Bank India",
@@ -2115,8 +2115,8 @@ export const banksCatalog = [
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.sc.com/in/deposits/fixed-deposit/",
-    "logoUrl": "/assets/images/banks/scb.png",
-    "imagePath": "assets/images/banks/scb.png"
+    "logoUrl": "/assets/images/banks/scb/symbol.svg",
+    "imagePath": "assets/images/banks/scb/symbol.svg"
   },
   {
     "bankName": "HSBC India",
@@ -2163,8 +2163,8 @@ export const banksCatalog = [
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.hsbc.co.in/accounts/products/fixed-deposits/",
-    "logoUrl": "/assets/images/banks/hsbc.png",
-    "imagePath": "assets/images/banks/hsbc.png"
+    "logoUrl": "/assets/images/banks/hsbc/logo.svg",
+    "imagePath": "assets/images/banks/hsbc/logo.svg"
   },
   {
     "bankName": "American Express Banking Corp",
@@ -2211,8 +2211,8 @@ export const banksCatalog = [
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.americanexpress.com/in/legal-disclosures/",
-    "logoUrl": "/assets/images/banks/amex.png",
-    "imagePath": "assets/images/banks/amex.png"
+    "logoUrl": "/assets/images/banks/amex/symbol.png",
+    "imagePath": "assets/images/banks/amex/symbol.png"
   },
   {
     "bankName": "DBS Bank India",
@@ -2259,8 +2259,8 @@ export const banksCatalog = [
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.dbs.com/in/personal/rates/fixed-deposit-rates.page",
-    "logoUrl": "/assets/images/banks/dbs.png",
-    "imagePath": "assets/images/banks/dbs.png"
+    "logoUrl": "/assets/images/banks/dbs/symbol.png",
+    "imagePath": "assets/images/banks/dbs/symbol.png"
   },
   {
     "bankName": "Deutsche Bank India",
@@ -2307,8 +2307,8 @@ export const banksCatalog = [
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.deutschebank.co.in/rates-and-charges/fixed-deposit-rates.html",
-    "logoUrl": "/assets/images/banks/db.png",
-    "imagePath": "assets/images/banks/db.png"
+    "logoUrl": "/assets/images/banks/db/logo.svg",
+    "imagePath": "assets/images/banks/db/logo.svg"
   },
   {
     "bankName": "Barclays Bank India",
@@ -2355,8 +2355,8 @@ export const banksCatalog = [
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.barclays.in/rates/",
-    "logoUrl": "/assets/images/banks/barclays.png",
-    "imagePath": "assets/images/banks/barclays.png"
+    "logoUrl": "/assets/images/banks/barclays/logo.svg",
+    "imagePath": "assets/images/banks/barclays/logo.svg"
   },
   {
     "bankName": "Airtel Payments Bank",
@@ -2403,8 +2403,8 @@ export const banksCatalog = [
     "fdRate": "Auto-Sweep & Linked 1-3 Years",
     "rdRate": "Partnered RD up to 8.00% p.a.",
     "homeLoansUrl": "https://www.airtel.in/bank",
-    "logoUrl": "/assets/images/banks/airtelpay.png",
-    "imagePath": "assets/images/banks/airtelpay.png"
+    "logoUrl": "/assets/images/banks/airtelpay/symbol.svg",
+    "imagePath": "assets/images/banks/airtelpay/symbol.svg"
   },
   {
     "bankName": "India Post Payments Bank",
@@ -2451,8 +2451,8 @@ export const banksCatalog = [
     "fdRate": "Auto-Sweep & Linked 1-3 Years",
     "rdRate": "Partnered RD up to 8.00% p.a.",
     "homeLoansUrl": "https://www.ippbonline.com",
-    "logoUrl": "/assets/images/banks/ippb.svg",
-    "imagePath": "assets/images/banks/ippb.svg"
+    "logoUrl": "/assets/images/banks/ippb/logo.svg",
+    "imagePath": "assets/images/banks/ippb/logo.svg"
   },
   {
     "bankName": "Fino Payments Bank",
@@ -2499,8 +2499,8 @@ export const banksCatalog = [
     "fdRate": "Auto-Sweep & Linked 1-3 Years",
     "rdRate": "Partnered RD up to 8.00% p.a.",
     "homeLoansUrl": "https://www.finobank.com",
-    "logoUrl": "/assets/images/banks/fino.svg",
-    "imagePath": "assets/images/banks/fino.svg"
+    "logoUrl": "/assets/images/banks/fino/symbol.svg",
+    "imagePath": "assets/images/banks/fino/symbol.svg"
   },
   {
     "bankName": "Jio Payments Bank",
@@ -2547,7 +2547,7 @@ export const banksCatalog = [
     "fdRate": "Auto-Sweep & Linked 1-3 Years",
     "rdRate": "Partnered RD up to 8.00% p.a.",
     "homeLoansUrl": "https://www.jiopaymentsbank.com",
-    "logoUrl": "/assets/images/banks/jiopay.svg",
-    "imagePath": "assets/images/banks/jiopay.svg"
+    "logoUrl": "/assets/images/banks/jiopay/symbol.svg",
+    "imagePath": "assets/images/banks/jiopay/symbol.svg"
   }
 ];

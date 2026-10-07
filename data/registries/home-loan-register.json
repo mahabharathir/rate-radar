@@ -1,7 +1,6 @@
 [
   {
     "bank": "Bank of India",
-    "logoUrl": "/assets/images/banks/sbi.svg",
     "product": "Star Home Loan",
     "minRate": 8.3,
     "maxRate": 9.75,
@@ -12,32 +11,14 @@
     "source": {
       "name": "Bank of India",
       "url": "https://bankofindia.co.in/personal/loans/home-loan",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (RBLR Linked @ 8.15%))"
-  },
-  {
-    "bank": "State Bank of India",
-    "logoUrl": "/assets/images/banks/sbi.svg",
-    "product": "SBI Regular Home Loan / MaxGain / Privilege",
-    "minRate": 7.9,
-    "maxRate": 8.85,
-    "benchmarkType": "Floating (EBLR Linked @ 7.90%)",
-    "processingFee": "0.35% (Min ₹2,000, Max ₹10,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "State Bank of India",
-      "url": "https://sbi.co.in/web/personal-banking/loans/home-loans",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR Linked @ 7.90%))"
+    "reason": "External benchmark linked (Floating (RBLR Linked @ 8.15%))",
+    "logoUrl": "/assets/images/banks/sbi/symbol.svg"
   },
   {
     "bank": "Indian Bank",
-    "logoUrl": "/assets/images/banks/indianb.svg",
     "product": "IB Home Loan / Ind Housing",
     "minRate": 8.4,
     "maxRate": 9.7,
@@ -48,14 +29,32 @@
     "source": {
       "name": "Indian Bank",
       "url": "https://indianbank.in/departments/home-loan/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (IBHLR Linked @ 8.20%))"
+    "reason": "External benchmark linked (Floating (IBHLR Linked @ 8.20%))",
+    "logoUrl": "/assets/images/banks/indianb/symbol.svg"
+  },
+  {
+    "bank": "State Bank of India",
+    "product": "SBI Regular Home Loan / MaxGain / Privilege",
+    "minRate": 7.9,
+    "maxRate": 8.85,
+    "benchmarkType": "Floating (EBLR Linked @ 7.90%)",
+    "processingFee": "0.35% (Min ₹2,000, Max ₹10,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "State Bank of India",
+      "url": "https://sbi.co.in/web/personal-banking/loans/home-loans",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (EBLR Linked @ 7.90%))",
+    "logoUrl": "/assets/images/banks/sbi/symbol.svg"
   },
   {
     "bank": "Punjab National Bank",
-    "logoUrl": "/assets/images/banks/pnb.svg",
     "product": "PNB Max-Saver / Housing Loan for Public",
     "minRate": 8.3,
     "maxRate": 9.4,
@@ -66,68 +65,14 @@
     "source": {
       "name": "Punjab National Bank",
       "url": "https://pnb.bank.in/housing-loan.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (RLLR Linked @ 8.10%))"
-  },
-  {
-    "bank": "Canara Bank",
-    "logoUrl": "/assets/images/banks/canbk.png",
-    "product": "Canara Housing Loan / Canara Home Choice",
-    "minRate": 8.4,
-    "maxRate": 9.8,
-    "benchmarkType": "Floating (RLLR Linked @ 8.25%)",
-    "processingFee": "0.50% (Min ₹1,500, Max ₹10,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Canara Bank",
-      "url": "https://canarabank.com/pages/housing-loan",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (RLLR Linked @ 8.25%))"
-  },
-  {
-    "bank": "Bank of Baroda",
-    "logoUrl": "/assets/images/banks/bob.svg",
-    "product": "Baroda Home Loan / Baroda Advantage",
-    "minRate": 8.4,
-    "maxRate": 9.6,
-    "benchmarkType": "Floating (BRLLR Linked @ 7.90%)",
-    "processingFee": "0.25% (Min ₹8,500, Max ₹25,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Bank of Baroda",
-      "url": "https://bankofbaroda.bank.in/personal-banking/loans/home-loan",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (BRLLR Linked @ 7.90%))"
-  },
-  {
-    "bank": "Union Bank of India",
-    "logoUrl": "/assets/images/banks/ubi.svg",
-    "product": "Union Home / Union Awas",
-    "minRate": 8.35,
-    "maxRate": 9.85,
-    "benchmarkType": "Floating (EBLR Linked @ 8.10%)",
-    "processingFee": "0.50% (Max ₹15,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Union Bank of India",
-      "url": "https://www.unionbankofindia.co.in/english/home-loans.aspx",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR Linked @ 8.10%))"
+    "reason": "External benchmark linked (Floating (RLLR Linked @ 8.10%))",
+    "logoUrl": "/assets/images/banks/pnb/symbol.svg"
   },
   {
     "bank": "Central Bank of India",
-    "logoUrl": "/assets/images/banks/boi.svg",
     "product": "Cent Home Loan / Cent Combo",
     "minRate": 8.35,
     "maxRate": 9.65,
@@ -138,50 +83,68 @@
     "source": {
       "name": "Central Bank of India",
       "url": "https://centralbankofindia.co.in/en/personal-banking/loans/housing-loan",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (CBLR Linked @ 8.15%))"
+    "reason": "External benchmark linked (Floating (CBLR Linked @ 8.15%))",
+    "logoUrl": "/assets/images/banks/boi/symbol.svg"
   },
   {
-    "bank": "Indian Overseas Bank",
-    "logoUrl": "/assets/images/banks/iob.svg",
-    "product": "Subha Gruha Home Loan",
+    "bank": "Canara Bank",
+    "product": "Canara Housing Loan / Canara Home Choice",
     "minRate": 8.4,
-    "maxRate": 9.75,
-    "benchmarkType": "Floating (IOB-RLLR Linked @ 8.25%)",
+    "maxRate": 9.8,
+    "benchmarkType": "Floating (RLLR Linked @ 8.25%)",
+    "processingFee": "0.50% (Min ₹1,500, Max ₹10,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Canara Bank",
+      "url": "https://canarabank.com/pages/housing-loan",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (RLLR Linked @ 8.25%))",
+    "logoUrl": "/assets/images/banks/canbk/symbol.svg"
+  },
+  {
+    "bank": "Bank of Baroda",
+    "product": "Baroda Home Loan / Baroda Advantage",
+    "minRate": 8.4,
+    "maxRate": 9.6,
+    "benchmarkType": "Floating (BRLLR Linked @ 7.90%)",
+    "processingFee": "0.25% (Min ₹8,500, Max ₹25,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Bank of Baroda",
+      "url": "https://bankofbaroda.bank.in/personal-banking/loans/home-loan",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (BRLLR Linked @ 7.90%))",
+    "logoUrl": "/assets/images/banks/bob/symbol.svg"
+  },
+  {
+    "bank": "Union Bank of India",
+    "product": "Union Home / Union Awas",
+    "minRate": 8.35,
+    "maxRate": 9.85,
+    "benchmarkType": "Floating (EBLR Linked @ 8.10%)",
     "processingFee": "0.50% (Max ₹15,000 + GST)",
     "tenure": "Up to 30 Years",
     "effectiveDate": "Current Official Schedule",
     "source": {
-      "name": "Indian Overseas Bank",
-      "url": "https://www.iob.bank.in/Home-Loans",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "name": "Union Bank of India",
+      "url": "https://www.unionbankofindia.co.in/english/home-loans.aspx",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (IOB-RLLR Linked @ 8.25%))"
-  },
-  {
-    "bank": "Punjab & Sind Bank",
-    "logoUrl": "/assets/images/banks/psb.svg",
-    "product": "PSB Apna Ghar Housing Scheme",
-    "minRate": 8.5,
-    "maxRate": 9.9,
-    "benchmarkType": "Floating (PSB-RLLR Linked @ 8.25%)",
-    "processingFee": "0.25% (Min ₹2,500, Max ₹15,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Punjab & Sind Bank",
-      "url": "https://punjabandsindbank.co.in/content/apnaghar",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (PSB-RLLR Linked @ 8.25%))"
+    "reason": "External benchmark linked (Floating (EBLR Linked @ 8.10%))",
+    "logoUrl": "/assets/images/banks/ubi/symbol.svg"
   },
   {
     "bank": "Bank of Maharashtra",
-    "logoUrl": "/assets/images/banks/mahabank.svg",
     "product": "Maha Super Housing Loan",
     "minRate": 8.35,
     "maxRate": 9.5,
@@ -192,14 +155,32 @@
     "source": {
       "name": "Bank of Maharashtra",
       "url": "https://bankofmaharashtra.in/maha-super-housing-loan",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (RLLR Linked @ 8.15%))"
+    "reason": "External benchmark linked (Floating (RLLR Linked @ 8.15%))",
+    "logoUrl": "/assets/images/banks/mahabank/symbol.svg"
+  },
+  {
+    "bank": "Punjab & Sind Bank",
+    "product": "PSB Apna Ghar Housing Scheme",
+    "minRate": 8.5,
+    "maxRate": 9.9,
+    "benchmarkType": "Floating (PSB-RLLR Linked @ 8.25%)",
+    "processingFee": "0.25% (Min ₹2,500, Max ₹15,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Punjab & Sind Bank",
+      "url": "https://punjabandsindbank.co.in/content/apnaghar",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (PSB-RLLR Linked @ 8.25%))",
+    "logoUrl": "/assets/images/banks/psb/symbol.svg"
   },
   {
     "bank": "Axis Bank",
-    "logoUrl": "/assets/images/banks/axisbank.png",
     "product": "Axis Bank Express Home Loan",
     "minRate": 8.5,
     "maxRate": 9.65,
@@ -210,50 +191,14 @@
     "source": {
       "name": "Axis Bank",
       "url": "https://www.axisbank.com/retail/fixed-deposits",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (Repo EBLR Linked @ 8.20%))"
-  },
-  {
-    "bank": "UCO Bank",
-    "logoUrl": "/assets/images/banks/ucobank.png",
-    "product": "UCO Home Loan Scheme",
-    "minRate": 8.45,
-    "maxRate": 9.75,
-    "benchmarkType": "Floating (UCO-RLLR Linked @ 8.20%)",
-    "processingFee": "0.50% (Max ₹15,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "UCO Bank",
-      "url": "https://www.ucobank.com/english/home-loans.aspx",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (UCO-RLLR Linked @ 8.20%))"
-  },
-  {
-    "bank": "Kotak Mahindra Bank",
-    "logoUrl": "/assets/images/banks/kotakbank.png",
-    "product": "Kotak Mahindra Bank Express Home Loan",
-    "minRate": 8.5,
-    "maxRate": 9.65,
-    "benchmarkType": "Floating (Repo EBLR Linked @ 8.20%)",
-    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Kotak Mahindra Bank",
-      "url": "https://www.kotak.com/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (Repo EBLR Linked @ 8.20%))"
+    "reason": "External benchmark linked (Floating (Repo EBLR Linked @ 8.20%))",
+    "logoUrl": "/assets/images/banks/axisbank/symbol.svg"
   },
   {
     "bank": "HDFC Bank",
-    "logoUrl": "/assets/images/banks/hdfcbank.png",
     "product": "HDFC Bank Express Home Loan",
     "minRate": 8.5,
     "maxRate": 9.65,
@@ -264,14 +209,50 @@
     "source": {
       "name": "HDFC Bank",
       "url": "https://www.hdfcbank.com/personal/resources/rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (Repo EBLR Linked @ 8.20%))"
+    "reason": "External benchmark linked (Floating (Repo EBLR Linked @ 8.20%))",
+    "logoUrl": "/assets/images/banks/hdfcbank/symbol.svg"
+  },
+  {
+    "bank": "UCO Bank",
+    "product": "UCO Home Loan Scheme",
+    "minRate": 8.45,
+    "maxRate": 9.75,
+    "benchmarkType": "Floating (UCO-RLLR Linked @ 8.20%)",
+    "processingFee": "0.50% (Max ₹15,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "UCO Bank",
+      "url": "https://www.ucobank.com/english/home-loans.aspx",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (UCO-RLLR Linked @ 8.20%))",
+    "logoUrl": "/assets/images/banks/ucobank/symbol.svg"
+  },
+  {
+    "bank": "Kotak Mahindra Bank",
+    "product": "Kotak Mahindra Bank Express Home Loan",
+    "minRate": 8.5,
+    "maxRate": 9.65,
+    "benchmarkType": "Floating (Repo EBLR Linked @ 8.20%)",
+    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Kotak Mahindra Bank",
+      "url": "https://www.kotak.com/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (Repo EBLR Linked @ 8.20%))",
+    "logoUrl": "/assets/images/banks/kotakbank/symbol.svg"
   },
   {
     "bank": "ICICI Bank",
-    "logoUrl": "/assets/images/banks/icicibank.png",
     "product": "ICICI Bank Express Home Loan",
     "minRate": 8.5,
     "maxRate": 9.65,
@@ -282,14 +263,32 @@
     "source": {
       "name": "ICICI Bank",
       "url": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (Repo EBLR Linked @ 8.20%))"
+    "reason": "External benchmark linked (Floating (Repo EBLR Linked @ 8.20%))",
+    "logoUrl": "/assets/images/banks/icicibank/symbol.svg"
+  },
+  {
+    "bank": "Indian Overseas Bank",
+    "product": "Subha Gruha Home Loan",
+    "minRate": 8.4,
+    "maxRate": 9.75,
+    "benchmarkType": "Floating (IOB-RLLR Linked @ 8.25%)",
+    "processingFee": "0.50% (Max ₹15,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Indian Overseas Bank",
+      "url": "https://www.iob.bank.in/Home-Loans",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (IOB-RLLR Linked @ 8.25%))",
+    "logoUrl": "/assets/images/banks/iob/symbol.svg"
   },
   {
     "bank": "South Indian Bank",
-    "logoUrl": "/assets/images/banks/indianb.svg",
     "product": "South Indian Bank Express Home Loan",
     "minRate": 8.75,
     "maxRate": 10.25,
@@ -300,14 +299,14 @@
     "source": {
       "name": "South Indian Bank",
       "url": "https://www.southindianbank.com/interestrate/interestrates.aspx",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/indianb/symbol.svg"
   },
   {
     "bank": "IDBI Bank",
-    "logoUrl": "/assets/images/banks/idbi.png",
     "product": "IDBI Bank Express Home Loan",
     "minRate": 8.75,
     "maxRate": 10.25,
@@ -318,86 +317,14 @@
     "source": {
       "name": "IDBI Bank",
       "url": "https://www.idbibank.in/interest-rates.asp",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
-  },
-  {
-    "bank": "Yes Bank",
-    "logoUrl": "/assets/images/banks/yesbank.png",
-    "product": "Yes Bank Express Home Loan",
-    "minRate": 8.75,
-    "maxRate": 10.25,
-    "benchmarkType": "Floating (EBLR / MCLR Linked)",
-    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Yes Bank",
-      "url": "https://www.yesbank.in/personal-banking/yes-individual/deposits/fixed-deposit",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
-  },
-  {
-    "bank": "Federal Bank",
-    "logoUrl": "/assets/images/banks/federalbnk.svg",
-    "product": "Federal Bank Express Home Loan",
-    "minRate": 8.75,
-    "maxRate": 10.25,
-    "benchmarkType": "Floating (EBLR / MCLR Linked)",
-    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Federal Bank",
-      "url": "https://www.federalbank.co.in/deposit-rate",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
-  },
-  {
-    "bank": "RBL Bank",
-    "logoUrl": "/assets/images/banks/rblbank.png",
-    "product": "RBL Bank Express Home Loan",
-    "minRate": 8.75,
-    "maxRate": 10.25,
-    "benchmarkType": "Floating (EBLR / MCLR Linked)",
-    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "RBL Bank",
-      "url": "https://www.rblbank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
-  },
-  {
-    "bank": "IDFC FIRST Bank",
-    "logoUrl": "/assets/images/banks/idfcfirstb.png",
-    "product": "IDFC FIRST Bank Express Home Loan",
-    "minRate": 8.75,
-    "maxRate": 10.25,
-    "benchmarkType": "Floating (EBLR / MCLR Linked)",
-    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "IDFC FIRST Bank",
-      "url": "https://www.idfcfirstbank.com/interest-rate",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/idbi/symbol.svg"
   },
   {
     "bank": "IndusInd Bank",
-    "logoUrl": "/assets/images/banks/indusindbk.png",
     "product": "IndusInd Bank Express Home Loan",
     "minRate": 8.75,
     "maxRate": 10.25,
@@ -408,14 +335,86 @@
     "source": {
       "name": "IndusInd Bank",
       "url": "https://www.indusind.com/in/en/personal/rates.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/indusindbk/symbol.svg"
+  },
+  {
+    "bank": "Yes Bank",
+    "product": "Yes Bank Express Home Loan",
+    "minRate": 8.75,
+    "maxRate": 10.25,
+    "benchmarkType": "Floating (EBLR / MCLR Linked)",
+    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Yes Bank",
+      "url": "https://www.yesbank.in/personal-banking/yes-individual/deposits/fixed-deposit",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/yesbank/symbol.svg"
+  },
+  {
+    "bank": "IDFC FIRST Bank",
+    "product": "IDFC FIRST Bank Express Home Loan",
+    "minRate": 8.75,
+    "maxRate": 10.25,
+    "benchmarkType": "Floating (EBLR / MCLR Linked)",
+    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "IDFC FIRST Bank",
+      "url": "https://www.idfcfirstbank.com/interest-rate",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/idfcfirstb/symbol.svg"
+  },
+  {
+    "bank": "RBL Bank",
+    "product": "RBL Bank Express Home Loan",
+    "minRate": 8.75,
+    "maxRate": 10.25,
+    "benchmarkType": "Floating (EBLR / MCLR Linked)",
+    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "RBL Bank",
+      "url": "https://www.rblbank.com/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/rblbank/symbol.svg"
+  },
+  {
+    "bank": "Federal Bank",
+    "product": "Federal Bank Express Home Loan",
+    "minRate": 8.75,
+    "maxRate": 10.25,
+    "benchmarkType": "Floating (EBLR / MCLR Linked)",
+    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Federal Bank",
+      "url": "https://www.federalbank.co.in/deposit-rate",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/federalbnk/symbol.svg"
   },
   {
     "bank": "Bandhan Bank",
-    "logoUrl": "/assets/images/banks/bandhanbnk.svg",
     "product": "Bandhan Bank Express Home Loan",
     "minRate": 8.75,
     "maxRate": 10.25,
@@ -426,32 +425,14 @@
     "source": {
       "name": "Bandhan Bank",
       "url": "https://bandhanbank.com/rates-and-charges",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
-  },
-  {
-    "bank": "Tamilnad Mercantile Bank",
-    "logoUrl": "/assets/images/banks/tmb.svg",
-    "product": "Tamilnad Mercantile Bank Express Home Loan",
-    "minRate": 8.75,
-    "maxRate": 10.25,
-    "benchmarkType": "Floating (EBLR / MCLR Linked)",
-    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Tamilnad Mercantile Bank",
-      "url": "https://www.tmbnet.net/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/bandhanbnk/symbol.svg"
   },
   {
     "bank": "Karur Vysya Bank",
-    "logoUrl": "/assets/images/banks/kvb.svg",
     "product": "Karur Vysya Bank Express Home Loan",
     "minRate": 8.75,
     "maxRate": 10.25,
@@ -462,14 +443,32 @@
     "source": {
       "name": "Karur Vysya Bank",
       "url": "https://www.kvb.co.in/interest-rates/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/kvb/symbol.svg"
+  },
+  {
+    "bank": "Tamilnad Mercantile Bank",
+    "product": "Tamilnad Mercantile Bank Express Home Loan",
+    "minRate": 8.75,
+    "maxRate": 10.25,
+    "benchmarkType": "Floating (EBLR / MCLR Linked)",
+    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Tamilnad Mercantile Bank",
+      "url": "https://www.tmbnet.net/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/tmb/symbol.svg"
   },
   {
     "bank": "CSB Bank",
-    "logoUrl": "/assets/images/banks/csbbank.svg",
     "product": "CSB Bank Express Home Loan",
     "minRate": 8.75,
     "maxRate": 10.25,
@@ -480,50 +479,14 @@
     "source": {
       "name": "CSB Bank",
       "url": "https://www.csb.co.in/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
-  },
-  {
-    "bank": "Karnataka Bank",
-    "logoUrl": "/assets/images/banks/ktkbank.png",
-    "product": "Karnataka Bank Express Home Loan",
-    "minRate": 8.75,
-    "maxRate": 10.25,
-    "benchmarkType": "Floating (EBLR / MCLR Linked)",
-    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Karnataka Bank",
-      "url": "https://karnatakabank.com/personal/rates-and-charges/deposit-interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
-  },
-  {
-    "bank": "City Union Bank",
-    "logoUrl": "/assets/images/banks/cub.png",
-    "product": "City Union Bank Express Home Loan",
-    "minRate": 8.75,
-    "maxRate": 10.25,
-    "benchmarkType": "Floating (EBLR / MCLR Linked)",
-    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
-    "tenure": "Up to 30 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "City Union Bank",
-      "url": "https://www.cityunionbank.com/deposit-interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/csbbank/symbol.svg"
   },
   {
     "bank": "Dhanlaxmi Bank",
-    "logoUrl": "/assets/images/banks/dhanbank.png",
     "product": "Dhanlaxmi Bank Express Home Loan",
     "minRate": 8.75,
     "maxRate": 10.25,
@@ -534,15 +497,15 @@
     "source": {
       "name": "Dhanlaxmi Bank",
       "url": "https://www.dhanbank.com/interest-rates/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/dhanbank/symbol.svg"
   },
   {
-    "bank": "DCB Bank",
-    "logoUrl": "/assets/images/banks/dcbbank.svg",
-    "product": "DCB Bank Express Home Loan",
+    "bank": "City Union Bank",
+    "product": "City Union Bank Express Home Loan",
     "minRate": 8.75,
     "maxRate": 10.25,
     "benchmarkType": "Floating (EBLR / MCLR Linked)",
@@ -550,16 +513,34 @@
     "tenure": "Up to 30 Years",
     "effectiveDate": "Current Official Schedule",
     "source": {
-      "name": "DCB Bank",
-      "url": "https://www.dcbbank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "name": "City Union Bank",
+      "url": "https://www.cityunionbank.com/deposit-interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/cub/symbol.svg"
+  },
+  {
+    "bank": "Karnataka Bank",
+    "product": "Karnataka Bank Express Home Loan",
+    "minRate": 8.75,
+    "maxRate": 10.25,
+    "benchmarkType": "Floating (EBLR / MCLR Linked)",
+    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Karnataka Bank",
+      "url": "https://karnatakabank.com/personal/rates-and-charges/deposit-interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/ktkbank/symbol.svg"
   },
   {
     "bank": "Jammu & Kashmir Bank",
-    "logoUrl": "/assets/images/banks/jkbank.svg",
     "product": "Jammu & Kashmir Bank Express Home Loan",
     "minRate": 8.75,
     "maxRate": 10.25,
@@ -570,15 +551,15 @@
     "source": {
       "name": "Jammu & Kashmir Bank",
       "url": "https://www.jkbank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/jkbank/symbol.svg"
   },
   {
-    "bank": "Nainital Bank",
-    "logoUrl": "/assets/images/banks/nainital.svg",
-    "product": "Nainital Bank Express Home Loan",
+    "bank": "DCB Bank",
+    "product": "DCB Bank Express Home Loan",
     "minRate": 8.75,
     "maxRate": 10.25,
     "benchmarkType": "Floating (EBLR / MCLR Linked)",
@@ -586,16 +567,16 @@
     "tenure": "Up to 30 Years",
     "effectiveDate": "Current Official Schedule",
     "source": {
-      "name": "Nainital Bank",
-      "url": "https://www.nainitalbank.co.in/interest_rates.asp",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "name": "DCB Bank",
+      "url": "https://www.dcbbank.com/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))"
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/dcbbank/symbol.svg"
   },
   {
     "bank": "AU Small Finance Bank",
-    "logoUrl": "/assets/images/banks/aubank.png",
     "product": "AU Small Finance Bank Affordable Housing Loan",
     "minRate": 9.35,
     "maxRate": 11.5,
@@ -606,50 +587,14 @@
     "source": {
       "name": "AU Small Finance Bank",
       "url": "https://www.aubank.in/interest-rates/fixed-deposit-interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))"
-  },
-  {
-    "bank": "ESAF Small Finance Bank",
-    "logoUrl": "/assets/images/banks/esafsfb.png",
-    "product": "ESAF Small Finance Bank Affordable Housing Loan",
-    "minRate": 9.35,
-    "maxRate": 11.5,
-    "benchmarkType": "Floating (SFB-EBLR Linked @ 9.10%)",
-    "processingFee": "1.00% - 1.50% of loan amount + GST",
-    "tenure": "Up to 25 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "ESAF Small Finance Bank",
-      "url": "https://www.esafbank.com/interest-rates/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))"
-  },
-  {
-    "bank": "Jana Small Finance Bank",
-    "logoUrl": "/assets/images/banks/janabank.svg",
-    "product": "Jana Small Finance Bank Affordable Housing Loan",
-    "minRate": 9.35,
-    "maxRate": 11.5,
-    "benchmarkType": "Floating (SFB-EBLR Linked @ 9.10%)",
-    "processingFee": "1.00% - 1.50% of loan amount + GST",
-    "tenure": "Up to 25 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Jana Small Finance Bank",
-      "url": "https://www.janabank.com/deposits/fixed-deposit-interest-rates/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))"
+    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))",
+    "logoUrl": "/assets/images/banks/aubank/symbol.svg"
   },
   {
     "bank": "Unity Small Finance Bank",
-    "logoUrl": "/assets/images/banks/unitybank.svg",
     "product": "Unity Small Finance Bank Affordable Housing Loan",
     "minRate": 9.35,
     "maxRate": 11.5,
@@ -660,50 +605,14 @@
     "source": {
       "name": "Unity Small Finance Bank",
       "url": "https://theunitybank.com/interest-rates.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))"
-  },
-  {
-    "bank": "Utkarsh Small Finance Bank",
-    "logoUrl": "/assets/images/banks/utkarshbnk.svg",
-    "product": "Utkarsh Small Finance Bank Affordable Housing Loan",
-    "minRate": 9.35,
-    "maxRate": 11.5,
-    "benchmarkType": "Floating (SFB-EBLR Linked @ 9.10%)",
-    "processingFee": "1.00% - 1.50% of loan amount + GST",
-    "tenure": "Up to 25 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Utkarsh Small Finance Bank",
-      "url": "https://www.utkarsh.bank/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))"
-  },
-  {
-    "bank": "Equitas Small Finance Bank",
-    "logoUrl": "/assets/images/banks/equitasbnk.svg",
-    "product": "Equitas Small Finance Bank Affordable Housing Loan",
-    "minRate": 9.35,
-    "maxRate": 11.5,
-    "benchmarkType": "Floating (SFB-EBLR Linked @ 9.10%)",
-    "processingFee": "1.00% - 1.50% of loan amount + GST",
-    "tenure": "Up to 25 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Equitas Small Finance Bank",
-      "url": "https://www.equitasbank.com/fixed-deposit",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))"
+    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))",
+    "logoUrl": "/assets/images/banks/unitybank/symbol.png"
   },
   {
     "bank": "Ujjivan Small Finance Bank",
-    "logoUrl": "/assets/images/banks/ujjivansfb.svg",
     "product": "Ujjivan Small Finance Bank Affordable Housing Loan",
     "minRate": 9.35,
     "maxRate": 11.5,
@@ -714,32 +623,104 @@
     "source": {
       "name": "Ujjivan Small Finance Bank",
       "url": "https://www.ujjivansfb.in/fixed-deposit-interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))"
+    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))",
+    "logoUrl": "/assets/images/banks/ujjivansfb/symbol.svg"
   },
   {
-    "bank": "American Express Banking Corp",
-    "logoUrl": "/assets/images/banks/amex.png",
-    "product": "AMEX Global / Mortgage Advantage",
-    "minRate": 8.65,
-    "maxRate": 9.85,
-    "benchmarkType": "Floating (External Benchmark EBLR Linked)",
-    "processingFee": "0.50% - 1.00% of loan amount + GST",
+    "bank": "Jana Small Finance Bank",
+    "product": "Jana Small Finance Bank Affordable Housing Loan",
+    "minRate": 9.35,
+    "maxRate": 11.5,
+    "benchmarkType": "Floating (SFB-EBLR Linked @ 9.10%)",
+    "processingFee": "1.00% - 1.50% of loan amount + GST",
     "tenure": "Up to 25 Years",
     "effectiveDate": "Current Official Schedule",
     "source": {
-      "name": "American Express Banking Corp",
-      "url": "https://www.americanexpress.com/in/legal-disclosures/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "name": "Jana Small Finance Bank",
+      "url": "https://www.janabank.com/deposits/fixed-deposit-interest-rates/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))"
+    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))",
+    "logoUrl": "/assets/images/banks/janabank/logo.svg"
+  },
+  {
+    "bank": "Nainital Bank",
+    "product": "Nainital Bank Express Home Loan",
+    "minRate": 8.75,
+    "maxRate": 10.25,
+    "benchmarkType": "Floating (EBLR / MCLR Linked)",
+    "processingFee": "0.50% (Min ₹3,000, Max ₹15,000 + GST)",
+    "tenure": "Up to 30 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Nainital Bank",
+      "url": "https://www.nainitalbank.co.in/interest_rates.asp",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (EBLR / MCLR Linked))",
+    "logoUrl": "/assets/images/banks/nainital/symbol.svg"
+  },
+  {
+    "bank": "ESAF Small Finance Bank",
+    "product": "ESAF Small Finance Bank Affordable Housing Loan",
+    "minRate": 9.35,
+    "maxRate": 11.5,
+    "benchmarkType": "Floating (SFB-EBLR Linked @ 9.10%)",
+    "processingFee": "1.00% - 1.50% of loan amount + GST",
+    "tenure": "Up to 25 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "ESAF Small Finance Bank",
+      "url": "https://www.esafbank.com/interest-rates/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))",
+    "logoUrl": "/assets/images/banks/esafsfb/symbol.svg"
+  },
+  {
+    "bank": "Equitas Small Finance Bank",
+    "product": "Equitas Small Finance Bank Affordable Housing Loan",
+    "minRate": 9.35,
+    "maxRate": 11.5,
+    "benchmarkType": "Floating (SFB-EBLR Linked @ 9.10%)",
+    "processingFee": "1.00% - 1.50% of loan amount + GST",
+    "tenure": "Up to 25 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Equitas Small Finance Bank",
+      "url": "https://www.equitasbank.com/fixed-deposit",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))",
+    "logoUrl": "/assets/images/banks/equitasbnk/logo.svg"
+  },
+  {
+    "bank": "Utkarsh Small Finance Bank",
+    "product": "Utkarsh Small Finance Bank Affordable Housing Loan",
+    "minRate": 9.35,
+    "maxRate": 11.5,
+    "benchmarkType": "Floating (SFB-EBLR Linked @ 9.10%)",
+    "processingFee": "1.00% - 1.50% of loan amount + GST",
+    "tenure": "Up to 25 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Utkarsh Small Finance Bank",
+      "url": "https://www.utkarsh.bank/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))",
+    "logoUrl": "/assets/images/banks/utkarshbnk/symbol.png"
   },
   {
     "bank": "Suryoday Small Finance Bank",
-    "logoUrl": "/assets/images/banks/suryoday.svg",
     "product": "Suryoday Small Finance Bank Affordable Housing Loan",
     "minRate": 9.35,
     "maxRate": 11.5,
@@ -750,32 +731,14 @@
     "source": {
       "name": "Suryoday Small Finance Bank",
       "url": "https://www.suryodaybank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))"
-  },
-  {
-    "bank": "Standard Chartered Bank India",
-    "logoUrl": "/assets/images/banks/scb.png",
-    "product": "SCB Global / Mortgage Advantage",
-    "minRate": 8.65,
-    "maxRate": 9.85,
-    "benchmarkType": "Floating (External Benchmark EBLR Linked)",
-    "processingFee": "0.50% - 1.00% of loan amount + GST",
-    "tenure": "Up to 25 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Standard Chartered Bank India",
-      "url": "https://www.sc.com/in/deposits/fixed-deposit/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))"
+    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))",
+    "logoUrl": "/assets/images/banks/suryoday/logo.svg"
   },
   {
     "bank": "DBS Bank India",
-    "logoUrl": "/assets/images/banks/dbs.png",
     "product": "DBS Global / Mortgage Advantage",
     "minRate": 8.65,
     "maxRate": 9.85,
@@ -786,32 +749,14 @@
     "source": {
       "name": "DBS Bank India",
       "url": "https://www.dbs.com/in/personal/rates/fixed-deposit-rates.page",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))"
-  },
-  {
-    "bank": "Deutsche Bank India",
-    "logoUrl": "/assets/images/banks/db.png",
-    "product": "DB Global / Mortgage Advantage",
-    "minRate": 8.65,
-    "maxRate": 9.85,
-    "benchmarkType": "Floating (External Benchmark EBLR Linked)",
-    "processingFee": "0.50% - 1.00% of loan amount + GST",
-    "tenure": "Up to 25 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Deutsche Bank India",
-      "url": "https://www.deutschebank.co.in/rates-and-charges/fixed-deposit-rates.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))"
+    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))",
+    "logoUrl": "/assets/images/banks/dbs/symbol.png"
   },
   {
     "bank": "Capital Small Finance Bank",
-    "logoUrl": "/assets/images/banks/capitalsfb.svg",
     "product": "Capital Small Finance Bank Affordable Housing Loan",
     "minRate": 9.35,
     "maxRate": 11.5,
@@ -822,14 +767,32 @@
     "source": {
       "name": "Capital Small Finance Bank",
       "url": "https://www.capitalbank.co.in/rates-charges",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))"
+    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))",
+    "logoUrl": "/assets/images/banks/capitalsfb/logo.svg"
+  },
+  {
+    "bank": "Standard Chartered Bank India",
+    "product": "SCB Global / Mortgage Advantage",
+    "minRate": 8.65,
+    "maxRate": 9.85,
+    "benchmarkType": "Floating (External Benchmark EBLR Linked)",
+    "processingFee": "0.50% - 1.00% of loan amount + GST",
+    "tenure": "Up to 25 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Standard Chartered Bank India",
+      "url": "https://www.sc.com/in/deposits/fixed-deposit/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))",
+    "logoUrl": "/assets/images/banks/scb/symbol.svg"
   },
   {
     "bank": "North East Small Finance Bank",
-    "logoUrl": "/assets/images/banks/nesfb.png",
     "product": "North East Small Finance Bank Affordable Housing Loan",
     "minRate": 9.35,
     "maxRate": 11.5,
@@ -840,14 +803,14 @@
     "source": {
       "name": "North East Small Finance Bank",
       "url": "https://www.nesfb.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))"
+    "reason": "External benchmark linked (Floating (SFB-EBLR Linked @ 9.10%))",
+    "logoUrl": "/assets/images/banks/nesfb/logo.svg"
   },
   {
     "bank": "HSBC India",
-    "logoUrl": "/assets/images/banks/hsbc.png",
     "product": "HSBC Global / Mortgage Advantage",
     "minRate": 8.65,
     "maxRate": 9.85,
@@ -858,14 +821,50 @@
     "source": {
       "name": "HSBC India",
       "url": "https://www.hsbc.co.in/accounts/products/fixed-deposits/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))"
+    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))",
+    "logoUrl": "/assets/images/banks/hsbc/logo.svg"
+  },
+  {
+    "bank": "American Express Banking Corp",
+    "product": "AMEX Global / Mortgage Advantage",
+    "minRate": 8.65,
+    "maxRate": 9.85,
+    "benchmarkType": "Floating (External Benchmark EBLR Linked)",
+    "processingFee": "0.50% - 1.00% of loan amount + GST",
+    "tenure": "Up to 25 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "American Express Banking Corp",
+      "url": "https://www.americanexpress.com/in/legal-disclosures/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))",
+    "logoUrl": "/assets/images/banks/amex/symbol.png"
+  },
+  {
+    "bank": "Deutsche Bank India",
+    "product": "DB Global / Mortgage Advantage",
+    "minRate": 8.65,
+    "maxRate": 9.85,
+    "benchmarkType": "Floating (External Benchmark EBLR Linked)",
+    "processingFee": "0.50% - 1.00% of loan amount + GST",
+    "tenure": "Up to 25 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Deutsche Bank India",
+      "url": "https://www.deutschebank.co.in/rates-and-charges/fixed-deposit-rates.html",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))",
+    "logoUrl": "/assets/images/banks/db/logo.svg"
   },
   {
     "bank": "India Post Payments Bank",
-    "logoUrl": "/assets/images/banks/ippb.svg",
     "product": "IPPB Co-branded Partner Loans",
     "minRate": 8.35,
     "maxRate": 9.5,
@@ -876,14 +875,14 @@
     "source": {
       "name": "India Post Payments Bank",
       "url": "https://www.ippbonline.com",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Partnered Lending (RBI Payments Bank Guidelines))"
+    "reason": "External benchmark linked (Partnered Lending (RBI Payments Bank Guidelines))",
+    "logoUrl": "/assets/images/banks/ippb/logo.svg"
   },
   {
     "bank": "Fino Payments Bank",
-    "logoUrl": "/assets/images/banks/fino.svg",
     "product": "FINO Co-branded Partner Loans",
     "minRate": 8.35,
     "maxRate": 9.5,
@@ -894,32 +893,14 @@
     "source": {
       "name": "Fino Payments Bank",
       "url": "https://www.finobank.com",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Partnered Lending (RBI Payments Bank Guidelines))"
-  },
-  {
-    "bank": "Barclays Bank India",
-    "logoUrl": "/assets/images/banks/barclays.png",
-    "product": "BARCLAYS Global / Mortgage Advantage",
-    "minRate": 8.65,
-    "maxRate": 9.85,
-    "benchmarkType": "Floating (External Benchmark EBLR Linked)",
-    "processingFee": "0.50% - 1.00% of loan amount + GST",
-    "tenure": "Up to 25 Years",
-    "effectiveDate": "Current Official Schedule",
-    "source": {
-      "name": "Barclays Bank India",
-      "url": "https://www.barclays.in/rates/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))"
+    "reason": "External benchmark linked (Partnered Lending (RBI Payments Bank Guidelines))",
+    "logoUrl": "/assets/images/banks/fino/symbol.svg"
   },
   {
     "bank": "Airtel Payments Bank",
-    "logoUrl": "/assets/images/banks/airtelpay.png",
     "product": "AIRTELPAY Co-branded Partner Loans",
     "minRate": 8.35,
     "maxRate": 9.5,
@@ -930,14 +911,32 @@
     "source": {
       "name": "Airtel Payments Bank",
       "url": "https://www.airtel.in/bank",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Partnered Lending (RBI Payments Bank Guidelines))"
+    "reason": "External benchmark linked (Partnered Lending (RBI Payments Bank Guidelines))",
+    "logoUrl": "/assets/images/banks/airtelpay/symbol.svg"
+  },
+  {
+    "bank": "Barclays Bank India",
+    "product": "BARCLAYS Global / Mortgage Advantage",
+    "minRate": 8.65,
+    "maxRate": 9.85,
+    "benchmarkType": "Floating (External Benchmark EBLR Linked)",
+    "processingFee": "0.50% - 1.00% of loan amount + GST",
+    "tenure": "Up to 25 Years",
+    "effectiveDate": "Current Official Schedule",
+    "source": {
+      "name": "Barclays Bank India",
+      "url": "https://www.barclays.in/rates/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "reason": "External benchmark linked (Floating (External Benchmark EBLR Linked))",
+    "logoUrl": "/assets/images/banks/barclays/logo.svg"
   },
   {
     "bank": "Jio Payments Bank",
-    "logoUrl": "/assets/images/banks/jiopay.svg",
     "product": "JIOPAY Co-branded Partner Loans",
     "minRate": 8.35,
     "maxRate": 9.5,
@@ -948,9 +947,10 @@
     "source": {
       "name": "Jio Payments Bank",
       "url": "https://www.jiopaymentsbank.com",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "reason": "External benchmark linked (Partnered Lending (RBI Payments Bank Guidelines))"
+    "reason": "External benchmark linked (Partnered Lending (RBI Payments Bank Guidelines))",
+    "logoUrl": "/assets/images/banks/jiopay/symbol.svg"
   }
 ]

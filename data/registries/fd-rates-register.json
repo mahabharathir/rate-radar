@@ -1,7 +1,6 @@
 [
   {
     "bank": "Bank of India",
-    "logoUrl": "/assets/images/banks/sbi.svg",
     "tenure": "666 Days (Star Dhan 7.30% / 7.80% Senior)",
     "generalRate": 3,
     "seniorCitizenRate": 3.5,
@@ -11,29 +10,13 @@
     "source": {
       "name": "Bank of India",
       "url": "https://bankofindia.co.in/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
-  },
-  {
-    "bank": "State Bank of India",
-    "logoUrl": "/assets/images/banks/sbi.svg",
-    "tenure": "400 Days (Amrit Kalash 7.25% / 7.75% Senior)",
-    "generalRate": 3.05,
-    "seniorCitizenRate": 3.55,
-    "specialScheme": "Amrit Vrishti (444 Days @ 7.25% / 7.75% Senior)",
-    "minDeposit": 1000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "State Bank of India",
-      "url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/sbi/symbol.svg"
   },
   {
     "bank": "Indian Bank",
-    "logoUrl": "/assets/images/banks/indianb.svg",
     "tenure": "400 Days (Ind Super 400 Days @ 7.30% / 7.80% Senior)",
     "generalRate": 2.8,
     "seniorCitizenRate": 3.3,
@@ -43,9 +26,106 @@
     "source": {
       "name": "Indian Bank",
       "url": "https://indianbank.in/departments/deposit-rates/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/indianb/symbol.svg"
+  },
+  {
+    "bank": "State Bank of India",
+    "tenure": "7 days to 45 days",
+    "generalRate": 3.05,
+    "seniorCitizenRate": 3.05,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "State Bank of India",
+      "url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/sbi/symbol.svg"
+  },
+  {
+    "bank": "State Bank of India",
+    "tenure": "46 days to 179 days",
+    "generalRate": 4.9,
+    "seniorCitizenRate": 4.9,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "State Bank of India",
+      "url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/sbi/symbol.svg"
+  },
+  {
+    "bank": "State Bank of India",
+    "tenure": "180 days to 210 days",
+    "generalRate": 5.65,
+    "seniorCitizenRate": 5.65,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "State Bank of India",
+      "url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/sbi/symbol.svg"
+  },
+  {
+    "bank": "State Bank of India",
+    "tenure": "211 days to less than 1 year",
+    "generalRate": 5.9,
+    "seniorCitizenRate": 5.9,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "State Bank of India",
+      "url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/sbi/symbol.svg"
+  },
+  {
+    "bank": "State Bank of India",
+    "tenure": "1 Year to less than 2 years",
+    "generalRate": 6.25,
+    "seniorCitizenRate": 6.25,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "State Bank of India",
+      "url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/sbi/symbol.svg"
+  },
+  {
+    "bank": "State Bank of India",
+    "tenure": "2 years to less than 3 years",
+    "generalRate": 6.45,
+    "seniorCitizenRate": 6.4,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "State Bank of India",
+      "url": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/sbi/symbol.svg"
   },
   {
     "bank": "Punjab National Bank",
@@ -58,10 +138,10 @@
     "source": {
       "name": "Punjab National Bank",
       "url": "https://pnb.bank.in/interest-rates-deposit.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/pnb.svg"
+    "logoUrl": "/assets/images/banks/pnb/symbol.svg"
   },
   {
     "bank": "Punjab National Bank",
@@ -74,10 +154,10 @@
     "source": {
       "name": "Punjab National Bank",
       "url": "https://pnb.bank.in/interest-rates-deposit.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/pnb.svg"
+    "logoUrl": "/assets/images/banks/pnb/symbol.svg"
   },
   {
     "bank": "Punjab National Bank",
@@ -90,10 +170,10 @@
     "source": {
       "name": "Punjab National Bank",
       "url": "https://pnb.bank.in/interest-rates-deposit.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/pnb.svg"
+    "logoUrl": "/assets/images/banks/pnb/symbol.svg"
   },
   {
     "bank": "Punjab National Bank",
@@ -106,10 +186,10 @@
     "source": {
       "name": "Punjab National Bank",
       "url": "https://pnb.bank.in/interest-rates-deposit.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/pnb.svg"
+    "logoUrl": "/assets/images/banks/pnb/symbol.svg"
   },
   {
     "bank": "Punjab National Bank",
@@ -122,10 +202,10 @@
     "source": {
       "name": "Punjab National Bank",
       "url": "https://pnb.bank.in/interest-rates-deposit.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/pnb.svg"
+    "logoUrl": "/assets/images/banks/pnb/symbol.svg"
   },
   {
     "bank": "Punjab National Bank",
@@ -138,14 +218,109 @@
     "source": {
       "name": "Punjab National Bank",
       "url": "https://pnb.bank.in/interest-rates-deposit.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/pnb.svg"
+    "logoUrl": "/assets/images/banks/pnb/symbol.svg"
+  },
+  {
+    "bank": "Central Bank of India",
+    "tenure": "7 -14 days",
+    "generalRate": 3,
+    "seniorCitizenRate": 3,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "Central Bank of India",
+      "url": "https://centralbankofindia.co.in/en/interest-rates-on-deposit",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/boi/symbol.svg"
+  },
+  {
+    "bank": "Central Bank of India",
+    "tenure": "15 – 30 days",
+    "generalRate": 3.5,
+    "seniorCitizenRate": 3.5,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "Central Bank of India",
+      "url": "https://centralbankofindia.co.in/en/interest-rates-on-deposit",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/boi/symbol.svg"
+  },
+  {
+    "bank": "Central Bank of India",
+    "tenure": "31 - 45 days",
+    "generalRate": 3.5,
+    "seniorCitizenRate": 3.5,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "Central Bank of India",
+      "url": "https://centralbankofindia.co.in/en/interest-rates-on-deposit",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/boi/symbol.svg"
+  },
+  {
+    "bank": "Central Bank of India",
+    "tenure": "46 – 59 days",
+    "generalRate": 4.25,
+    "seniorCitizenRate": 4.25,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "Central Bank of India",
+      "url": "https://centralbankofindia.co.in/en/interest-rates-on-deposit",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/boi/symbol.svg"
+  },
+  {
+    "bank": "Central Bank of India",
+    "tenure": "60 – 90 days",
+    "generalRate": 4,
+    "seniorCitizenRate": 4,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "Central Bank of India",
+      "url": "https://centralbankofindia.co.in/en/interest-rates-on-deposit",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/boi/symbol.svg"
+  },
+  {
+    "bank": "Central Bank of India",
+    "tenure": "91 – 179 days",
+    "generalRate": 4.25,
+    "seniorCitizenRate": 4.25,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "Central Bank of India",
+      "url": "https://centralbankofindia.co.in/en/interest-rates-on-deposit",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/boi/symbol.svg"
   },
   {
     "bank": "Canara Bank",
-    "logoUrl": "/assets/images/banks/canbk.png",
     "tenure": "444 Days (7.25% / 7.75% Senior)",
     "generalRate": 4,
     "seniorCitizenRate": 4,
@@ -155,13 +330,13 @@
     "source": {
       "name": "Canara Bank",
       "url": "https://canarabank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/canbk/symbol.svg"
   },
   {
     "bank": "Bank of Baroda",
-    "logoUrl": "/assets/images/banks/bob.svg",
     "tenure": "399 Days (Baroda Tiranga Plus 7.25% / 7.75% Senior)",
     "generalRate": 4.25,
     "seniorCitizenRate": 4.75,
@@ -171,13 +346,13 @@
     "source": {
       "name": "Bank of Baroda",
       "url": "https://bankofbaroda.bank.in/interest-rates-and-service-charges/deposits-interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/bob/symbol.svg"
   },
   {
     "bank": "Union Bank of India",
-    "logoUrl": "/assets/images/banks/ubi.svg",
     "tenure": "333 Days (Union Samriddhi 7.40% / 7.90% Senior)",
     "generalRate": 3.5,
     "seniorCitizenRate": 4,
@@ -187,61 +362,13 @@
     "source": {
       "name": "Union Bank of India",
       "url": "https://unionbankofindia.co.in/english/interest-rates.aspx",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
-  },
-  {
-    "bank": "Central Bank of India",
-    "logoUrl": "/assets/images/banks/boi.svg",
-    "tenure": "444 Days (Cent 444 @ 7.25% / 7.75% Senior)",
-    "generalRate": 3.5,
-    "seniorCitizenRate": 4,
-    "specialScheme": "Cent 444 / Cent 555 Days Special Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Central Bank of India",
-      "url": "https://centralbankofindia.co.in/en/interest-rates-on-deposit",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
-  },
-  {
-    "bank": "Indian Overseas Bank",
-    "logoUrl": "/assets/images/banks/iob.svg",
-    "tenure": "444 Days (IOB 444 @ 7.30% / 7.80% Senior)",
-    "generalRate": 4,
-    "seniorCitizenRate": 4.5,
-    "specialScheme": "IOB 444 Special Retail Term Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Indian Overseas Bank",
-      "url": "https://iob.in/Deposit_Interest_Rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
-  },
-  {
-    "bank": "Punjab & Sind Bank",
-    "logoUrl": "/assets/images/banks/psb.svg",
-    "tenure": "444 Days (PSB 444 @ 7.25% / 7.75% Senior)",
-    "generalRate": 2.8,
-    "seniorCitizenRate": 3.3,
-    "specialScheme": "PSB Fabulous 444 / 333 Days Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Punjab & Sind Bank",
-      "url": "https://punjabandsindbank.co.in/content/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/ubi/symbol.svg"
   },
   {
     "bank": "Bank of Maharashtra",
-    "logoUrl": "/assets/images/banks/mahabank.svg",
     "tenure": "400 Days (Maha 400 @ 7.25% / 7.75% Senior)",
     "generalRate": 2.75,
     "seniorCitizenRate": 3.25,
@@ -251,13 +378,29 @@
     "source": {
       "name": "Bank of Maharashtra",
       "url": "https://bankofmaharashtra.in/deposit-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/mahabank/symbol.svg"
+  },
+  {
+    "bank": "Punjab & Sind Bank",
+    "tenure": "444 Days (PSB 444 @ 7.25% / 7.75% Senior)",
+    "generalRate": 2.8,
+    "seniorCitizenRate": 3.3,
+    "specialScheme": "PSB Fabulous 444 / 333 Days Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Punjab & Sind Bank",
+      "url": "https://punjabandsindbank.co.in/content/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/psb/symbol.svg"
   },
   {
     "bank": "Axis Bank",
-    "logoUrl": "/assets/images/banks/axisbank.png",
     "tenure": "18 Months to 2 Years",
     "generalRate": 3,
     "seniorCitizenRate": 3.5,
@@ -267,41 +410,10 @@
     "source": {
       "name": "Axis Bank",
       "url": "https://www.axisbank.com/retail/fixed-deposits",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
-  },
-  {
-    "bank": "UCO Bank",
-    "logoUrl": "/assets/images/banks/ucobank.png",
-    "tenure": "444 Days (UCO 444 @ 7.05% / 7.55% Senior)",
-    "generalRate": 2.9,
-    "seniorCitizenRate": 3.4,
-    "specialScheme": "UCO 444 / UCO 333 Days Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "UCO Bank",
-      "url": "https://ucobank.com/english/interest-rates.aspx",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
-  },
-  {
-    "bank": "Kotak Mahindra Bank",
-    "logoUrl": "/assets/images/banks/kotakbank.png",
-    "tenure": "18 Months to 2 Years",
-    "generalRate": 3,
-    "seniorCitizenRate": 3.5,
-    "specialScheme": "KOTAKBANK Privilege Fixed Deposit",
-    "minDeposit": 5000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Kotak Mahindra Bank",
-      "url": "https://www.kotak.com/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/axisbank/symbol.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -314,10 +426,10 @@
     "source": {
       "name": "HDFC Bank",
       "url": "https://www.hdfcbank.com/personal/resources/rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hdfcbank.png"
+    "logoUrl": "/assets/images/banks/hdfcbank/symbol.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -330,10 +442,10 @@
     "source": {
       "name": "HDFC Bank",
       "url": "https://www.hdfcbank.com/personal/resources/rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hdfcbank.png"
+    "logoUrl": "/assets/images/banks/hdfcbank/symbol.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -346,10 +458,10 @@
     "source": {
       "name": "HDFC Bank",
       "url": "https://www.hdfcbank.com/personal/resources/rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hdfcbank.png"
+    "logoUrl": "/assets/images/banks/hdfcbank/symbol.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -362,10 +474,10 @@
     "source": {
       "name": "HDFC Bank",
       "url": "https://www.hdfcbank.com/personal/resources/rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hdfcbank.png"
+    "logoUrl": "/assets/images/banks/hdfcbank/symbol.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -378,10 +490,10 @@
     "source": {
       "name": "HDFC Bank",
       "url": "https://www.hdfcbank.com/personal/resources/rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hdfcbank.png"
+    "logoUrl": "/assets/images/banks/hdfcbank/symbol.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -394,14 +506,45 @@
     "source": {
       "name": "HDFC Bank",
       "url": "https://www.hdfcbank.com/personal/resources/rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hdfcbank.png"
+    "logoUrl": "/assets/images/banks/hdfcbank/symbol.svg"
+  },
+  {
+    "bank": "UCO Bank",
+    "tenure": "444 Days (UCO 444 @ 7.05% / 7.55% Senior)",
+    "generalRate": 2.9,
+    "seniorCitizenRate": 3.4,
+    "specialScheme": "UCO 444 / UCO 333 Days Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "UCO Bank",
+      "url": "https://ucobank.com/english/interest-rates.aspx",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/ucobank/symbol.svg"
+  },
+  {
+    "bank": "Kotak Mahindra Bank",
+    "tenure": "18 Months to 2 Years",
+    "generalRate": 3,
+    "seniorCitizenRate": 3.5,
+    "specialScheme": "KOTAKBANK Privilege Fixed Deposit",
+    "minDeposit": 5000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Kotak Mahindra Bank",
+      "url": "https://www.kotak.com/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/kotakbank/symbol.svg"
   },
   {
     "bank": "ICICI Bank",
-    "logoUrl": "/assets/images/banks/icicibank.png",
     "tenure": "18 Months to 2 Years",
     "generalRate": 3,
     "seniorCitizenRate": 3.5,
@@ -411,13 +554,29 @@
     "source": {
       "name": "ICICI Bank",
       "url": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/icicibank/symbol.svg"
+  },
+  {
+    "bank": "Indian Overseas Bank",
+    "tenure": "444 Days (IOB 444 @ 7.30% / 7.80% Senior)",
+    "generalRate": 4,
+    "seniorCitizenRate": 4.5,
+    "specialScheme": "IOB 444 Special Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Indian Overseas Bank",
+      "url": "https://iob.in/Deposit_Interest_Rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/iob/symbol.svg"
   },
   {
     "bank": "South Indian Bank",
-    "logoUrl": "/assets/images/banks/indianb.svg",
     "tenure": "400 Days to 500 Days",
     "generalRate": 3.5,
     "seniorCitizenRate": 4,
@@ -427,13 +586,13 @@
     "source": {
       "name": "South Indian Bank",
       "url": "https://www.southindianbank.com/interestrate/interestrates.aspx",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/indianb/symbol.svg"
   },
   {
     "bank": "IDBI Bank",
-    "logoUrl": "/assets/images/banks/idbi.png",
     "tenure": "400 Days to 500 Days",
     "generalRate": 3.5,
     "seniorCitizenRate": 4,
@@ -443,153 +602,10 @@
     "source": {
       "name": "IDBI Bank",
       "url": "https://www.idbibank.in/interest-rates.asp",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
-  },
-  {
-    "bank": "Yes Bank",
-    "logoUrl": "/assets/images/banks/yesbank.png",
-    "tenure": "400 Days to 500 Days",
-    "generalRate": 3.5,
-    "seniorCitizenRate": 4,
-    "specialScheme": "YESBANK Privilege Fixed Deposit",
-    "minDeposit": 5000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Yes Bank",
-      "url": "https://www.yesbank.in/personal-banking/yes-individual/deposits/fixed-deposit",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
-  },
-  {
-    "bank": "Federal Bank",
-    "logoUrl": "/assets/images/banks/federalbnk.svg",
-    "tenure": "400 Days to 500 Days",
-    "generalRate": 3.5,
-    "seniorCitizenRate": 4,
-    "specialScheme": "FEDERALBNK Privilege Fixed Deposit",
-    "minDeposit": 5000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Federal Bank",
-      "url": "https://www.federalbank.co.in/deposit-rate",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
-  },
-  {
-    "bank": "RBL Bank",
-    "tenure": "Upto INR 5 lakh",
-    "generalRate": 3,
-    "seniorCitizenRate": 3.04,
-    "specialScheme": "Live Scraped Retail Term Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Live Scraped Schedule",
-    "source": {
-      "name": "RBL Bank",
-      "url": "https://www.rblbank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/rblbank.png"
-  },
-  {
-    "bank": "RBL Bank",
-    "tenure": "Above INR 5 lakh upto INR 10 lakh",
-    "generalRate": 5,
-    "seniorCitizenRate": 5.12,
-    "specialScheme": "Live Scraped Retail Term Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Live Scraped Schedule",
-    "source": {
-      "name": "RBL Bank",
-      "url": "https://www.rblbank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "logoUrl": "/assets/images/banks/rblbank.png"
-  },
-  {
-    "bank": "RBL Bank",
-    "tenure": "Above INR 10 lakh upto INR 3 Crore",
-    "generalRate": 6,
-    "seniorCitizenRate": 6.17,
-    "specialScheme": "Live Scraped Retail Term Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Live Scraped Schedule",
-    "source": {
-      "name": "RBL Bank",
-      "url": "https://www.rblbank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "logoUrl": "/assets/images/banks/rblbank.png"
-  },
-  {
-    "bank": "RBL Bank",
-    "tenure": "Above INR 3 Crore upto INR 25 Crore",
-    "generalRate": 5,
-    "seniorCitizenRate": 5.12,
-    "specialScheme": "Live Scraped Retail Term Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Live Scraped Schedule",
-    "source": {
-      "name": "RBL Bank",
-      "url": "https://www.rblbank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "logoUrl": "/assets/images/banks/rblbank.png"
-  },
-  {
-    "bank": "RBL Bank",
-    "tenure": "7 days to 14 days",
-    "generalRate": 3.5,
-    "seniorCitizenRate": 3.5,
-    "specialScheme": "Live Scraped Retail Term Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Live Scraped Schedule",
-    "source": {
-      "name": "RBL Bank",
-      "url": "https://www.rblbank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "logoUrl": "/assets/images/banks/rblbank.png"
-  },
-  {
-    "bank": "RBL Bank",
-    "tenure": "15 days to 45 days",
-    "generalRate": 4,
-    "seniorCitizenRate": 4,
-    "specialScheme": "Live Scraped Retail Term Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Live Scraped Schedule",
-    "source": {
-      "name": "RBL Bank",
-      "url": "https://www.rblbank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified",
-    "logoUrl": "/assets/images/banks/rblbank.png"
-  },
-  {
-    "bank": "IDFC FIRST Bank",
-    "logoUrl": "/assets/images/banks/idfcfirstb.png",
-    "tenure": "400 Days to 500 Days",
-    "generalRate": 3.5,
-    "seniorCitizenRate": 4,
-    "specialScheme": "IDFCFIRSTB Privilege Fixed Deposit",
-    "minDeposit": 5000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "IDFC FIRST Bank",
-      "url": "https://www.idfcfirstbank.com/interest-rate",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
+    "logoUrl": "/assets/images/banks/idbi/symbol.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -602,10 +618,10 @@
     "source": {
       "name": "IndusInd Bank",
       "url": "https://www.indusind.com/in/en/personal/rates.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/indusindbk.png"
+    "logoUrl": "/assets/images/banks/indusindbk/symbol.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -618,10 +634,10 @@
     "source": {
       "name": "IndusInd Bank",
       "url": "https://www.indusind.com/in/en/personal/rates.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/indusindbk.png"
+    "logoUrl": "/assets/images/banks/indusindbk/symbol.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -634,10 +650,10 @@
     "source": {
       "name": "IndusInd Bank",
       "url": "https://www.indusind.com/in/en/personal/rates.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/indusindbk.png"
+    "logoUrl": "/assets/images/banks/indusindbk/symbol.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -650,10 +666,10 @@
     "source": {
       "name": "IndusInd Bank",
       "url": "https://www.indusind.com/in/en/personal/rates.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/indusindbk.png"
+    "logoUrl": "/assets/images/banks/indusindbk/symbol.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -666,10 +682,10 @@
     "source": {
       "name": "IndusInd Bank",
       "url": "https://www.indusind.com/in/en/personal/rates.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/indusindbk.png"
+    "logoUrl": "/assets/images/banks/indusindbk/symbol.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -682,14 +698,157 @@
     "source": {
       "name": "IndusInd Bank",
       "url": "https://www.indusind.com/in/en/personal/rates.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/indusindbk.png"
+    "logoUrl": "/assets/images/banks/indusindbk/symbol.svg"
+  },
+  {
+    "bank": "Yes Bank",
+    "tenure": "400 Days to 500 Days",
+    "generalRate": 3.5,
+    "seniorCitizenRate": 4,
+    "specialScheme": "YESBANK Privilege Fixed Deposit",
+    "minDeposit": 5000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Yes Bank",
+      "url": "https://www.yesbank.in/personal-banking/yes-individual/deposits/fixed-deposit",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/yesbank/symbol.svg"
+  },
+  {
+    "bank": "IDFC FIRST Bank",
+    "tenure": "400 Days to 500 Days",
+    "generalRate": 3.5,
+    "seniorCitizenRate": 4,
+    "specialScheme": "IDFCFIRSTB Privilege Fixed Deposit",
+    "minDeposit": 5000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "IDFC FIRST Bank",
+      "url": "https://www.idfcfirstbank.com/interest-rate",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/idfcfirstb/symbol.svg"
+  },
+  {
+    "bank": "RBL Bank",
+    "tenure": "Upto INR 5 lakh",
+    "generalRate": 3,
+    "seniorCitizenRate": 3.04,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "RBL Bank",
+      "url": "https://www.rblbank.com/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/rblbank/symbol.svg"
+  },
+  {
+    "bank": "RBL Bank",
+    "tenure": "Above INR 5 lakh upto INR 10 lakh",
+    "generalRate": 5,
+    "seniorCitizenRate": 5.12,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "RBL Bank",
+      "url": "https://www.rblbank.com/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/rblbank/symbol.svg"
+  },
+  {
+    "bank": "RBL Bank",
+    "tenure": "Above INR 10 lakh upto INR 3 Crore",
+    "generalRate": 6,
+    "seniorCitizenRate": 6.17,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "RBL Bank",
+      "url": "https://www.rblbank.com/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/rblbank/symbol.svg"
+  },
+  {
+    "bank": "RBL Bank",
+    "tenure": "Above INR 3 Crore upto INR 25 Crore",
+    "generalRate": 5,
+    "seniorCitizenRate": 5.12,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "RBL Bank",
+      "url": "https://www.rblbank.com/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/rblbank/symbol.svg"
+  },
+  {
+    "bank": "RBL Bank",
+    "tenure": "7 days to 14 days",
+    "generalRate": 3.5,
+    "seniorCitizenRate": 3.5,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "RBL Bank",
+      "url": "https://www.rblbank.com/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/rblbank/symbol.svg"
+  },
+  {
+    "bank": "RBL Bank",
+    "tenure": "15 days to 45 days",
+    "generalRate": 4,
+    "seniorCitizenRate": 4,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "RBL Bank",
+      "url": "https://www.rblbank.com/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/rblbank/symbol.svg"
+  },
+  {
+    "bank": "Federal Bank",
+    "tenure": "400 Days to 500 Days",
+    "generalRate": 3.5,
+    "seniorCitizenRate": 4,
+    "specialScheme": "FEDERALBNK Privilege Fixed Deposit",
+    "minDeposit": 5000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Federal Bank",
+      "url": "https://www.federalbank.co.in/deposit-rate",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/federalbnk/symbol.svg"
   },
   {
     "bank": "Bandhan Bank",
-    "logoUrl": "/assets/images/banks/bandhanbnk.svg",
     "tenure": "400 Days to 500 Days",
     "generalRate": 3.5,
     "seniorCitizenRate": 4,
@@ -699,29 +858,13 @@
     "source": {
       "name": "Bandhan Bank",
       "url": "https://bandhanbank.com/rates-and-charges",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
-  },
-  {
-    "bank": "Tamilnad Mercantile Bank",
-    "logoUrl": "/assets/images/banks/tmb.svg",
-    "tenure": "400 Days to 500 Days",
-    "generalRate": 3.5,
-    "seniorCitizenRate": 4,
-    "specialScheme": "TMB Privilege Fixed Deposit",
-    "minDeposit": 5000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Tamilnad Mercantile Bank",
-      "url": "https://www.tmbnet.net/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/bandhanbnk/symbol.svg"
   },
   {
     "bank": "Karur Vysya Bank",
-    "logoUrl": "/assets/images/banks/kvb.svg",
     "tenure": "400 Days to 500 Days",
     "generalRate": 3.5,
     "seniorCitizenRate": 4,
@@ -731,13 +874,29 @@
     "source": {
       "name": "Karur Vysya Bank",
       "url": "https://www.kvb.co.in/interest-rates/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/kvb/symbol.svg"
+  },
+  {
+    "bank": "Tamilnad Mercantile Bank",
+    "tenure": "400 Days to 500 Days",
+    "generalRate": 3.5,
+    "seniorCitizenRate": 4,
+    "specialScheme": "TMB Privilege Fixed Deposit",
+    "minDeposit": 5000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Tamilnad Mercantile Bank",
+      "url": "https://www.tmbnet.net/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/tmb/symbol.svg"
   },
   {
     "bank": "CSB Bank",
-    "logoUrl": "/assets/images/banks/csbbank.svg",
     "tenure": "400 Days to 500 Days",
     "generalRate": 3.5,
     "seniorCitizenRate": 4,
@@ -747,45 +906,13 @@
     "source": {
       "name": "CSB Bank",
       "url": "https://www.csb.co.in/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
-  },
-  {
-    "bank": "Karnataka Bank",
-    "logoUrl": "/assets/images/banks/ktkbank.png",
-    "tenure": "400 Days to 500 Days",
-    "generalRate": 3.5,
-    "seniorCitizenRate": 4,
-    "specialScheme": "KTKBANK Privilege Fixed Deposit",
-    "minDeposit": 5000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Karnataka Bank",
-      "url": "https://karnatakabank.com/personal/rates-and-charges/deposit-interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
-  },
-  {
-    "bank": "City Union Bank",
-    "logoUrl": "/assets/images/banks/cub.png",
-    "tenure": "400 Days to 500 Days",
-    "generalRate": 3.5,
-    "seniorCitizenRate": 4,
-    "specialScheme": "CUB Privilege Fixed Deposit",
-    "minDeposit": 5000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "City Union Bank",
-      "url": "https://www.cityunionbank.com/deposit-interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/csbbank/symbol.svg"
   },
   {
     "bank": "Dhanlaxmi Bank",
-    "logoUrl": "/assets/images/banks/dhanbank.png",
     "tenure": "400 Days to 500 Days",
     "generalRate": 3.5,
     "seniorCitizenRate": 4,
@@ -795,29 +922,45 @@
     "source": {
       "name": "Dhanlaxmi Bank",
       "url": "https://www.dhanbank.com/interest-rates/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/dhanbank/symbol.svg"
   },
   {
-    "bank": "DCB Bank",
-    "logoUrl": "/assets/images/banks/dcbbank.svg",
+    "bank": "City Union Bank",
     "tenure": "400 Days to 500 Days",
     "generalRate": 3.5,
     "seniorCitizenRate": 4,
-    "specialScheme": "DCBBANK Privilege Fixed Deposit",
+    "specialScheme": "CUB Privilege Fixed Deposit",
     "minDeposit": 5000,
     "effectiveDate": "Audited ALCO Schedule",
     "source": {
-      "name": "DCB Bank",
-      "url": "https://www.dcbbank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "name": "City Union Bank",
+      "url": "https://www.cityunionbank.com/deposit-interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/cub/symbol.svg"
+  },
+  {
+    "bank": "Karnataka Bank",
+    "tenure": "400 Days to 500 Days",
+    "generalRate": 3.5,
+    "seniorCitizenRate": 4,
+    "specialScheme": "KTKBANK Privilege Fixed Deposit",
+    "minDeposit": 5000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Karnataka Bank",
+      "url": "https://karnatakabank.com/personal/rates-and-charges/deposit-interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/ktkbank/symbol.svg"
   },
   {
     "bank": "Jammu & Kashmir Bank",
-    "logoUrl": "/assets/images/banks/jkbank.svg",
     "tenure": "400 Days to 500 Days",
     "generalRate": 3.5,
     "seniorCitizenRate": 4,
@@ -827,29 +970,29 @@
     "source": {
       "name": "Jammu & Kashmir Bank",
       "url": "https://www.jkbank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/jkbank/symbol.svg"
   },
   {
-    "bank": "Nainital Bank",
-    "logoUrl": "/assets/images/banks/nainital.svg",
+    "bank": "DCB Bank",
     "tenure": "400 Days to 500 Days",
     "generalRate": 3.5,
     "seniorCitizenRate": 4,
-    "specialScheme": "NAINITAL Privilege Fixed Deposit",
+    "specialScheme": "DCBBANK Privilege Fixed Deposit",
     "minDeposit": 5000,
     "effectiveDate": "Audited ALCO Schedule",
     "source": {
-      "name": "Nainital Bank",
-      "url": "https://www.nainitalbank.co.in/interest_rates.asp",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "name": "DCB Bank",
+      "url": "https://www.dcbbank.com/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/dcbbank/symbol.svg"
   },
   {
     "bank": "AU Small Finance Bank",
-    "logoUrl": "/assets/images/banks/aubank.png",
     "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "generalRate": 3.75,
     "seniorCitizenRate": 4.25,
@@ -859,45 +1002,13 @@
     "source": {
       "name": "AU Small Finance Bank",
       "url": "https://www.aubank.in/interest-rates/fixed-deposit-interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
-  },
-  {
-    "bank": "ESAF Small Finance Bank",
-    "logoUrl": "/assets/images/banks/esafsfb.png",
-    "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
-    "generalRate": 3.75,
-    "seniorCitizenRate": 4.25,
-    "specialScheme": "ESAFSFB High-Yield Special Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "ESAF Small Finance Bank",
-      "url": "https://www.esafbank.com/interest-rates/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
-  },
-  {
-    "bank": "Jana Small Finance Bank",
-    "logoUrl": "/assets/images/banks/janabank.svg",
-    "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
-    "generalRate": 3.75,
-    "seniorCitizenRate": 4.25,
-    "specialScheme": "JANABANK High-Yield Special Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Jana Small Finance Bank",
-      "url": "https://www.janabank.com/deposits/fixed-deposit-interest-rates/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/aubank/symbol.svg"
   },
   {
     "bank": "Unity Small Finance Bank",
-    "logoUrl": "/assets/images/banks/unitybank.svg",
     "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "generalRate": 3.75,
     "seniorCitizenRate": 4.25,
@@ -907,45 +1018,13 @@
     "source": {
       "name": "Unity Small Finance Bank",
       "url": "https://theunitybank.com/interest-rates.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
-  },
-  {
-    "bank": "Utkarsh Small Finance Bank",
-    "logoUrl": "/assets/images/banks/utkarshbnk.svg",
-    "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
-    "generalRate": 3.75,
-    "seniorCitizenRate": 4.25,
-    "specialScheme": "UTKARSHBNK High-Yield Special Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Utkarsh Small Finance Bank",
-      "url": "https://www.utkarsh.bank/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
-  },
-  {
-    "bank": "Equitas Small Finance Bank",
-    "logoUrl": "/assets/images/banks/equitasbnk.svg",
-    "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
-    "generalRate": 3.75,
-    "seniorCitizenRate": 4.25,
-    "specialScheme": "EQUITASBNK High-Yield Special Deposit",
-    "minDeposit": 1000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Equitas Small Finance Bank",
-      "url": "https://www.equitasbank.com/fixed-deposit",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/unitybank/symbol.png"
   },
   {
     "bank": "Ujjivan Small Finance Bank",
-    "logoUrl": "/assets/images/banks/ujjivansfb.svg",
     "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "generalRate": 3.75,
     "seniorCitizenRate": 4.25,
@@ -955,29 +1034,173 @@
     "source": {
       "name": "Ujjivan Small Finance Bank",
       "url": "https://www.ujjivansfb.in/fixed-deposit-interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/ujjivansfb/symbol.svg"
   },
   {
-    "bank": "American Express Banking Corp",
-    "logoUrl": "/assets/images/banks/amex.png",
-    "tenure": "1 Year to 3 Years",
-    "generalRate": 3,
-    "seniorCitizenRate": 3.5,
-    "specialScheme": "AMEX Multi-Currency & Term Deposit",
-    "minDeposit": 25000,
+    "bank": "Jana Small Finance Bank",
+    "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
+    "generalRate": 3.75,
+    "seniorCitizenRate": 4.25,
+    "specialScheme": "JANABANK High-Yield Special Deposit",
+    "minDeposit": 1000,
     "effectiveDate": "Audited ALCO Schedule",
     "source": {
-      "name": "American Express Banking Corp",
-      "url": "https://www.americanexpress.com/in/legal-disclosures/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "name": "Jana Small Finance Bank",
+      "url": "https://www.janabank.com/deposits/fixed-deposit-interest-rates/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/janabank/logo.svg"
+  },
+  {
+    "bank": "Nainital Bank",
+    "tenure": "400 Days to 500 Days",
+    "generalRate": 3.5,
+    "seniorCitizenRate": 4,
+    "specialScheme": "NAINITAL Privilege Fixed Deposit",
+    "minDeposit": 5000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Nainital Bank",
+      "url": "https://www.nainitalbank.co.in/interest_rates.asp",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/nainital/symbol.svg"
+  },
+  {
+    "bank": "ESAF Small Finance Bank",
+    "tenure": "365 days",
+    "generalRate": 5,
+    "seniorCitizenRate": 5.1,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "ESAF Small Finance Bank",
+      "url": "https://www.esafbank.com/interest-rates/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/esafsfb/symbol.svg"
+  },
+  {
+    "bank": "ESAF Small Finance Bank",
+    "tenure": "366 days",
+    "generalRate": 5.1,
+    "seniorCitizenRate": 5.2,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "ESAF Small Finance Bank",
+      "url": "https://www.esafbank.com/interest-rates/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/esafsfb/symbol.svg"
+  },
+  {
+    "bank": "ESAF Small Finance Bank",
+    "tenure": "367 days to 730 days",
+    "generalRate": 5,
+    "seniorCitizenRate": 5.1,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "ESAF Small Finance Bank",
+      "url": "https://www.esafbank.com/interest-rates/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/esafsfb/symbol.svg"
+  },
+  {
+    "bank": "ESAF Small Finance Bank",
+    "tenure": "731 days to 1095 days",
+    "generalRate": 4.5,
+    "seniorCitizenRate": 4.6,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "ESAF Small Finance Bank",
+      "url": "https://www.esafbank.com/interest-rates/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/esafsfb/symbol.svg"
+  },
+  {
+    "bank": "ESAF Small Finance Bank",
+    "tenure": "1096 days to 1460 days",
+    "generalRate": 4,
+    "seniorCitizenRate": 4.1,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "ESAF Small Finance Bank",
+      "url": "https://www.esafbank.com/interest-rates/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/esafsfb/symbol.svg"
+  },
+  {
+    "bank": "ESAF Small Finance Bank",
+    "tenure": "1461 days to 1825 days",
+    "generalRate": 4,
+    "seniorCitizenRate": 4.1,
+    "specialScheme": "Live Scraped Retail Term Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Live Scraped Schedule",
+    "source": {
+      "name": "ESAF Small Finance Bank",
+      "url": "https://www.esafbank.com/interest-rates/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/esafsfb/symbol.svg"
+  },
+  {
+    "bank": "Equitas Small Finance Bank",
+    "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
+    "generalRate": 3.75,
+    "seniorCitizenRate": 4.25,
+    "specialScheme": "EQUITASBNK High-Yield Special Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Equitas Small Finance Bank",
+      "url": "https://www.equitasbank.com/fixed-deposit",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/equitasbnk/logo.svg"
+  },
+  {
+    "bank": "Utkarsh Small Finance Bank",
+    "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
+    "generalRate": 3.75,
+    "seniorCitizenRate": 4.25,
+    "specialScheme": "UTKARSHBNK High-Yield Special Deposit",
+    "minDeposit": 1000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Utkarsh Small Finance Bank",
+      "url": "https://www.utkarsh.bank/interest-rates",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/utkarshbnk/symbol.png"
   },
   {
     "bank": "Suryoday Small Finance Bank",
-    "logoUrl": "/assets/images/banks/suryoday.svg",
     "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "generalRate": 3.75,
     "seniorCitizenRate": 4.25,
@@ -987,29 +1210,13 @@
     "source": {
       "name": "Suryoday Small Finance Bank",
       "url": "https://www.suryodaybank.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
-  },
-  {
-    "bank": "Standard Chartered Bank India",
-    "logoUrl": "/assets/images/banks/scb.png",
-    "tenure": "1 Year to 3 Years",
-    "generalRate": 3,
-    "seniorCitizenRate": 3.5,
-    "specialScheme": "SCB Multi-Currency & Term Deposit",
-    "minDeposit": 25000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Standard Chartered Bank India",
-      "url": "https://www.sc.com/in/deposits/fixed-deposit/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/suryoday/logo.svg"
   },
   {
     "bank": "DBS Bank India",
-    "logoUrl": "/assets/images/banks/dbs.png",
     "tenure": "1 Year to 3 Years",
     "generalRate": 3,
     "seniorCitizenRate": 3.5,
@@ -1019,29 +1226,13 @@
     "source": {
       "name": "DBS Bank India",
       "url": "https://www.dbs.com/in/personal/rates/fixed-deposit-rates.page",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
-  },
-  {
-    "bank": "Deutsche Bank India",
-    "logoUrl": "/assets/images/banks/db.png",
-    "tenure": "1 Year to 3 Years",
-    "generalRate": 3,
-    "seniorCitizenRate": 3.5,
-    "specialScheme": "DB Multi-Currency & Term Deposit",
-    "minDeposit": 25000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Deutsche Bank India",
-      "url": "https://www.deutschebank.co.in/rates-and-charges/fixed-deposit-rates.html",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/dbs/symbol.png"
   },
   {
     "bank": "Capital Small Finance Bank",
-    "logoUrl": "/assets/images/banks/capitalsfb.svg",
     "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "generalRate": 3.75,
     "seniorCitizenRate": 4.25,
@@ -1051,13 +1242,29 @@
     "source": {
       "name": "Capital Small Finance Bank",
       "url": "https://www.capitalbank.co.in/rates-charges",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/capitalsfb/logo.svg"
+  },
+  {
+    "bank": "Standard Chartered Bank India",
+    "tenure": "1 Year to 3 Years",
+    "generalRate": 3,
+    "seniorCitizenRate": 3.5,
+    "specialScheme": "SCB Multi-Currency & Term Deposit",
+    "minDeposit": 25000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Standard Chartered Bank India",
+      "url": "https://www.sc.com/in/deposits/fixed-deposit/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/scb/symbol.svg"
   },
   {
     "bank": "North East Small Finance Bank",
-    "logoUrl": "/assets/images/banks/nesfb.png",
     "tenure": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "generalRate": 3.75,
     "seniorCitizenRate": 4.25,
@@ -1067,9 +1274,10 @@
     "source": {
       "name": "North East Small Finance Bank",
       "url": "https://www.nesfb.com/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/nesfb/logo.svg"
   },
   {
     "bank": "HSBC India",
@@ -1082,10 +1290,10 @@
     "source": {
       "name": "HSBC India",
       "url": "https://www.hsbc.co.in/accounts/products/fixed-deposits/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hsbc.png"
+    "logoUrl": "/assets/images/banks/hsbc/logo.svg"
   },
   {
     "bank": "HSBC India",
@@ -1098,10 +1306,10 @@
     "source": {
       "name": "HSBC India",
       "url": "https://www.hsbc.co.in/accounts/products/fixed-deposits/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hsbc.png"
+    "logoUrl": "/assets/images/banks/hsbc/logo.svg"
   },
   {
     "bank": "HSBC India",
@@ -1114,10 +1322,10 @@
     "source": {
       "name": "HSBC India",
       "url": "https://www.hsbc.co.in/accounts/products/fixed-deposits/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hsbc.png"
+    "logoUrl": "/assets/images/banks/hsbc/logo.svg"
   },
   {
     "bank": "HSBC India",
@@ -1130,10 +1338,10 @@
     "source": {
       "name": "HSBC India",
       "url": "https://www.hsbc.co.in/accounts/products/fixed-deposits/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hsbc.png"
+    "logoUrl": "/assets/images/banks/hsbc/logo.svg"
   },
   {
     "bank": "HSBC India",
@@ -1146,10 +1354,10 @@
     "source": {
       "name": "HSBC India",
       "url": "https://www.hsbc.co.in/accounts/products/fixed-deposits/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hsbc.png"
+    "logoUrl": "/assets/images/banks/hsbc/logo.svg"
   },
   {
     "bank": "HSBC India",
@@ -1162,14 +1370,45 @@
     "source": {
       "name": "HSBC India",
       "url": "https://www.hsbc.co.in/accounts/products/fixed-deposits/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
     "status": "verified",
-    "logoUrl": "/assets/images/banks/hsbc.png"
+    "logoUrl": "/assets/images/banks/hsbc/logo.svg"
+  },
+  {
+    "bank": "American Express Banking Corp",
+    "tenure": "1 Year to 3 Years",
+    "generalRate": 3,
+    "seniorCitizenRate": 3.5,
+    "specialScheme": "AMEX Multi-Currency & Term Deposit",
+    "minDeposit": 25000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "American Express Banking Corp",
+      "url": "https://www.americanexpress.com/in/legal-disclosures/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/amex/symbol.png"
+  },
+  {
+    "bank": "Deutsche Bank India",
+    "tenure": "1 Year to 3 Years",
+    "generalRate": 3,
+    "seniorCitizenRate": 3.5,
+    "specialScheme": "DB Multi-Currency & Term Deposit",
+    "minDeposit": 25000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Deutsche Bank India",
+      "url": "https://www.deutschebank.co.in/rates-and-charges/fixed-deposit-rates.html",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/db/logo.svg"
   },
   {
     "bank": "India Post Payments Bank",
-    "logoUrl": "/assets/images/banks/ippb.svg",
     "tenure": "Auto-Sweep & Linked 1-3 Years",
     "generalRate": 8.5,
     "seniorCitizenRate": 9,
@@ -1179,13 +1418,13 @@
     "source": {
       "name": "India Post Payments Bank",
       "url": "https://www.ippbonline.com/web/ippb/interest-rates",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/ippb/logo.svg"
   },
   {
     "bank": "Fino Payments Bank",
-    "logoUrl": "/assets/images/banks/fino.svg",
     "tenure": "Auto-Sweep & Linked 1-3 Years",
     "generalRate": 8.5,
     "seniorCitizenRate": 9,
@@ -1195,29 +1434,13 @@
     "source": {
       "name": "Fino Payments Bank",
       "url": "https://www.finobank.com/personal/savings-account",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
-  },
-  {
-    "bank": "Barclays Bank India",
-    "logoUrl": "/assets/images/banks/barclays.png",
-    "tenure": "1 Year to 3 Years",
-    "generalRate": 3,
-    "seniorCitizenRate": 3.5,
-    "specialScheme": "BARCLAYS Multi-Currency & Term Deposit",
-    "minDeposit": 25000,
-    "effectiveDate": "Audited ALCO Schedule",
-    "source": {
-      "name": "Barclays Bank India",
-      "url": "https://www.barclays.in/rates/",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
-    },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/fino/symbol.svg"
   },
   {
     "bank": "Airtel Payments Bank",
-    "logoUrl": "/assets/images/banks/airtelpay.png",
     "tenure": "Auto-Sweep & Linked 1-3 Years",
     "generalRate": 8.5,
     "seniorCitizenRate": 9,
@@ -1227,13 +1450,29 @@
     "source": {
       "name": "Airtel Payments Bank",
       "url": "https://www.airtel.in/bank/savings-account",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/airtelpay/symbol.svg"
+  },
+  {
+    "bank": "Barclays Bank India",
+    "tenure": "1 Year to 3 Years",
+    "generalRate": 3,
+    "seniorCitizenRate": 3.5,
+    "specialScheme": "BARCLAYS Multi-Currency & Term Deposit",
+    "minDeposit": 25000,
+    "effectiveDate": "Audited ALCO Schedule",
+    "source": {
+      "name": "Barclays Bank India",
+      "url": "https://www.barclays.in/rates/",
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
+    },
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/barclays/logo.svg"
   },
   {
     "bank": "Jio Payments Bank",
-    "logoUrl": "/assets/images/banks/jiopay.svg",
     "tenure": "Auto-Sweep & Linked 1-3 Years",
     "generalRate": 8.5,
     "seniorCitizenRate": 9,
@@ -1243,8 +1482,9 @@
     "source": {
       "name": "Jio Payments Bank",
       "url": "https://www.jiopaymentsbank.com",
-      "retrievedAt": "2026-10-07T06:46:06.660Z"
+      "retrievedAt": "2026-10-06T10:14:58.644Z"
     },
-    "status": "verified"
+    "status": "verified",
+    "logoUrl": "/assets/images/banks/jiopay/symbol.svg"
   }
 ]

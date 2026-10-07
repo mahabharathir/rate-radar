@@ -52,7 +52,12 @@ const issuerPortals = {
   ktk: 'https://karnatakabank.com/personal-banking/cards/credit-cards',
   bandhan: 'https://bandhanbank.com/personal/cards/credit-cards',
   csb: 'https://www.csb.co.in/credit-cards',
-  sbm: 'https://www.sbmbank.co.in/personal-banking/cards.php'
+  sbm: 'https://www.sbmbank.co.in/personal-banking/cards.php',
+  bob: 'https://www.bankofbaroda.in/personal-banking/cards/credit-card',
+  equitas: 'https://www.equitasbank.com/personal-banking/cards/credit-cards',
+  idbi: 'https://www.idbibank.in/credit-cards.aspx',
+  onecard: 'https://www.getonecard.app/',
+  slice: 'https://sliceit.com/'
 };
 
 /**
@@ -62,10 +67,10 @@ export async function runCreditScraper() {
   console.log('==========================================================');
   console.log(' RATE RADAR - DEDICATED CREDIT CARDS LIVE SCRAPER         ');
   console.log(` Run Timestamp: ${TIMESTAMP_DISPLAY}`);
-  console.log(` Target: ${creditCardsCatalog.length} Cards across 27 Commercial Issuers`);
+  console.log(` Target: ${creditCardsCatalog.length} Cards across ${Object.keys(issuerPortals).length} Commercial Issuers`);
   console.log('==========================================================\n');
 
-  console.log('-> Probing 27 Card Issuer Primary Portals in concurrent batches ...');
+  console.log(`-> Probing ${Object.keys(issuerPortals).length} Card Issuer Primary Portals in concurrent batches ...`);
   const issuerEntries = Object.entries(issuerPortals);
   const issuerStatusMap = {};
 
