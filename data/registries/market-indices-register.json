@@ -1,101 +1,101 @@
 [
   {
     "index": "NIFTY 50",
-    "last": 22776.1,
-    "change": "+220.35",
-    "pChange": "+0.98%",
+    "last": 22676.4,
+    "change": "-99.70",
+    "pChange": "-0.44%",
     "pe": "19.49",
     "pb": "2.8",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:55.978Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST"
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST"
   },
   {
     "index": "NIFTY NEXT 50",
-    "last": 69973.7,
-    "change": "+759.95",
-    "pChange": "+1.10%",
+    "last": 69587.95,
+    "change": "-385.75",
+    "pChange": "-0.55%",
     "pe": "18.34",
     "pb": "3.36",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:55.978Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST"
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST"
   },
   {
     "index": "NIFTY BANK",
-    "last": 55128.4,
-    "change": "+414.30",
-    "pChange": "+0.76%",
+    "last": 55141.4,
+    "change": "+13.00",
+    "pChange": "+0.02%",
     "pe": "13.07",
     "pb": "1.66",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:55.978Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST"
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST"
   },
   {
     "index": "NIFTY FIN SERVICE",
-    "last": 24946.05,
-    "change": "+289.65",
-    "pChange": "+1.17%",
+    "last": 24950.6,
+    "change": "+4.55",
+    "pChange": "+0.02%",
     "pe": "15.29",
     "pb": "2.3",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:55.978Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST"
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST"
   },
   {
     "index": "NIFTY MID SELECT",
-    "last": 13826,
-    "change": "+176.70",
-    "pChange": "+1.29%",
+    "last": 13798.25,
+    "change": "-27.75",
+    "pChange": "-0.20%",
     "pe": "29.3",
     "pb": "4.14",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:55.978Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST"
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST"
   },
   {
     "index": "NIFTY FPI 150",
-    "last": 1478.45,
-    "change": "+14.95",
-    "pChange": "+1.02%",
+    "last": 1470.95,
+    "change": "-7.50",
+    "pChange": "-0.51%",
     "pe": "21.34",
     "pb": "3.17",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:55.978Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST"
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST"
   },
   {
     "index": "NIFTY 100",
-    "last": 23881.7,
-    "change": "+236.40",
-    "pChange": "+1.00%",
+    "last": 23771.75,
+    "change": "-109.95",
+    "pChange": "-0.46%",
     "pe": "19.26",
     "pb": "2.89",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:55.978Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST"
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST"
   },
   {
     "index": "NIFTY 200",
-    "last": 13254.3,
-    "change": "+133.25",
-    "pChange": "+1.02%",
+    "last": 13196.55,
+    "change": "-57.75",
+    "pChange": "-0.44%",
     "pe": "20.58",
     "pb": "3.04",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:55.978Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST"
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST"
   },
   {
     "index": "NIFTY 500",
-    "last": 22202.85,
-    "change": "+231.25",
-    "pChange": "+1.05%",
+    "last": 22120.15,
+    "change": "-82.70",
+    "pChange": "-0.37%",
     "pe": "21.9",
     "pb": "3.11",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:55.978Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST"
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST"
   }
 ]

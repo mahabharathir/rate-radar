@@ -7,8 +7,8 @@
     "country": "United States",
     "flag": "🇺🇸",
     "symbol": "$",
-    "rate": 96.3804,
-    "rateDisplay": "₹96.38",
+    "rate": 96.4676,
+    "rateDisplay": "₹96.47",
     "inverseRate": 0.01038,
     "inverseRateDisplay": "$0.0104",
     "unit": "1 USD = X INR",
@@ -16,9 +16,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 96.3804
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 96.4676
   },
   {
     "pair": "EUR/INR",
@@ -28,8 +28,8 @@
     "country": "Eurozone",
     "flag": "🇪🇺",
     "symbol": "€",
-    "rate": 108.0363,
-    "rateDisplay": "₹108.04",
+    "rate": 108.5441,
+    "rateDisplay": "₹108.54",
     "inverseRate": 0.00926,
     "inverseRateDisplay": "€0.0093",
     "unit": "1 EUR = X INR",
@@ -37,9 +37,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 108.0363
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 108.5441
   },
   {
     "pair": "GBP/INR",
@@ -49,8 +49,8 @@
     "country": "United Kingdom",
     "flag": "🇬🇧",
     "symbol": "£",
-    "rate": 127.4056,
-    "rateDisplay": "₹127.41",
+    "rate": 127.9429,
+    "rateDisplay": "₹127.94",
     "inverseRate": 0.00785,
     "inverseRateDisplay": "£0.0078",
     "unit": "1 GBP = X INR",
@@ -58,9 +58,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 127.4056
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 127.9429
   },
   {
     "pair": "AED/INR",
@@ -70,8 +70,8 @@
     "country": "United Arab Emirates",
     "flag": "🇦🇪",
     "symbol": "د.إ",
-    "rate": 26.2438,
-    "rateDisplay": "₹26.24",
+    "rate": 26.2675,
+    "rateDisplay": "₹26.27",
     "inverseRate": 0.0381,
     "inverseRateDisplay": "AED 0.0381",
     "unit": "1 AED = X INR",
@@ -79,9 +79,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 26.2438
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 26.2675
   },
   {
     "pair": "SGD/INR",
@@ -91,8 +91,8 @@
     "country": "Singapore",
     "flag": "🇸🇬",
     "symbol": "S$",
-    "rate": 75.3074,
-    "rateDisplay": "₹75.31",
+    "rate": 75.4974,
+    "rateDisplay": "₹75.50",
     "inverseRate": 0.01328,
     "inverseRateDisplay": "S$0.0133",
     "unit": "1 SGD = X INR",
@@ -100,9 +100,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 75.3074
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 75.4974
   },
   {
     "pair": "AUD/INR",
@@ -112,8 +112,8 @@
     "country": "Australia",
     "flag": "🇦🇺",
     "symbol": "A$",
-    "rate": 67.13,
-    "rateDisplay": "₹67.13",
+    "rate": 67.3261,
+    "rateDisplay": "₹67.33",
     "inverseRate": 0.0149,
     "inverseRateDisplay": "A$0.0149",
     "unit": "1 AUD = X INR",
@@ -121,9 +121,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 67.13
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 67.3261
   },
   {
     "pair": "CAD/INR",
@@ -133,8 +133,8 @@
     "country": "Canada",
     "flag": "🇨🇦",
     "symbol": "C$",
-    "rate": 67.6059,
-    "rateDisplay": "₹67.61",
+    "rate": 67.8333,
+    "rateDisplay": "₹67.83",
     "inverseRate": 0.01479,
     "inverseRateDisplay": "C$0.0148",
     "unit": "1 CAD = X INR",
@@ -142,9 +142,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 67.6059
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 67.8333
   },
   {
     "pair": "JPY/INR",
@@ -154,7 +154,7 @@
     "country": "Japan",
     "flag": "🇯🇵",
     "symbol": "¥",
-    "rate": 0.6101,
+    "rate": 0.61,
     "rateDisplay": "₹0.61",
     "inverseRate": 1.6391,
     "inverseRateDisplay": "1.64 JPY per ₹1",
@@ -163,9 +163,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 0.6101
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 0.61
   },
   {
     "pair": "SAR/INR",
@@ -175,8 +175,8 @@
     "country": "Saudi Arabia",
     "flag": "🇸🇦",
     "symbol": "﷼",
-    "rate": 25.7014,
-    "rateDisplay": "₹25.70",
+    "rate": 25.7247,
+    "rateDisplay": "₹25.72",
     "inverseRate": 0.03891,
     "inverseRateDisplay": "SAR 0.0389",
     "unit": "1 SAR = X INR",
@@ -184,9 +184,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 25.7014
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 25.7247
   },
   {
     "pair": "CHF/INR",
@@ -196,8 +196,8 @@
     "country": "Switzerland",
     "flag": "🇨🇭",
     "symbol": "CHF",
-    "rate": 115.9618,
-    "rateDisplay": "₹115.96",
+    "rate": 115.9674,
+    "rateDisplay": "₹115.97",
     "inverseRate": 0.00862,
     "inverseRateDisplay": "CHF 0.0086",
     "unit": "1 CHF = X INR",
@@ -205,9 +205,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 115.9618
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 115.9674
   },
   {
     "pair": "KWD/INR",
@@ -217,8 +217,8 @@
     "country": "Kuwait",
     "flag": "🇰🇼",
     "symbol": "KD",
-    "rate": 311.7039,
-    "rateDisplay": "₹311.70",
+    "rate": 312.0322,
+    "rateDisplay": "₹312.03",
     "inverseRate": 0.00321,
     "inverseRateDisplay": "KD 0.0032",
     "unit": "1 KWD = X INR",
@@ -226,9 +226,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 311.7039
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 312.0322
   },
   {
     "pair": "QAR/INR",
@@ -238,8 +238,8 @@
     "country": "Qatar",
     "flag": "🇶🇦",
     "symbol": "QR",
-    "rate": 26.4781,
-    "rateDisplay": "₹26.48",
+    "rate": 26.5021,
+    "rateDisplay": "₹26.50",
     "inverseRate": 0.03777,
     "inverseRateDisplay": "QR 0.0378",
     "unit": "1 QAR = X INR",
@@ -247,9 +247,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 26.4781
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 26.5021
   },
   {
     "pair": "BHD/INR",
@@ -259,8 +259,8 @@
     "country": "Bahrain",
     "flag": "🇧🇭",
     "symbol": "BD",
-    "rate": 256.3309,
-    "rateDisplay": "₹256.33",
+    "rate": 256.5627,
+    "rateDisplay": "₹256.56",
     "inverseRate": 0.0039,
     "inverseRateDisplay": "BD 0.0039",
     "unit": "1 BHD = X INR",
@@ -268,9 +268,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 256.3309
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 256.5627
   },
   {
     "pair": "OMR/INR",
@@ -280,8 +280,8 @@
     "country": "Oman",
     "flag": "🇴🇲",
     "symbol": "RO",
-    "rate": 250.6662,
-    "rateDisplay": "₹250.67",
+    "rate": 250.8929,
+    "rateDisplay": "₹250.89",
     "inverseRate": 0.00399,
     "inverseRateDisplay": "RO 0.0040",
     "unit": "1 OMR = X INR",
@@ -289,9 +289,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 250.6662
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 250.8929
   },
   {
     "pair": "CNY/INR",
@@ -301,8 +301,8 @@
     "country": "China",
     "flag": "🇨🇳",
     "symbol": "¥",
-    "rate": 14.3541,
-    "rateDisplay": "₹14.35",
+    "rate": 14.3725,
+    "rateDisplay": "₹14.37",
     "inverseRate": 0.06967,
     "inverseRateDisplay": "¥0.0697",
     "unit": "1 CNY = X INR",
@@ -310,9 +310,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 14.3541
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 14.3725
   },
   {
     "pair": "NZD/INR",
@@ -322,8 +322,8 @@
     "country": "New Zealand",
     "flag": "🇳🇿",
     "symbol": "NZ$",
-    "rate": 53.9535,
-    "rateDisplay": "₹53.95",
+    "rate": 54.2312,
+    "rateDisplay": "₹54.23",
     "inverseRate": 0.01853,
     "inverseRateDisplay": "NZ$0.0185",
     "unit": "1 NZD = X INR",
@@ -331,9 +331,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 53.9535
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 54.2312
   },
   {
     "pair": "THB/INR",
@@ -343,8 +343,8 @@
     "country": "Thailand",
     "flag": "🇹🇭",
     "symbol": "฿",
-    "rate": 2.8607,
-    "rateDisplay": "₹2.86",
+    "rate": 2.8699,
+    "rateDisplay": "₹2.87",
     "inverseRate": 0.34957,
     "inverseRateDisplay": "฿0.3496",
     "unit": "1 THB = X INR",
@@ -352,9 +352,9 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 2.8607
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 2.8699
   },
   {
     "pair": "MYR/INR",
@@ -364,8 +364,8 @@
     "country": "Malaysia",
     "flag": "🇲🇾",
     "symbol": "RM",
-    "rate": 23.5826,
-    "rateDisplay": "₹23.58",
+    "rate": 23.613,
+    "rateDisplay": "₹23.61",
     "inverseRate": 0.0424,
     "inverseRateDisplay": "RM 0.0424",
     "unit": "1 MYR = X INR",
@@ -373,8 +373,8 @@
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T14:56:29.487Z",
-    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
-    "currentRate": 23.5826
+    "lastUpdated": "2026-10-07T06:46:06.672Z",
+    "lastUpdatedDisplay": "7 Oct 2026 06:46 am IST",
+    "currentRate": 23.613
   }
 ]
