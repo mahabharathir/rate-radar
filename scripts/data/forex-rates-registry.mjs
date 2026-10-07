@@ -22,8 +22,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 96.3804
   },
   {
@@ -43,8 +43,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 108.0363
   },
   {
@@ -64,8 +64,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 127.4056
   },
   {
@@ -85,8 +85,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 26.2438
   },
   {
@@ -106,8 +106,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 75.3074
   },
   {
@@ -127,8 +127,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 67.13
   },
   {
@@ -148,8 +148,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 67.6059
   },
   {
@@ -169,8 +169,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 0.6101
   },
   {
@@ -190,8 +190,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 25.7014
   },
   {
@@ -211,8 +211,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 115.9618
   },
   {
@@ -232,8 +232,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 311.7039
   },
   {
@@ -253,8 +253,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 26.4781
   },
   {
@@ -274,8 +274,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 256.3309
   },
   {
@@ -295,8 +295,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 250.6662
   },
   {
@@ -316,8 +316,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 14.3541
   },
   {
@@ -337,8 +337,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 53.9535
   },
   {
@@ -358,8 +358,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 2.8607
   },
   {
@@ -379,8 +379,8 @@ export const forexRatesCatalog = [
     "centralBankSource": "ExchangeRate-API / Foreign Exchange Reference Benchmark",
     "sourceUrl": "https://www.exchangerate-api.com/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:11:46.688Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:41 pm IST",
+    "lastUpdated": "2026-10-06T14:56:29.487Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:56 pm IST",
     "currentRate": 23.5826
   }
 ];

@@ -13,8 +13,8 @@
     "websiteUrl": "https://sbi.co.in",
     "ratesUrl": "https://sbi.co.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits",
     "cardsUrl": "https://www.sbicard.com",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "sbi",
     "homeLoan": {
@@ -44,9 +44,8 @@
     "fdRate": "400 Days (Amrit Kalash 7.25% / 7.75% Senior)",
     "rdRate": "6.50% - 7.00% p.a.",
     "homeLoansUrl": "https://sbi.co.in/web/personal-banking/loans/home-loans",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 300,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/sbi.svg",
+    "imagePath": "assets/images/banks/sbi.svg"
   },
   {
     "bankName": "Punjab National Bank",
@@ -62,8 +61,8 @@
     "websiteUrl": "https://pnb.bank.in",
     "ratesUrl": "https://pnb.bank.in/interest-rates-deposit.html",
     "cardsUrl": "https://pnb.bank.in/credit-card.html",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "pnb",
     "homeLoan": {
@@ -93,9 +92,8 @@
     "fdRate": "400 Days (7.30% / 7.80% Senior)",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://pnb.bank.in/housing-loan.html",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 216,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/pnb.svg",
+    "imagePath": "assets/images/banks/pnb.svg"
   },
   {
     "bankName": "Bank of Baroda",
@@ -111,8 +109,8 @@
     "websiteUrl": "https://bankofbaroda.bank.in",
     "ratesUrl": "https://bankofbaroda.bank.in/interest-rates-and-service-charges/deposits-interest-rates",
     "cardsUrl": "https://www.bobcard.co.in",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "bob",
     "homeLoan": {
@@ -142,9 +140,8 @@
     "fdRate": "399 Days (Baroda Tiranga Plus 7.25% / 7.75% Senior)",
     "rdRate": "6.50% - 7.15% p.a.",
     "homeLoansUrl": "https://bankofbaroda.bank.in/personal-banking/loans/home-loan",
-    "liveHttpStatus": 408,
-    "responseTimeMs": 4508,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/bob.svg",
+    "imagePath": "assets/images/banks/bob.svg"
   },
   {
     "bankName": "Canara Bank",
@@ -160,8 +157,8 @@
     "websiteUrl": "https://canarabank.com",
     "ratesUrl": "https://canarabank.com/interest-rates",
     "cardsUrl": "https://canarabank.com/pages/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "canbk",
     "homeLoan": {
@@ -191,9 +188,8 @@
     "fdRate": "444 Days (7.25% / 7.75% Senior)",
     "rdRate": "6.70% - 7.25% p.a.",
     "homeLoansUrl": "https://canarabank.com/pages/housing-loan",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 1256,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/canbk.png",
+    "imagePath": "assets/images/banks/canbk.png"
   },
   {
     "bankName": "Union Bank of India",
@@ -209,8 +205,8 @@
     "websiteUrl": "https://unionbankofindia.co.in",
     "ratesUrl": "https://unionbankofindia.co.in/english/interest-rates.aspx",
     "cardsUrl": "https://unionbankofindia.co.in/english/credit-card.aspx",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "ubi",
     "homeLoan": {
@@ -240,9 +236,8 @@
     "fdRate": "333 Days (Union Samriddhi 7.40% / 7.90% Senior)",
     "rdRate": "6.50% - 7.30% p.a.",
     "homeLoansUrl": "https://www.unionbankofindia.co.in/english/home-loans.aspx",
-    "liveHttpStatus": 408,
-    "responseTimeMs": 4508,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/ubi.svg",
+    "imagePath": "assets/images/banks/ubi.svg"
   },
   {
     "bankName": "Bank of India",
@@ -258,8 +253,8 @@
     "websiteUrl": "https://bankofindia.co.in",
     "ratesUrl": "https://bankofindia.co.in/interest-rates",
     "cardsUrl": "https://bankofindia.co.in/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "boi",
     "homeLoan": {
@@ -289,9 +284,8 @@
     "fdRate": "666 Days (Star Dhan 7.30% / 7.80% Senior)",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://bankofindia.co.in/personal/loans/home-loan",
-    "liveHttpStatus": 403,
-    "responseTimeMs": 101,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/boi.svg",
+    "imagePath": "assets/images/banks/boi.svg"
   },
   {
     "bankName": "Indian Bank",
@@ -307,8 +301,8 @@
     "websiteUrl": "https://indianbank.in",
     "ratesUrl": "https://indianbank.in/departments/deposit-rates/",
     "cardsUrl": "https://indianbank.in/departments/credit-cards/",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "indianb",
     "homeLoan": {
@@ -338,9 +332,8 @@
     "fdRate": "400 Days (Ind Super 400 Days @ 7.30% / 7.80% Senior)",
     "rdRate": "6.50% - 7.10% p.a.",
     "homeLoansUrl": "https://indianbank.in/departments/home-loan/",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 156,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/indianb.svg",
+    "imagePath": "assets/images/banks/indianb.svg"
   },
   {
     "bankName": "Central Bank of India",
@@ -356,8 +349,8 @@
     "websiteUrl": "https://centralbankofindia.co.in",
     "ratesUrl": "https://centralbankofindia.co.in/en/interest-rates-on-deposit",
     "cardsUrl": "https://centralbankofindia.co.in/en/credit-card",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "centralbk",
     "homeLoan": {
@@ -387,9 +380,8 @@
     "fdRate": "444 Days (Cent 444 @ 7.25% / 7.75% Senior)",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://centralbankofindia.co.in/en/personal-banking/loans/housing-loan",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 520,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/centralbk.svg",
+    "imagePath": "assets/images/banks/centralbk.svg"
   },
   {
     "bankName": "Indian Overseas Bank",
@@ -405,8 +397,8 @@
     "websiteUrl": "https://iob.in",
     "ratesUrl": "https://iob.in/Deposit_Interest_Rates",
     "cardsUrl": "https://iob.in/Credit_Card",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "iob",
     "homeLoan": {
@@ -436,9 +428,8 @@
     "fdRate": "444 Days (IOB 444 @ 7.30% / 7.80% Senior)",
     "rdRate": "6.50% - 7.30% p.a.",
     "homeLoansUrl": "https://www.iob.bank.in/Home-Loans",
-    "liveHttpStatus": 404,
-    "responseTimeMs": 434,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/iob.svg",
+    "imagePath": "assets/images/banks/iob.svg"
   },
   {
     "bankName": "UCO Bank",
@@ -454,8 +445,8 @@
     "websiteUrl": "https://ucobank.com",
     "ratesUrl": "https://ucobank.com/english/interest-rates.aspx",
     "cardsUrl": "https://ucobank.com/english/credit-cards.aspx",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "ucobank",
     "homeLoan": {
@@ -485,9 +476,8 @@
     "fdRate": "444 Days (UCO 444 @ 7.05% / 7.55% Senior)",
     "rdRate": "6.25% - 7.05% p.a.",
     "homeLoansUrl": "https://www.ucobank.com/english/home-loans.aspx",
-    "liveHttpStatus": 503,
-    "responseTimeMs": 222,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/ucobank.png",
+    "imagePath": "assets/images/banks/ucobank.png"
   },
   {
     "bankName": "Bank of Maharashtra",
@@ -503,8 +493,8 @@
     "websiteUrl": "https://bankofmaharashtra.in",
     "ratesUrl": "https://bankofmaharashtra.in/deposit-rates",
     "cardsUrl": "https://bankofmaharashtra.in/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "mahabank",
     "homeLoan": {
@@ -534,9 +524,8 @@
     "fdRate": "400 Days (Maha 400 @ 7.25% / 7.75% Senior)",
     "rdRate": "6.50% - 7.10% p.a.",
     "homeLoansUrl": "https://bankofmaharashtra.in/maha-super-housing-loan",
-    "liveHttpStatus": 503,
-    "responseTimeMs": 7,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/mahabank.svg",
+    "imagePath": "assets/images/banks/mahabank.svg"
   },
   {
     "bankName": "Punjab & Sind Bank",
@@ -552,8 +541,8 @@
     "websiteUrl": "https://punjabandsindbank.co.in",
     "ratesUrl": "https://punjabandsindbank.co.in/content/interest-rates",
     "cardsUrl": "https://punjabandsindbank.co.in/content/credit-card",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "psb",
     "homeLoan": {
@@ -583,9 +572,8 @@
     "fdRate": "444 Days (PSB 444 @ 7.25% / 7.75% Senior)",
     "rdRate": "6.30% - 7.10% p.a.",
     "homeLoansUrl": "https://punjabandsindbank.co.in/content/apnaghar",
-    "liveHttpStatus": 503,
-    "responseTimeMs": 34,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/psb.svg",
+    "imagePath": "assets/images/banks/psb.svg"
   },
   {
     "bankName": "HDFC Bank",
@@ -601,8 +589,8 @@
     "websiteUrl": "https://www.hdfcbank.com",
     "ratesUrl": "https://www.hdfcbank.com/personal/resources/rates",
     "cardsUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "hdfcbank",
     "homeLoan": {
@@ -632,9 +620,8 @@
     "fdRate": "18 Months to 2 Years",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.hdfcbank.com/personal/resources/rates",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 127,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/hdfcbank.png",
+    "imagePath": "assets/images/banks/hdfcbank.png"
   },
   {
     "bankName": "ICICI Bank",
@@ -650,8 +637,8 @@
     "websiteUrl": "https://www.icicibank.com",
     "ratesUrl": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates",
     "cardsUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "icicibank",
     "homeLoan": {
@@ -681,9 +668,8 @@
     "fdRate": "18 Months to 2 Years",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.icicibank.com/personal-banking/deposits/fixed-deposit/fd-interest-rates",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 293,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/icicibank.png",
+    "imagePath": "assets/images/banks/icicibank.png"
   },
   {
     "bankName": "Axis Bank",
@@ -699,8 +685,8 @@
     "websiteUrl": "https://www.axisbank.com",
     "ratesUrl": "https://www.axisbank.com/retail/fixed-deposits",
     "cardsUrl": "https://www.axisbank.com/retail/cards/credit-card",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "axisbank",
     "homeLoan": {
@@ -730,9 +716,8 @@
     "fdRate": "18 Months to 2 Years",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.axisbank.com/retail/fixed-deposits",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 71,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/axisbank.png",
+    "imagePath": "assets/images/banks/axisbank.png"
   },
   {
     "bankName": "Kotak Mahindra Bank",
@@ -748,8 +733,8 @@
     "websiteUrl": "https://www.kotak.com",
     "ratesUrl": "https://www.kotak.com/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html",
     "cardsUrl": "https://www.kotak.com/en/personal-banking/cards/credit-cards.html",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "kotakbank",
     "homeLoan": {
@@ -779,9 +764,8 @@
     "fdRate": "18 Months to 2 Years",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.kotak.com/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 221,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/kotakbank.png",
+    "imagePath": "assets/images/banks/kotakbank.png"
   },
   {
     "bankName": "IndusInd Bank",
@@ -797,8 +781,8 @@
     "websiteUrl": "https://www.indusind.com",
     "ratesUrl": "https://www.indusind.com/in/en/personal/rates.html",
     "cardsUrl": "https://www.indusind.com/in/en/personal/cards/credit-cards.html",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "indusindbk",
     "homeLoan": {
@@ -828,9 +812,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.indusind.com/in/en/personal/rates.html",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 178,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/indusindbk.png",
+    "imagePath": "assets/images/banks/indusindbk.png"
   },
   {
     "bankName": "IDFC FIRST Bank",
@@ -846,8 +829,8 @@
     "websiteUrl": "https://www.idfcfirstbank.com",
     "ratesUrl": "https://www.idfcfirstbank.com/interest-rate",
     "cardsUrl": "https://www.idfcfirstbank.com/credit-card",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "idfcfirstb",
     "homeLoan": {
@@ -877,9 +860,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.idfcfirstbank.com/interest-rate",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 370,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/idfcfirstb.png",
+    "imagePath": "assets/images/banks/idfcfirstb.png"
   },
   {
     "bankName": "Federal Bank",
@@ -895,8 +877,8 @@
     "websiteUrl": "https://www.federalbank.co.in",
     "ratesUrl": "https://www.federalbank.co.in/deposit-rate",
     "cardsUrl": "https://www.federalbank.co.in/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "federalbnk",
     "homeLoan": {
@@ -926,9 +908,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.federalbank.co.in/deposit-rate",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 967,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/federalbnk.svg",
+    "imagePath": "assets/images/banks/federalbnk.svg"
   },
   {
     "bankName": "Yes Bank",
@@ -944,8 +925,8 @@
     "websiteUrl": "https://www.yesbank.in",
     "ratesUrl": "https://www.yesbank.in/personal-banking/yes-individual/deposits/fixed-deposit",
     "cardsUrl": "https://www.yesbank.in/personal-banking/cards/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "yesbank",
     "homeLoan": {
@@ -975,9 +956,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.yesbank.in/personal-banking/yes-individual/deposits/fixed-deposit",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 215,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/yesbank.png",
+    "imagePath": "assets/images/banks/yesbank.png"
   },
   {
     "bankName": "Bandhan Bank",
@@ -993,8 +973,8 @@
     "websiteUrl": "https://bandhanbank.com",
     "ratesUrl": "https://bandhanbank.com/rates-and-charges",
     "cardsUrl": "https://bandhanbank.com/personal-banking/cards/credit-card",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "bandhanbnk",
     "homeLoan": {
@@ -1024,9 +1004,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://bandhanbank.com/rates-and-charges",
-    "liveHttpStatus": 408,
-    "responseTimeMs": 4504,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/bandhanbnk.svg",
+    "imagePath": "assets/images/banks/bandhanbnk.svg"
   },
   {
     "bankName": "RBL Bank",
@@ -1042,8 +1021,8 @@
     "websiteUrl": "https://www.rblbank.com",
     "ratesUrl": "https://www.rblbank.com/interest-rates",
     "cardsUrl": "https://www.rblbank.com/product/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "rblbank",
     "homeLoan": {
@@ -1073,9 +1052,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.rblbank.com/interest-rates",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 665,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/rblbank.png",
+    "imagePath": "assets/images/banks/rblbank.png"
   },
   {
     "bankName": "IDBI Bank",
@@ -1091,8 +1069,8 @@
     "websiteUrl": "https://www.idbibank.in",
     "ratesUrl": "https://www.idbibank.in/interest-rates.asp",
     "cardsUrl": "https://www.idbibank.in/credit-cards.asp",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "idbi",
     "homeLoan": {
@@ -1122,9 +1100,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.idbibank.in/interest-rates.asp",
-    "liveHttpStatus": 503,
-    "responseTimeMs": 155,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/idbi.png",
+    "imagePath": "assets/images/banks/idbi.png"
   },
   {
     "bankName": "South Indian Bank",
@@ -1140,8 +1117,8 @@
     "websiteUrl": "https://www.southindianbank.com",
     "ratesUrl": "https://www.southindianbank.com/interestrate/interestrates.aspx",
     "cardsUrl": "https://www.southindianbank.com/creditcard/",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "southbank",
     "homeLoan": {
@@ -1171,9 +1148,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.southindianbank.com/interestrate/interestrates.aspx",
-    "liveHttpStatus": 503,
-    "responseTimeMs": 107,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/southbank.png",
+    "imagePath": "assets/images/banks/southbank.png"
   },
   {
     "bankName": "City Union Bank",
@@ -1189,8 +1165,8 @@
     "websiteUrl": "https://www.cityunionbank.com",
     "ratesUrl": "https://www.cityunionbank.com/deposit-interest-rates",
     "cardsUrl": "https://www.cityunionbank.com/credit-card",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "cub",
     "homeLoan": {
@@ -1220,9 +1196,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.cityunionbank.com/deposit-interest-rates",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 290,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/cub.png",
+    "imagePath": "assets/images/banks/cub.png"
   },
   {
     "bankName": "Karur Vysya Bank",
@@ -1238,8 +1213,8 @@
     "websiteUrl": "https://www.kvb.co.in",
     "ratesUrl": "https://www.kvb.co.in/interest-rates/",
     "cardsUrl": "https://www.kvb.co.in/personal/cards/credit-cards/",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "kvb",
     "homeLoan": {
@@ -1269,9 +1244,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.kvb.co.in/interest-rates/",
-    "liveHttpStatus": 503,
-    "responseTimeMs": 30,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/kvb.svg",
+    "imagePath": "assets/images/banks/kvb.svg"
   },
   {
     "bankName": "Karnataka Bank",
@@ -1287,8 +1261,8 @@
     "websiteUrl": "https://karnatakabank.com",
     "ratesUrl": "https://karnatakabank.com/personal/rates-and-charges/deposit-interest-rates",
     "cardsUrl": "https://karnatakabank.com/personal/cards/credit-card",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "ktkbank",
     "homeLoan": {
@@ -1318,9 +1292,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://karnatakabank.com/personal/rates-and-charges/deposit-interest-rates",
-    "liveHttpStatus": 403,
-    "responseTimeMs": 385,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/ktkbank.png",
+    "imagePath": "assets/images/banks/ktkbank.png"
   },
   {
     "bankName": "Tamilnad Mercantile Bank",
@@ -1336,8 +1309,8 @@
     "websiteUrl": "https://www.tmbnet.net",
     "ratesUrl": "https://www.tmbnet.net/interest-rates",
     "cardsUrl": "https://www.tmbnet.net/credit-card",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "tmb",
     "homeLoan": {
@@ -1367,9 +1340,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.tmbnet.net/interest-rates",
-    "liveHttpStatus": 503,
-    "responseTimeMs": 65,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/tmb.svg",
+    "imagePath": "assets/images/banks/tmb.svg"
   },
   {
     "bankName": "CSB Bank",
@@ -1385,8 +1357,8 @@
     "websiteUrl": "https://www.csb.co.in",
     "ratesUrl": "https://www.csb.co.in/interest-rates",
     "cardsUrl": "https://www.csb.co.in/credit-card",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "csbbank",
     "homeLoan": {
@@ -1416,9 +1388,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.csb.co.in/interest-rates",
-    "liveHttpStatus": 503,
-    "responseTimeMs": 89,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/csbbank.svg",
+    "imagePath": "assets/images/banks/csbbank.svg"
   },
   {
     "bankName": "DCB Bank",
@@ -1434,8 +1405,8 @@
     "websiteUrl": "https://www.dcbbank.com",
     "ratesUrl": "https://www.dcbbank.com/interest-rates",
     "cardsUrl": "https://www.dcbbank.com/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "dcbbank",
     "homeLoan": {
@@ -1465,9 +1436,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.dcbbank.com/interest-rates",
-    "liveHttpStatus": 408,
-    "responseTimeMs": 4514,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/dcbbank.svg",
+    "imagePath": "assets/images/banks/dcbbank.svg"
   },
   {
     "bankName": "Dhanlaxmi Bank",
@@ -1483,8 +1453,8 @@
     "websiteUrl": "https://www.dhanbank.com",
     "ratesUrl": "https://www.dhanbank.com/interest-rates/",
     "cardsUrl": "https://www.dhanbank.com/credit-cards/",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "dhanbank",
     "homeLoan": {
@@ -1514,9 +1484,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.dhanbank.com/interest-rates/",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 230,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/dhanbank.png",
+    "imagePath": "assets/images/banks/dhanbank.png"
   },
   {
     "bankName": "Jammu & Kashmir Bank",
@@ -1532,8 +1501,8 @@
     "websiteUrl": "https://www.jkbank.com",
     "ratesUrl": "https://www.jkbank.com/interest-rates",
     "cardsUrl": "https://www.jkbank.com/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "jkbank",
     "homeLoan": {
@@ -1563,9 +1532,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.jkbank.com/interest-rates",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 1137,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/jkbank.svg",
+    "imagePath": "assets/images/banks/jkbank.svg"
   },
   {
     "bankName": "Nainital Bank",
@@ -1581,8 +1549,8 @@
     "websiteUrl": "https://www.nainitalbank.co.in",
     "ratesUrl": "https://www.nainitalbank.co.in/interest_rates.asp",
     "cardsUrl": "https://www.nainitalbank.co.in/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "nainital",
     "homeLoan": {
@@ -1612,9 +1580,8 @@
     "fdRate": "400 Days to 500 Days",
     "rdRate": "6.50% - 7.25% p.a.",
     "homeLoansUrl": "https://www.nainitalbank.co.in/interest_rates.asp",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 495,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/nainital.svg",
+    "imagePath": "assets/images/banks/nainital.svg"
   },
   {
     "bankName": "AU Small Finance Bank",
@@ -1630,8 +1597,8 @@
     "websiteUrl": "https://www.aubank.in",
     "ratesUrl": "https://www.aubank.in/interest-rates/fixed-deposit-interest-rates",
     "cardsUrl": "https://www.aubank.in/personal-banking/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "aubank",
     "homeLoan": {
@@ -1661,9 +1628,8 @@
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.aubank.in/interest-rates/fixed-deposit-interest-rates",
-    "liveHttpStatus": 403,
-    "responseTimeMs": 200,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/aubank.png",
+    "imagePath": "assets/images/banks/aubank.png"
   },
   {
     "bankName": "Equitas Small Finance Bank",
@@ -1679,8 +1645,8 @@
     "websiteUrl": "https://www.equitasbank.com",
     "ratesUrl": "https://www.equitasbank.com/fixed-deposit",
     "cardsUrl": "https://www.equitasbank.com/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "equitasbnk",
     "homeLoan": {
@@ -1710,9 +1676,8 @@
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.equitasbank.com/fixed-deposit",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 566,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/equitasbnk.svg",
+    "imagePath": "assets/images/banks/equitasbnk.svg"
   },
   {
     "bankName": "Ujjivan Small Finance Bank",
@@ -1728,8 +1693,8 @@
     "websiteUrl": "https://www.ujjivansfb.in",
     "ratesUrl": "https://www.ujjivansfb.in/fixed-deposit-interest-rates",
     "cardsUrl": "https://www.ujjivansfb.in/credit-cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "ujjivansfb",
     "homeLoan": {
@@ -1759,9 +1724,8 @@
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.ujjivansfb.in/fixed-deposit-interest-rates",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 451,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/ujjivansfb.svg",
+    "imagePath": "assets/images/banks/ujjivansfb.svg"
   },
   {
     "bankName": "Jana Small Finance Bank",
@@ -1777,8 +1741,8 @@
     "websiteUrl": "https://www.janabank.com",
     "ratesUrl": "https://www.janabank.com/deposits/fixed-deposit-interest-rates/",
     "cardsUrl": "https://www.janabank.com/cards/",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "janabank",
     "homeLoan": {
@@ -1808,9 +1772,8 @@
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.janabank.com/deposits/fixed-deposit-interest-rates/",
-    "liveHttpStatus": 404,
-    "responseTimeMs": 493,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/janabank.svg",
+    "imagePath": "assets/images/banks/janabank.svg"
   },
   {
     "bankName": "Unity Small Finance Bank",
@@ -1826,8 +1789,8 @@
     "websiteUrl": "https://theunitybank.com",
     "ratesUrl": "https://theunitybank.com/interest-rates.html",
     "cardsUrl": "https://theunitybank.com",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "unitybank",
     "homeLoan": {
@@ -1857,9 +1820,8 @@
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://theunitybank.com/interest-rates.html",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 324,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/unitybank.svg",
+    "imagePath": "assets/images/banks/unitybank.svg"
   },
   {
     "bankName": "Utkarsh Small Finance Bank",
@@ -1875,8 +1837,8 @@
     "websiteUrl": "https://www.utkarsh.bank",
     "ratesUrl": "https://www.utkarsh.bank/interest-rates",
     "cardsUrl": "https://www.utkarsh.bank/cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "utkarshbnk",
     "homeLoan": {
@@ -1906,9 +1868,8 @@
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.utkarsh.bank/interest-rates",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 1427,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/utkarshbnk.svg",
+    "imagePath": "assets/images/banks/utkarshbnk.svg"
   },
   {
     "bankName": "ESAF Small Finance Bank",
@@ -1924,8 +1885,8 @@
     "websiteUrl": "https://www.esafbank.com",
     "ratesUrl": "https://www.esafbank.com/interest-rates/",
     "cardsUrl": "https://www.esafbank.com/cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "esafsfb",
     "homeLoan": {
@@ -1955,9 +1916,8 @@
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.esafbank.com/interest-rates/",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 588,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/esafsfb.png",
+    "imagePath": "assets/images/banks/esafsfb.png"
   },
   {
     "bankName": "Suryoday Small Finance Bank",
@@ -1973,8 +1933,8 @@
     "websiteUrl": "https://www.suryodaybank.com",
     "ratesUrl": "https://www.suryodaybank.com/interest-rates",
     "cardsUrl": "https://www.suryodaybank.com/cards",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "suryoday",
     "homeLoan": {
@@ -2004,9 +1964,8 @@
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.suryodaybank.com/interest-rates",
-    "liveHttpStatus": 503,
-    "responseTimeMs": 124,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/suryoday.svg",
+    "imagePath": "assets/images/banks/suryoday.svg"
   },
   {
     "bankName": "Capital Small Finance Bank",
@@ -2022,8 +1981,8 @@
     "websiteUrl": "https://www.capitalbank.co.in",
     "ratesUrl": "https://www.capitalbank.co.in/rates-charges",
     "cardsUrl": "https://www.capitalbank.co.in",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "capitalsfb",
     "homeLoan": {
@@ -2053,9 +2012,8 @@
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.capitalbank.co.in/rates-charges",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 278,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/capitalsfb.svg",
+    "imagePath": "assets/images/banks/capitalsfb.svg"
   },
   {
     "bankName": "North East Small Finance Bank",
@@ -2071,8 +2029,8 @@
     "websiteUrl": "https://www.nesfb.com",
     "ratesUrl": "https://www.nesfb.com/interest-rates",
     "cardsUrl": "https://www.nesfb.com",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "nesfb",
     "homeLoan": {
@@ -2102,9 +2060,8 @@
     "fdRate": "444 Days to 1001 Days (Peak 8.50% - 9.00%)",
     "rdRate": "7.25% - 8.50% p.a.",
     "homeLoansUrl": "https://www.nesfb.com/interest-rates",
-    "liveHttpStatus": 404,
-    "responseTimeMs": 680,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/nesfb.png",
+    "imagePath": "assets/images/banks/nesfb.png"
   },
   {
     "bankName": "Standard Chartered Bank India",
@@ -2120,8 +2077,8 @@
     "websiteUrl": "https://www.sc.com/in",
     "ratesUrl": "https://www.sc.com/in/deposits/fixed-deposit/",
     "cardsUrl": "https://www.sc.com/in/credit-cards/",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "scb",
     "homeLoan": {
@@ -2151,9 +2108,8 @@
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.sc.com/in/deposits/fixed-deposit/",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 492,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/scb.png",
+    "imagePath": "assets/images/banks/scb.png"
   },
   {
     "bankName": "HSBC India",
@@ -2169,8 +2125,8 @@
     "websiteUrl": "https://www.hsbc.co.in",
     "ratesUrl": "https://www.hsbc.co.in/accounts/products/fixed-deposits/",
     "cardsUrl": "https://www.hsbc.co.in/credit-cards/",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "hsbc",
     "homeLoan": {
@@ -2200,9 +2156,8 @@
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.hsbc.co.in/accounts/products/fixed-deposits/",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 1210,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/hsbc.png",
+    "imagePath": "assets/images/banks/hsbc.png"
   },
   {
     "bankName": "American Express Banking Corp",
@@ -2218,8 +2173,8 @@
     "websiteUrl": "https://www.americanexpress.com/in/",
     "ratesUrl": "https://www.americanexpress.com/in/legal-disclosures/",
     "cardsUrl": "https://www.americanexpress.com/in/credit-cards/",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "amex",
     "homeLoan": {
@@ -2249,9 +2204,8 @@
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.americanexpress.com/in/legal-disclosures/",
-    "liveHttpStatus": 404,
-    "responseTimeMs": 1520,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/amex.png",
+    "imagePath": "assets/images/banks/amex.png"
   },
   {
     "bankName": "DBS Bank India",
@@ -2267,8 +2221,8 @@
     "websiteUrl": "https://www.dbs.com/in",
     "ratesUrl": "https://www.dbs.com/in/personal/rates/fixed-deposit-rates.page",
     "cardsUrl": "https://www.dbs.com/in/personal/cards/credit-cards.page",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "dbs",
     "homeLoan": {
@@ -2298,9 +2252,8 @@
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.dbs.com/in/personal/rates/fixed-deposit-rates.page",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 264,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/dbs.png",
+    "imagePath": "assets/images/banks/dbs.png"
   },
   {
     "bankName": "Deutsche Bank India",
@@ -2316,8 +2269,8 @@
     "websiteUrl": "https://www.deutschebank.co.in",
     "ratesUrl": "https://www.deutschebank.co.in/rates-and-charges/fixed-deposit-rates.html",
     "cardsUrl": "https://www.deutschebank.co.in/personal-banking/cards.html",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "db",
     "homeLoan": {
@@ -2347,9 +2300,8 @@
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.deutschebank.co.in/rates-and-charges/fixed-deposit-rates.html",
-    "liveHttpStatus": 200,
-    "responseTimeMs": 1663,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/db.png",
+    "imagePath": "assets/images/banks/db.png"
   },
   {
     "bankName": "Barclays Bank India",
@@ -2365,8 +2317,8 @@
     "websiteUrl": "https://www.barclays.in",
     "ratesUrl": "https://www.barclays.in/rates/",
     "cardsUrl": "https://www.barclays.in",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "barclays",
     "homeLoan": {
@@ -2396,9 +2348,8 @@
     "fdRate": "1 Year to 3 Years",
     "rdRate": "6.00% - 7.00% p.a.",
     "homeLoansUrl": "https://www.barclays.in/rates/",
-    "liveHttpStatus": 404,
-    "responseTimeMs": 777,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/barclays.png",
+    "imagePath": "assets/images/banks/barclays.png"
   },
   {
     "bankName": "Airtel Payments Bank",
@@ -2414,8 +2365,8 @@
     "websiteUrl": "https://www.airtel.in/bank",
     "ratesUrl": "https://www.airtel.in/bank/savings-account",
     "cardsUrl": "https://www.airtel.in/bank/credit-card",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "airtelpay",
     "homeLoan": {
@@ -2445,9 +2396,8 @@
     "fdRate": "Auto-Sweep & Linked 1-3 Years",
     "rdRate": "Partnered RD up to 8.00% p.a.",
     "homeLoansUrl": "https://www.airtel.in/bank",
-    "liveHttpStatus": 403,
-    "responseTimeMs": 462,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/airtelpay.png",
+    "imagePath": "assets/images/banks/airtelpay.png"
   },
   {
     "bankName": "India Post Payments Bank",
@@ -2463,8 +2413,8 @@
     "websiteUrl": "https://www.ippbonline.com",
     "ratesUrl": "https://www.ippbonline.com/web/ippb/interest-rates",
     "cardsUrl": "https://www.ippbonline.com",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "ippb",
     "homeLoan": {
@@ -2494,9 +2444,8 @@
     "fdRate": "Auto-Sweep & Linked 1-3 Years",
     "rdRate": "Partnered RD up to 8.00% p.a.",
     "homeLoansUrl": "https://www.ippbonline.com",
-    "liveHttpStatus": 503,
-    "responseTimeMs": 159,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/ippb.svg",
+    "imagePath": "assets/images/banks/ippb.svg"
   },
   {
     "bankName": "Fino Payments Bank",
@@ -2512,8 +2461,8 @@
     "websiteUrl": "https://www.finobank.com",
     "ratesUrl": "https://www.finobank.com/personal/savings-account",
     "cardsUrl": "https://www.finobank.com",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "fino",
     "homeLoan": {
@@ -2543,9 +2492,8 @@
     "fdRate": "Auto-Sweep & Linked 1-3 Years",
     "rdRate": "Partnered RD up to 8.00% p.a.",
     "homeLoansUrl": "https://www.finobank.com",
-    "liveHttpStatus": 503,
-    "responseTimeMs": 206,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/fino.svg",
+    "imagePath": "assets/images/banks/fino.svg"
   },
   {
     "bankName": "Jio Payments Bank",
@@ -2561,8 +2509,8 @@
     "websiteUrl": "https://www.jiopaymentsbank.com",
     "ratesUrl": "https://www.jiopaymentsbank.com",
     "cardsUrl": "https://www.jiopaymentsbank.com",
-    "lastUpdated": "2026-10-06T10:14:58.644Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:44 pm IST",
+    "lastUpdated": "2026-10-06T02:22:12.049Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:22 am IST",
     "status": "verified",
     "bankCode": "jiopay",
     "homeLoan": {
@@ -2592,8 +2540,7 @@
     "fdRate": "Auto-Sweep & Linked 1-3 Years",
     "rdRate": "Partnered RD up to 8.00% p.a.",
     "homeLoansUrl": "https://www.jiopaymentsbank.com",
-    "liveHttpStatus": 408,
-    "responseTimeMs": 4503,
-    "lastLiveScrape": "2026-10-06T10:14:58.644Z"
+    "logoUrl": "/assets/images/banks/jiopay.svg",
+    "imagePath": "assets/images/banks/jiopay.svg"
   }
 ]

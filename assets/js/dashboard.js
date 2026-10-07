@@ -91,7 +91,15 @@ const SECTIONS = [
     file: "fd-rates-register.json",
     tableId: "fd-table",
     columns: [
-      { key: "bank", title: "Bank Name", sortable: true, render: r => `<strong>${escapeHtml(r.bank)}</strong>` },
+      {
+        key: "bank",
+        title: "Bank Name",
+        sortable: true,
+        render: r => {
+          const logo = r.logoUrl ? `<img src="${getUrl(r.logoUrl)}" alt="" class="bank-logo-icon" loading="lazy" style="width:20px;height:20px;border-radius:4px;object-fit:contain;background:#fff;padding:1px;box-shadow:0 1px 2px rgba(0,0,0,0.06);flex-shrink:0;" onerror="this.style.display='none'" />` : "";
+          return `<div style="display:flex;align-items:center;gap:8px;">${logo}<strong>${escapeHtml(r.bank)}</strong></div>`;
+        }
+      },
       { key: "tenure", title: "Deposit Tenure", render: r => escapeHtml(r.tenure || "—") },
       { key: "generalRate", title: "General Public (p.a.)", align: "right", sortable: true, render: r => `<span class="font-mono" style="font-weight:700; color:#047857;">${formatPercent(r.generalRate)}</span>` },
       { key: "seniorCitizenRate", title: "Senior Citizens (p.a.)", align: "right", sortable: true, render: r => `<span class="font-mono" style="font-weight:600; color:#b45309;">${formatPercent(r.seniorCitizenRate)}</span>` },
@@ -104,7 +112,18 @@ const SECTIONS = [
     file: "home-loan-register.json",
     tableId: "home-loans-table",
     columns: [
-      { key: "bank", title: "Bank Name", sortable: true, render: r => r.source && r.source.url ? `<a href="${escapeHtml(r.source.url)}" target="_blank" rel="noopener" style="color: var(--accent-blue); font-weight:600;">${escapeHtml(r.bank)} &nearr;</a>` : `<strong>${escapeHtml(r.bank)}</strong>` },
+      {
+        key: "bank",
+        title: "Bank Name",
+        sortable: true,
+        render: r => {
+          const logo = r.logoUrl ? `<img src="${getUrl(r.logoUrl)}" alt="" class="bank-logo-icon" loading="lazy" style="width:20px;height:20px;border-radius:4px;object-fit:contain;background:#fff;padding:1px;box-shadow:0 1px 2px rgba(0,0,0,0.06);flex-shrink:0;" onerror="this.style.display='none'" />` : "";
+          const nameLink = r.source && r.source.url
+            ? `<a href="${escapeHtml(r.source.url)}" target="_blank" rel="noopener" style="color: var(--accent-blue); font-weight:600;">${escapeHtml(r.bank)} &nearr;</a>`
+            : `<strong>${escapeHtml(r.bank)}</strong>`;
+          return `<div style="display:flex;align-items:center;gap:8px;">${logo}${nameLink}</div>`;
+        }
+      },
       { key: "product", title: "Loan Scheme", render: r => escapeHtml(r.product || "—") },
       { key: "minRate", title: "Effective Rate (p.a.)", align: "right", sortable: true, render: r => `<span class="font-mono" style="font-weight:700;">${formatPercent(r.minRate)} - ${formatPercent(r.maxRate)}</span>` },
       { key: "benchmarkType", title: "Lending Benchmark", render: r => `<span style="font-size:12px;">${escapeHtml(r.benchmarkType || "—")}</span>` },
@@ -130,7 +149,26 @@ const SECTIONS = [
     file: "credit-cards-register.json",
     tableId: "credit-table",
     columns: [
-      { key: "bank", title: "Bank & Card Name", sortable: true, render: r => `<span class="badge" style="background:#e0f2fe;color:#0369a1;">${escapeHtml(r.bank)}</span><br/><strong style="font-size:13px;">${escapeHtml(r.card)}</strong>` },
+      {
+        key: "card",
+        title: "Credit Card & Issuer",
+        sortable: true,
+        render: r => {
+          const imgUrl = r.imageUrl ? getUrl(r.imageUrl) : "";
+          const cardImg = imgUrl
+            ? `<img src="${imgUrl}" alt="${escapeHtml(r.card)}" class="card-thumb" loading="lazy" style="width:72px;height:45px;border-radius:6px;object-fit:cover;box-shadow:0 2px 5px rgba(0,0,0,0.22);flex-shrink:0;background:#1e293b;" onerror="this.style.display='none'" />`
+            : "";
+          return `
+            <div style="display:flex;align-items:center;gap:12px;">
+              ${cardImg}
+              <div>
+                <span class="badge" style="background:#e0f2fe;color:#0369a1;font-size:10.5px;font-weight:600;">${escapeHtml(r.bank)}</span><br/>
+                <strong style="font-size:13px;line-height:1.3;display:inline-block;margin-top:2px;">${escapeHtml(r.card)}</strong>
+              </div>
+            </div>
+          `;
+        }
+      },
       { key: "category", title: "Category", render: r => `<span class="badge" style="background:#f3e8ff;color:#7e22ce;">${escapeHtml(r.category || "—")}</span>` },
       { key: "annualFee", title: "Joining & Annual Fee", render: r => `<div style="font-weight:600;">Join: ${escapeHtml(r.joiningFee || "—")}</div><div style="color:var(--text-muted); font-size:11px;">Annual: ${escapeHtml(r.annualFee || "—")}</div>` },
       { key: "rewards", title: "Rewards & Welcome Perks", render: r => `<div style="color:#047857;font-weight:500;font-size:12px;">${escapeHtml(r.welcomeBenefit || "")}</div><div style="font-size:12px;margin-top:3px;">${escapeHtml(r.rewards || "")}</div>` },
@@ -144,7 +182,23 @@ const SECTIONS = [
     file: "bank-register.json",
     tableId: "banks-table",
     columns: [
-      { key: "bankName", title: "Bank Name & Code", sortable: true, render: r => `<span class="badge" style="background:#f1f5f9;color:#475569;">${escapeHtml(r.category || "")}</span><br/><strong style="font-size:13.5px;">${escapeHtml(r.bankName)}</strong> <span style="font-size:11px;color:var(--text-muted);">(${escapeHtml(r.shortName || "")})</span>` },
+      {
+        key: "bankName",
+        title: "Bank Name & Logo",
+        sortable: true,
+        render: r => {
+          const logo = r.logoUrl ? `<img src="${getUrl(r.logoUrl)}" alt="${escapeHtml(r.shortName || r.bankName)}" class="bank-logo-icon" loading="lazy" style="width:32px;height:32px;border-radius:6px;object-fit:contain;background:#ffffff;padding:2px;box-shadow:0 1px 3px rgba(0,0,0,0.1);border:1px solid rgba(0,0,0,0.06);flex-shrink:0;" onerror="this.style.display='none'" />` : "";
+          return `
+            <div style="display:flex;align-items:center;gap:10px;">
+              ${logo}
+              <div>
+                <span class="badge" style="background:#f1f5f9;color:#475569;font-size:10px;font-weight:600;">${escapeHtml(r.category || "")}</span><br/>
+                <strong style="font-size:13.5px;">${escapeHtml(r.bankName)}</strong> <span style="font-size:11px;color:var(--text-muted);">(${escapeHtml(r.shortName || "")})</span>
+              </div>
+            </div>
+          `;
+        }
+      },
       { key: "benchmarkRate", title: "Home Loan Rates (p.a.)", render: r => `<div style="font-weight:600;color:#0284c7;font-size:12px;">${escapeHtml((r.homeLoan && r.homeLoan.rateRange) || r.benchmarkRate || "N/A")}</div>` },
       { key: "topFdRate", title: "Fixed Deposit Yield", align: "right", sortable: true, render: r => `<div style="font-weight:700;color:#047857;">${escapeHtml(r.topFdRate || "—")}</div>` },
       { key: "savingsRate", title: "Savings Rate", align: "right", render: r => `<span style="font-size:12px;">${escapeHtml(r.savingsRate || "—")}</span>` },

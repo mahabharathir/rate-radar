@@ -1,8 +1,7 @@
 /**
  * Comprehensive Indian Credit Cards Registry
  * 159 Official Credit Card Offerings Across 27 Banks in India
- * Sourced directly from official bank product schedules, tariff sheets,
- * and Most Important Terms & Conditions (MITC).
+ * Enriched with scraped card visuals, tariff schedules, and MITC.
  */
 
 export const creditCardsCatalog = [
@@ -19,7 +18,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "1.99% p.m. (23.88% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/infinia-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-hdfc-infinia-metal-edition.svg",
+    "imagePath": "assets/images/cards/hdfc-hdfc-infinia-metal-edition.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -34,7 +35,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "1.99% p.m. (23.88% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-black-metal-edition",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-hdfc-diners-club-black-metal.svg",
+    "imagePath": "assets/images/cards/hdfc-hdfc-diners-club-black-metal.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -49,7 +52,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-hdfc-regalia-gold-credit-card.svg",
+    "imagePath": "assets/images/cards/hdfc-hdfc-regalia-gold-credit-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -64,7 +69,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia-cards",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-hdfc-millennia-credit-card.svg",
+    "imagePath": "assets/images/cards/hdfc-hdfc-millennia-credit-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -79,7 +86,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-swiggy-hdfc-bank-credit-card.svg",
+    "imagePath": "assets/images/cards/hdfc-swiggy-hdfc-bank-credit-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -94,7 +103,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-infinity-hdfc-bank-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-tata-neu-infinity-hdfc-bank-card.svg",
+    "imagePath": "assets/images/cards/hdfc-tata-neu-infinity-hdfc-bank-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -109,7 +120,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-tata-neu-plus-hdfc-bank-card.svg",
+    "imagePath": "assets/images/cards/hdfc-tata-neu-plus-hdfc-bank-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -124,7 +137,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/marriott-bonvoy-hdfc-bank-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-marriott-bonvoy-hdfc-bank-card.svg",
+    "imagePath": "assets/images/cards/hdfc-marriott-bonvoy-hdfc-bank-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -139,7 +154,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-indianoil-hdfc-bank-credit-card.svg",
+    "imagePath": "assets/images/cards/hdfc-indianoil-hdfc-bank-credit-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -154,7 +171,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/moneyback-plus",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-hdfc-moneyback-credit-card.svg",
+    "imagePath": "assets/images/cards/hdfc-hdfc-moneyback-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -169,7 +188,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "3.00% p.m. (36% p.a.)",
     "productUrl": "https://www.axisbank.com/retail/cards/credit-card/magnus-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-axis-bank-magnus-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-axis-bank-magnus-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -184,7 +205,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/cards/credit-card/axis-bank-atlas-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-axis-bank-atlas-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-axis-bank-atlas-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -199,7 +222,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/cards/credit-card/airtel-axis-bank-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-airtel-axis-bank-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-airtel-axis-bank-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -214,7 +239,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/cards/credit-card/flipkart-axisbank-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-flipkart-axis-bank-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-flipkart-axis-bank-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -229,7 +256,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/cards/credit-card/axis-bank-ace-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-axis-bank-ace-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-axis-bank-ace-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -244,7 +273,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/cards/credit-card/axis-bank-my-zone-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-axis-bank-my-zone-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-axis-bank-my-zone-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -259,7 +290,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/retail/cards/credit-card/axis-bank-select-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-axis-bank-select-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-axis-bank-select-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -274,7 +307,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/retail/cards/credit-card/indianoil-axis-bank-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-indianoil-axis-bank-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-indianoil-axis-bank-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -289,7 +324,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/retail/cards/credit-card/neo-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-axis-bank-neo-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-axis-bank-neo-credit-card.svg"
   },
   {
     "bank": "SBI Card",
@@ -304,7 +341,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.99%",
     "monthlyInterest": "2.75% p.m. (33% p.a.)",
     "productUrl": "https://www.aurumcreditcard.com/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-sbi-card-aurum.svg",
+    "imagePath": "assets/images/cards/sbi-sbi-card-aurum.svg"
   },
   {
     "bank": "SBI Card",
@@ -319,7 +358,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.99%",
     "monthlyInterest": "3.75% p.m. (45% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/travel/sbi-card-elite.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-sbi-card-elite.svg",
+    "imagePath": "assets/images/cards/sbi-sbi-card-elite.svg"
   },
   {
     "bank": "SBI Card",
@@ -334,7 +375,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.75% p.m. (45% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/shopping/cashback-sbi-card.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-cashback-sbi-card.svg",
+    "imagePath": "assets/images/cards/sbi-cashback-sbi-card.svg"
   },
   {
     "bank": "SBI Card",
@@ -349,7 +392,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.75% p.m. (45% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/shopping/simplyclick-sbi-card.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-simplyclick-sbi-card.svg",
+    "imagePath": "assets/images/cards/sbi-simplyclick-sbi-card.svg"
   },
   {
     "bank": "SBI Card",
@@ -364,7 +409,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.75% p.m. (45% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/shopping/simplysave-sbi-card.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-simplysave-sbi-card.svg",
+    "imagePath": "assets/images/cards/sbi-simplysave-sbi-card.svg"
   },
   {
     "bank": "SBI Card",
@@ -379,7 +426,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.75% p.m. (45% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/travel/bpcl-sbi-card-octane.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-bpcl-sbi-card-octane.svg",
+    "imagePath": "assets/images/cards/sbi-bpcl-sbi-card-octane.svg"
   },
   {
     "bank": "SBI Card",
@@ -394,7 +443,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.75% p.m. (45% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/travel/irctc-sbi-card-premier.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-irctc-sbi-card-premier.svg",
+    "imagePath": "assets/images/cards/sbi-irctc-sbi-card-premier.svg"
   },
   {
     "bank": "SBI Card",
@@ -409,7 +460,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.75% p.m. (45% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/travel/air-india-sbi-signature-card.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-air-india-sbi-signature-card.svg",
+    "imagePath": "assets/images/cards/sbi-air-india-sbi-signature-card.svg"
   },
   {
     "bank": "ICICI Bank",
@@ -424,7 +477,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% - 3.75% p.m. (42% - 45% p.a.)",
     "productUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards/amazon-pay-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/icici-amazon-pay-icici-bank-credit-card.svg",
+    "imagePath": "assets/images/cards/icici-amazon-pay-icici-bank-credit-card.svg"
   },
   {
     "bank": "ICICI Bank",
@@ -439,7 +494,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.99%",
     "monthlyInterest": "1.99% p.m. (23.88% p.a.)",
     "productUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards/emeralde-private-metal-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/icici-icici-emeralde-private-metal.svg",
+    "imagePath": "assets/images/cards/icici-icici-emeralde-private-metal.svg"
   },
   {
     "bank": "ICICI Bank",
@@ -454,7 +511,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42% p.a.)",
     "productUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards/sapphiro-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/icici-icici-sapphiro-credit-card.svg",
+    "imagePath": "assets/images/cards/icici-icici-sapphiro-credit-card.svg"
   },
   {
     "bank": "ICICI Bank",
@@ -469,7 +528,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m.",
     "productUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards/rubyx-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/icici-icici-rubyx-credit-card.svg",
+    "imagePath": "assets/images/cards/icici-icici-rubyx-credit-card.svg"
   },
   {
     "bank": "ICICI Bank",
@@ -484,7 +545,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% - 3.75% p.m.",
     "productUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards/coral-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/icici-icici-coral-credit-card.svg",
+    "imagePath": "assets/images/cards/icici-icici-coral-credit-card.svg"
   },
   {
     "bank": "ICICI Bank",
@@ -499,7 +562,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m.",
     "productUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards/hpcl-super-saver-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/icici-icici-hpcl-super-saver-card.svg",
+    "imagePath": "assets/images/cards/icici-icici-hpcl-super-saver-card.svg"
   },
   {
     "bank": "IDFC FIRST Bank",
@@ -514,7 +579,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.50%",
     "monthlyInterest": "Dynamic 0.75% - 2.99% p.m. (9% - 35.88% p.a.)",
     "productUrl": "https://www.idfcfirstbank.com/credit-card/wealth-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/idfc-idfc-first-wealth-credit-card.svg",
+    "imagePath": "assets/images/cards/idfc-idfc-first-wealth-credit-card.svg"
   },
   {
     "bank": "IDFC FIRST Bank",
@@ -529,7 +596,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.99%",
     "monthlyInterest": "Dynamic 0.75% - 3.50% p.m.",
     "productUrl": "https://www.idfcfirstbank.com/credit-card/select-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/idfc-idfc-first-select-credit-card.svg",
+    "imagePath": "assets/images/cards/idfc-idfc-first-select-credit-card.svg"
   },
   {
     "bank": "IDFC FIRST Bank",
@@ -544,7 +613,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "Dynamic 0.75% - 3.50% p.m. (9% - 42% p.a.)",
     "productUrl": "https://www.idfcfirstbank.com/credit-card/millennia-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/idfc-idfc-first-millennia-credit-card.svg",
+    "imagePath": "assets/images/cards/idfc-idfc-first-millennia-credit-card.svg"
   },
   {
     "bank": "IDFC FIRST Bank",
@@ -559,7 +630,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "Dynamic 0.75% - 3.50% p.m.",
     "productUrl": "https://www.idfcfirstbank.com/credit-card/classic-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/idfc-idfc-first-classic-credit-card.svg",
+    "imagePath": "assets/images/cards/idfc-idfc-first-classic-credit-card.svg"
   },
   {
     "bank": "IDFC FIRST Bank",
@@ -574,7 +647,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "0.00%",
     "monthlyInterest": "0.75% p.m. (9% p.a.)",
     "productUrl": "https://www.idfcfirstbank.com/credit-card/wow-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/idfc-idfc-first-wow-credit-card.svg",
+    "imagePath": "assets/images/cards/idfc-idfc-first-wow-credit-card.svg"
   },
   {
     "bank": "Kotak Mahindra Bank",
@@ -589,7 +664,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42% p.a.)",
     "productUrl": "https://www.kotak.com/en/personal-banking/cards/credit-cards/white-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/kotak-kotak-white-credit-card.jpg",
+    "imagePath": "assets/images/cards/kotak-kotak-white-credit-card.jpg"
   },
   {
     "bank": "Kotak Mahindra Bank",
@@ -604,7 +681,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42% p.a.)",
     "productUrl": "https://www.kotak.com/en/personal-banking/cards/credit-cards/zen-signature-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/kotak-kotak-zen-signature-credit-card.png",
+    "imagePath": "assets/images/cards/kotak-kotak-zen-signature-credit-card.png"
   },
   {
     "bank": "Kotak Mahindra Bank",
@@ -619,7 +698,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42% p.a.)",
     "productUrl": "https://www.kotak.com/en/personal-banking/cards/credit-cards/league-platinum-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/kotak-kotak-league-platinum-card.jpg",
+    "imagePath": "assets/images/cards/kotak-kotak-league-platinum-card.jpg"
   },
   {
     "bank": "Kotak Mahindra Bank",
@@ -634,7 +715,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m.",
     "productUrl": "https://www.kotak.com/en/personal-banking/cards/credit-cards/indianoil-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/kotak-kotak-indianoil-credit-card.svg",
+    "imagePath": "assets/images/cards/kotak-kotak-indianoil-credit-card.svg"
   },
   {
     "bank": "Kotak Mahindra Bank",
@@ -649,7 +732,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m.",
     "productUrl": "https://www.kotak.com/en/personal-banking/cards/credit-cards/mojo-platinum-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/kotak-kotak-mojo-platinum-card.jpg",
+    "imagePath": "assets/images/cards/kotak-kotak-mojo-platinum-card.jpg"
   },
   {
     "bank": "IndusInd Bank",
@@ -664,7 +749,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.83% p.m. (46% p.a.)",
     "productUrl": "https://www.indusind.com/in/en/personal/cards/credit-cards/legend-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indusind-indusind-legend-credit-card.svg",
+    "imagePath": "assets/images/cards/indusind-indusind-legend-credit-card.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -679,7 +766,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.50%",
     "monthlyInterest": "3.83% p.m.",
     "productUrl": "https://www.indusind.com/in/en/personal/cards/credit-cards/tiger-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indusind-indusind-tiger-credit-card.svg",
+    "imagePath": "assets/images/cards/indusind-indusind-tiger-credit-card.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -694,7 +783,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.83% p.m.",
     "productUrl": "https://www.indusind.com/in/en/personal/cards/credit-cards/eazydiner-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indusind-indusind-eazydiner-credit-card.svg",
+    "imagePath": "assets/images/cards/indusind-indusind-eazydiner-credit-card.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -709,7 +800,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.83% p.m.",
     "productUrl": "https://www.indusind.com/in/en/personal/cards/credit-cards/platinum-aura-edge-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indusind-indusind-platinum-aura-edge.svg",
+    "imagePath": "assets/images/cards/indusind-indusind-platinum-aura-edge.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -724,7 +817,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.83% p.m.",
     "productUrl": "https://www.indusind.com/in/en/personal/cards/credit-cards/nexxt-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indusind-indusind-nexxt-credit-card.svg",
+    "imagePath": "assets/images/cards/indusind-indusind-nexxt-credit-card.svg"
   },
   {
     "bank": "American Express",
@@ -739,7 +834,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "Charge card - No pre-set limit (Full balance due monthly)",
     "productUrl": "https://www.americanexpress.com/in/charge-cards/platinum-card/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/amex-american-express-platinum-card.svg",
+    "imagePath": "assets/images/cards/amex-american-express-platinum-card.svg"
   },
   {
     "bank": "American Express",
@@ -754,7 +851,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42% p.a.)",
     "productUrl": "https://www.americanexpress.com/in/credit-cards/platinum-travel-credit-card/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/amex-amex-platinum-travel-credit-card.svg",
+    "imagePath": "assets/images/cards/amex-amex-platinum-travel-credit-card.svg"
   },
   {
     "bank": "American Express",
@@ -769,7 +868,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42% p.a.)",
     "productUrl": "https://www.americanexpress.com/in/credit-cards/membership-rewards-card/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/amex-amex-membership-rewards-mrcc.svg",
+    "imagePath": "assets/images/cards/amex-amex-membership-rewards-mrcc.svg"
   },
   {
     "bank": "American Express",
@@ -784,7 +885,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42% p.a.)",
     "productUrl": "https://www.americanexpress.com/in/credit-cards/smartearn-credit-card/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/amex-amex-smartearn-credit-card.svg",
+    "imagePath": "assets/images/cards/amex-amex-smartearn-credit-card.svg"
   },
   {
     "bank": "HSBC India",
@@ -799,7 +902,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.49% p.m. (41.88% p.a.)",
     "productUrl": "https://www.hsbc.co.in/credit-cards/products/live-plus/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hsbc-hsbc-live-credit-card.svg",
+    "imagePath": "assets/images/cards/hsbc-hsbc-live-credit-card.svg"
   },
   {
     "bank": "HSBC India",
@@ -814,7 +919,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.99%",
     "monthlyInterest": "1.99% p.m. (23.88% p.a.)",
     "productUrl": "https://www.hsbc.co.in/credit-cards/products/premier/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hsbc-hsbc-premier-mastercard.svg",
+    "imagePath": "assets/images/cards/hsbc-hsbc-premier-mastercard.svg"
   },
   {
     "bank": "HSBC India",
@@ -829,7 +936,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.50%",
     "monthlyInterest": "3.49% p.m.",
     "productUrl": "https://www.hsbc.co.in/credit-cards/products/travel-one/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hsbc-hsbc-travelone-credit-card.svg",
+    "imagePath": "assets/images/cards/hsbc-hsbc-travelone-credit-card.svg"
   },
   {
     "bank": "AU Small Finance Bank",
@@ -844,7 +953,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.49%",
     "monthlyInterest": "3.49% p.m. (41.88% p.a.)",
     "productUrl": "https://www.aubank.in/personal-banking/credit-cards/lit-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/au-au-lit-credit-card.svg",
+    "imagePath": "assets/images/cards/au-au-lit-credit-card.svg"
   },
   {
     "bank": "AU Small Finance Bank",
@@ -859,7 +970,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.99%",
     "monthlyInterest": "2.99% p.m. (35.88% p.a.)",
     "productUrl": "https://www.aubank.in/personal-banking/credit-cards/zenith-plus-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/au-au-zenith-super-premium-metal.svg",
+    "imagePath": "assets/images/cards/au-au-zenith-super-premium-metal.svg"
   },
   {
     "bank": "AU Small Finance Bank",
@@ -874,7 +987,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.49%",
     "monthlyInterest": "3.49% p.m.",
     "productUrl": "https://www.aubank.in/personal-banking/credit-cards/vetta-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/au-au-vetta-credit-card.svg",
+    "imagePath": "assets/images/cards/au-au-vetta-credit-card.svg"
   },
   {
     "bank": "AU Small Finance Bank",
@@ -889,7 +1004,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.49%",
     "monthlyInterest": "3.49% p.m.",
     "productUrl": "https://www.aubank.in/personal-banking/credit-cards/altura-plus-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/au-au-altura-plus-credit-card.svg",
+    "imagePath": "assets/images/cards/au-au-altura-plus-credit-card.svg"
   },
   {
     "bank": "AU Small Finance Bank",
@@ -904,7 +1021,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.99%",
     "monthlyInterest": "3.49% p.m.",
     "productUrl": "https://www.aubank.in/personal-banking/credit-cards/ixigo-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/au-au-ixigo-credit-card.svg",
+    "imagePath": "assets/images/cards/au-au-ixigo-credit-card.svg"
   },
   {
     "bank": "RBL Bank",
@@ -919,7 +1038,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "0.00%",
     "monthlyInterest": "3.99% p.m. (47.88% p.a.)",
     "productUrl": "https://www.rblbank.com/product/credit-cards/world-safari-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/rbl-rbl-world-safari-credit-card.svg",
+    "imagePath": "assets/images/cards/rbl-rbl-world-safari-credit-card.svg"
   },
   {
     "bank": "RBL Bank",
@@ -934,7 +1055,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.99%",
     "monthlyInterest": "3.99% p.m.",
     "productUrl": "https://www.rblbank.com/product/credit-cards/play-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/rbl-rbl-play-credit-card.svg",
+    "imagePath": "assets/images/cards/rbl-rbl-play-credit-card.svg"
   },
   {
     "bank": "RBL Bank",
@@ -949,7 +1072,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.99%",
     "monthlyInterest": "3.99% p.m.",
     "productUrl": "https://www.rblbank.com/product/credit-cards/shoprite-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/rbl-rbl-shoprite-credit-card.svg",
+    "imagePath": "assets/images/cards/rbl-rbl-shoprite-credit-card.svg"
   },
   {
     "bank": "RBL Bank",
@@ -964,7 +1089,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.99%",
     "monthlyInterest": "3.99% p.m.",
     "productUrl": "https://www.rblbank.com/product/credit-cards/popcorn-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/rbl-rbl-popcorn-credit-card.svg",
+    "imagePath": "assets/images/cards/rbl-rbl-popcorn-credit-card.svg"
   },
   {
     "bank": "Bank of Baroda (BOBCARD)",
@@ -979,7 +1106,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "3.25% p.m. (39% p.a.)",
     "productUrl": "https://www.bobcard.co.in/eterna.asp",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/bobcard-bobcard-eterna-credit-card.svg",
+    "imagePath": "assets/images/cards/bobcard-bobcard-eterna-credit-card.svg"
   },
   {
     "bank": "Bank of Baroda (BOBCARD)",
@@ -994,7 +1123,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.25% p.m. (39% p.a.)",
     "productUrl": "https://www.bobcard.co.in/premier.asp",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/bobcard-bobcard-premier-credit-card.svg",
+    "imagePath": "assets/images/cards/bobcard-bobcard-premier-credit-card.svg"
   },
   {
     "bank": "Bank of Baroda (BOBCARD)",
@@ -1009,7 +1140,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.25% p.m.",
     "productUrl": "https://www.bobcard.co.in/irctc.asp",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/bobcard-bobcard-irctc-rupay-card.svg",
+    "imagePath": "assets/images/cards/bobcard-bobcard-irctc-rupay-card.svg"
   },
   {
     "bank": "Bank of Baroda (BOBCARD)",
@@ -1024,7 +1157,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.25% p.m.",
     "productUrl": "https://www.bobcard.co.in/hpcl-energie.asp",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/bobcard-bobcard-hpcl-energie.svg",
+    "imagePath": "assets/images/cards/bobcard-bobcard-hpcl-energie.svg"
   },
   {
     "bank": "Standard Chartered",
@@ -1039,7 +1174,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "3.75% p.m. (45% p.a.)",
     "productUrl": "https://www.sc.com/in/credit-cards/ultimate-card/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/scb-standard-chartered-ultimate-card.png",
+    "imagePath": "assets/images/cards/scb-standard-chartered-ultimate-card.png"
   },
   {
     "bank": "Standard Chartered",
@@ -1054,7 +1191,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.75% p.m.",
     "productUrl": "https://www.sc.com/in/credit-cards/smart-credit-card/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/scb-standard-chartered-smart-credit-card.png",
+    "imagePath": "assets/images/cards/scb-standard-chartered-smart-credit-card.png"
   },
   {
     "bank": "Standard Chartered",
@@ -1069,7 +1208,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.75% p.m.",
     "productUrl": "https://www.sc.com/in/credit-cards/rewards-credit-card/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/scb-standard-chartered-rewards-card.png",
+    "imagePath": "assets/images/cards/scb-standard-chartered-rewards-card.png"
   },
   {
     "bank": "Standard Chartered",
@@ -1084,7 +1225,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.75% p.m.",
     "productUrl": "https://www.sc.com/in/credit-cards/easemytrip-credit-card/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/scb-standard-chartered-easemytrip-card.png",
+    "imagePath": "assets/images/cards/scb-standard-chartered-easemytrip-card.png"
   },
   {
     "bank": "Federal Bank",
@@ -1099,7 +1242,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "Dynamic 0.49% - 3.49% p.m. (5.88% - 41.88% p.a.)",
     "productUrl": "https://www.federalbank.co.in/celesta-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/federal-federal-bank-celesta-credit-card.svg",
+    "imagePath": "assets/images/cards/federal-federal-bank-celesta-credit-card.svg"
   },
   {
     "bank": "Federal Bank",
@@ -1114,7 +1259,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "0.00%",
     "monthlyInterest": "3.49% p.m.",
     "productUrl": "https://www.scapia.cards/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/federal-scapia-federal-bank-credit-card.svg",
+    "imagePath": "assets/images/cards/federal-scapia-federal-bank-credit-card.svg"
   },
   {
     "bank": "Federal Bank",
@@ -1129,7 +1276,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.49%",
     "monthlyInterest": "0.49% - 3.49% p.m.",
     "productUrl": "https://www.federalbank.co.in/imperio-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/federal-federal-bank-imperio-credit-card.svg",
+    "imagePath": "assets/images/cards/federal-federal-bank-imperio-credit-card.svg"
   },
   {
     "bank": "Federal Bank",
@@ -1144,7 +1293,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.49%",
     "monthlyInterest": "0.49% - 3.49% p.m.",
     "productUrl": "https://www.federalbank.co.in/signet-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/federal-federal-bank-signet-credit-card.svg",
+    "imagePath": "assets/images/cards/federal-federal-bank-signet-credit-card.svg"
   },
   {
     "bank": "YES Bank",
@@ -1159,7 +1310,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.00%",
     "monthlyInterest": "1.99% p.m. (23.88% p.a.)",
     "productUrl": "https://www.yesbank.in/personal-banking/cards/credit-cards/marquee-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/yes-yes-marquee-credit-card.svg",
+    "imagePath": "assets/images/cards/yes-yes-marquee-credit-card.svg"
   },
   {
     "bank": "YES Bank",
@@ -1174,7 +1327,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.75%",
     "monthlyInterest": "2.50% p.m.",
     "productUrl": "https://www.yesbank.in/personal-banking/cards/credit-cards/yes-first-exclusive",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/yes-yes-first-exclusive-card.svg",
+    "imagePath": "assets/images/cards/yes-yes-first-exclusive-card.svg"
   },
   {
     "bank": "YES Bank",
@@ -1189,7 +1344,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "2.99% p.m.",
     "productUrl": "https://www.yesbank.in/personal-banking/cards/credit-cards/yes-reserv",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/yes-yes-reserv-credit-card.svg",
+    "imagePath": "assets/images/cards/yes-yes-reserv-credit-card.svg"
   },
   {
     "bank": "YES Bank",
@@ -1204,7 +1361,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m.",
     "productUrl": "https://www.yesbank.in/personal-banking/cards/credit-cards/pop-club-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/yes-yes-bank-pop-club-rupay-card.svg",
+    "imagePath": "assets/images/cards/yes-yes-bank-pop-club-rupay-card.svg"
   },
   {
     "bank": "Canara Bank",
@@ -1219,7 +1378,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.50% p.m. (30% p.a.)",
     "productUrl": "https://canarabank.com/pages/credit-cards",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/canbk-canara-rupay-select-credit-card.svg",
+    "imagePath": "assets/images/cards/canbk-canara-rupay-select-credit-card.svg"
   },
   {
     "bank": "Union Bank of India",
@@ -1234,7 +1395,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.50% p.m.",
     "productUrl": "https://unionbankofindia.co.in/english/credit-card.aspx",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/ubi-union-bank-rupay-select-card.svg",
+    "imagePath": "assets/images/cards/ubi-union-bank-rupay-select-card.svg"
   },
   {
     "bank": "Punjab National Bank",
@@ -1249,7 +1412,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.95% p.m.",
     "productUrl": "https://pnb.bank.in/credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/pnb-pnb-rupay-millennial-card.svg",
+    "imagePath": "assets/images/cards/pnb-pnb-rupay-millennial-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -1264,7 +1429,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/freedom-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-hdfc-freedom-credit-card.svg",
+    "imagePath": "assets/images/cards/hdfc-hdfc-freedom-credit-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -1279,7 +1446,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/shoppers-stop-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-hdfc-shoppers-stop-credit-card.svg",
+    "imagePath": "assets/images/cards/hdfc-hdfc-shoppers-stop-credit-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -1294,7 +1463,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/pixel-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-hdfc-pixel-play-credit-card.svg",
+    "imagePath": "assets/images/cards/hdfc-hdfc-pixel-play-credit-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -1309,7 +1480,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/business-credit-cards/biz-power",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-hdfc-bizpower-credit-card.svg",
+    "imagePath": "assets/images/cards/hdfc-hdfc-bizpower-credit-card.svg"
   },
   {
     "bank": "HDFC Bank",
@@ -1324,7 +1497,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/intermiles-signature-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hdfc-hdfc-intermiles-signature-credit-card.svg",
+    "imagePath": "assets/images/cards/hdfc-hdfc-intermiles-signature-credit-card.svg"
   },
   {
     "bank": "SBI Card",
@@ -1339,7 +1514,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-prime.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-sbi-card-prime.svg",
+    "imagePath": "assets/images/cards/sbi-sbi-card-prime.svg"
   },
   {
     "bank": "SBI Card",
@@ -1354,7 +1531,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/lifestyle/sbi-card-pulse.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-sbi-pulse-credit-card.svg",
+    "imagePath": "assets/images/cards/sbi-sbi-pulse-credit-card.svg"
   },
   {
     "bank": "SBI Card",
@@ -1369,7 +1548,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/travel/club-vistara-sbi-card-prime.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-club-vistara-sbi-card-prime.svg",
+    "imagePath": "assets/images/cards/sbi-club-vistara-sbi-card-prime.svg"
   },
   {
     "bank": "SBI Card",
@@ -1384,7 +1565,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/shopping/paytm-sbi-card-select.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-paytm-sbi-card-select.svg",
+    "imagePath": "assets/images/cards/sbi-paytm-sbi-card-select.svg"
   },
   {
     "bank": "SBI Card",
@@ -1399,7 +1582,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/shopping/reliance-sbi-card-prime.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-reliance-sbi-card-prime.svg",
+    "imagePath": "assets/images/cards/sbi-reliance-sbi-card-prime.svg"
   },
   {
     "bank": "SBI Card",
@@ -1414,7 +1599,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.sbicard.com/en/personal/credit-cards/travel/irctc-sbi-platinum-card.page",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbi-irctc-sbi-platinum-card.svg",
+    "imagePath": "assets/images/cards/sbi-irctc-sbi-platinum-card.svg"
   },
   {
     "bank": "ICICI Bank",
@@ -1429,7 +1616,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.99%",
     "monthlyInterest": "1.99% p.m. (23.88% p.a.)",
     "productUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards/emeralde-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/icici-icici-emeralde-credit-card.svg",
+    "imagePath": "assets/images/cards/icici-icici-emeralde-credit-card.svg"
   },
   {
     "bank": "ICICI Bank",
@@ -1444,7 +1633,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards/makemytrip-signature-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/icici-icici-makemytrip-signature-credit-card.svg",
+    "imagePath": "assets/images/cards/icici-icici-makemytrip-signature-credit-card.svg"
   },
   {
     "bank": "ICICI Bank",
@@ -1459,7 +1650,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards/adani-one-signature-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/icici-adani-one-icici-signature-credit-card.svg",
+    "imagePath": "assets/images/cards/icici-adani-one-icici-signature-credit-card.svg"
   },
   {
     "bank": "ICICI Bank",
@@ -1474,7 +1667,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.40% p.m. (40.8% p.a.)",
     "productUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards/platinum-chip-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/icici-icici-platinum-chip-credit-card.svg",
+    "imagePath": "assets/images/cards/icici-icici-platinum-chip-credit-card.svg"
   },
   {
     "bank": "ICICI Bank",
@@ -1489,7 +1684,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.icicibank.com/personal-banking/cards/credit-cards/manchester-united-platinum-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/icici-icici-manchester-united-platinum-card.svg",
+    "imagePath": "assets/images/cards/icici-icici-manchester-united-platinum-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -1504,7 +1701,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.50%",
     "monthlyInterest": "2.50% p.m. (30.0% p.a.)",
     "productUrl": "https://www.axisbank.com/retail/cards/credit-card/reserve-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-axis-bank-reserve-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-axis-bank-reserve-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -1519,7 +1718,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/retail/cards/credit-card/horizon-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-axis-bank-horizon-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-axis-bank-horizon-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -1534,7 +1735,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/retail/cards/credit-card/rewards-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-axis-bank-rewards-credit-card.svg",
+    "imagePath": "assets/images/cards/axis-axis-bank-rewards-credit-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -1549,7 +1752,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/retail/cards/credit-card/samsung-axis-bank-infinite-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-samsung-axis-bank-infinite-card.svg",
+    "imagePath": "assets/images/cards/axis-samsung-axis-bank-infinite-card.svg"
   },
   {
     "bank": "Axis Bank",
@@ -1564,7 +1769,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.60% p.m. (43.2% p.a.)",
     "productUrl": "https://www.axisbank.com/retail/cards/credit-card/freecharge-plus-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/axis-axis-bank-freecharge-plus-card.svg",
+    "imagePath": "assets/images/cards/axis-axis-bank-freecharge-plus-card.svg"
   },
   {
     "bank": "Kotak Mahindra Bank",
@@ -1579,7 +1786,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "2.49% p.m. (29.88% p.a.)",
     "productUrl": "https://www.kotak.com/en/personal-banking/cards/credit-cards/white-reserve-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/kotak-kotak-white-reserve-metal-card.jpg",
+    "imagePath": "assets/images/cards/kotak-kotak-white-reserve-metal-card.jpg"
   },
   {
     "bank": "Kotak Mahindra Bank",
@@ -1594,7 +1803,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.kotak.com/en/personal-banking/cards/credit-cards/dream-different-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/kotak-kotak-811-dreamdifferent-card.svg",
+    "imagePath": "assets/images/cards/kotak-kotak-811-dreamdifferent-card.svg"
   },
   {
     "bank": "Kotak Mahindra Bank",
@@ -1609,7 +1820,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.kotak.com/en/personal-banking/cards/credit-cards/myntra-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/kotak-kotak-myntra-credit-card.svg",
+    "imagePath": "assets/images/cards/kotak-kotak-myntra-credit-card.svg"
   },
   {
     "bank": "Kotak Mahindra Bank",
@@ -1624,7 +1837,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.kotak.com/en/personal-banking/cards/credit-cards/indigo-6e-rewards-xl-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/kotak-kotak-indigo-6e-rewards-xl-card.svg",
+    "imagePath": "assets/images/cards/kotak-kotak-indigo-6e-rewards-xl-card.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -1639,7 +1854,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "0.00%",
     "monthlyInterest": "1.99% p.m. (23.88% p.a.)",
     "productUrl": "https://www.indusind.com/in/en/personal/cards/credit-cards/pioneer-heritage-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indusind-indusind-pioneer-heritage-metal-card.svg",
+    "imagePath": "assets/images/cards/indusind-indusind-pioneer-heritage-metal-card.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -1654,7 +1871,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.50%",
     "monthlyInterest": "1.99% p.m. (23.88% p.a.)",
     "productUrl": "https://www.indusind.com/in/en/personal/cards/credit-cards/crest-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indusind-indusind-crest-credit-card.svg",
+    "imagePath": "assets/images/cards/indusind-indusind-crest-credit-card.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -1669,7 +1888,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "0.00%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.indusind.com/in/en/personal/cards/credit-cards/club-vistara-indusind-bank-explorer-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indusind-indusind-club-vistara-explorer-card.svg",
+    "imagePath": "assets/images/cards/indusind-indusind-club-vistara-explorer-card.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -1684,7 +1905,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "2.95% p.m. (35.4% p.a.)",
     "productUrl": "https://www.indusind.com/in/en/personal/cards/credit-cards/samman-rupay-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indusind-indusind-samman-rupay-credit-card.svg",
+    "imagePath": "assets/images/cards/indusind-indusind-samman-rupay-credit-card.svg"
   },
   {
     "bank": "IndusInd Bank",
@@ -1699,7 +1922,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.indusind.com/in/en/personal/cards/credit-cards/avios-visa-infinite-credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indusind-indusind-avios-visa-infinite-card.svg",
+    "imagePath": "assets/images/cards/indusind-indusind-avios-visa-infinite-card.svg"
   },
   {
     "bank": "IDFC FIRST Bank",
@@ -1714,7 +1939,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "0.00%",
     "monthlyInterest": "0.75% to 2.99% p.m. (9.0% to 35.88% p.a.)",
     "productUrl": "https://www.idfcfirstbank.com/credit-card/private-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/idfc-idfc-first-private-credit-card.svg",
+    "imagePath": "assets/images/cards/idfc-idfc-first-private-credit-card.svg"
   },
   {
     "bank": "IDFC FIRST Bank",
@@ -1729,7 +1956,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.99%",
     "monthlyInterest": "0.75% to 3.65% p.m. (9.0% to 43.8% p.a.)",
     "productUrl": "https://www.idfcfirstbank.com/credit-card/club-vistara-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/idfc-club-vistara-idfc-first-card.svg",
+    "imagePath": "assets/images/cards/idfc-club-vistara-idfc-first-card.svg"
   },
   {
     "bank": "IDFC FIRST Bank",
@@ -1744,7 +1973,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "0.75% to 3.65% p.m.",
     "productUrl": "https://www.idfcfirstbank.com/credit-card/swyp-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/idfc-idfc-first-swyp-credit-card.svg",
+    "imagePath": "assets/images/cards/idfc-idfc-first-swyp-credit-card.svg"
   },
   {
     "bank": "IDFC FIRST Bank",
@@ -1759,7 +1990,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.00%",
     "monthlyInterest": "0.75% to 3.49% p.m.",
     "productUrl": "https://www.idfcfirstbank.com/credit-card/ashva-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/idfc-idfc-first-ashva-metal-card.svg",
+    "imagePath": "assets/images/cards/idfc-idfc-first-ashva-metal-card.svg"
   },
   {
     "bank": "IDFC FIRST Bank",
@@ -1774,7 +2007,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "0.00%",
     "monthlyInterest": "0.75% to 2.99% p.m.",
     "productUrl": "https://www.idfcfirstbank.com/credit-card/mayura-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/idfc-idfc-first-mayura-metal-card.svg",
+    "imagePath": "assets/images/cards/idfc-idfc-first-mayura-metal-card.svg"
   },
   {
     "bank": "AU Small Finance Bank",
@@ -1789,7 +2024,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.99%",
     "monthlyInterest": "2.99% p.m. (35.88% p.a.)",
     "productUrl": "https://www.aubank.in/personal-banking/credit-cards/zenith-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/au-au-zenith-credit-card.svg",
+    "imagePath": "assets/images/cards/au-au-zenith-credit-card.svg"
   },
   {
     "bank": "AU Small Finance Bank",
@@ -1804,7 +2041,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.49%",
     "monthlyInterest": "3.49% p.m. (41.88% p.a.)",
     "productUrl": "https://www.aubank.in/personal-banking/credit-cards/altura-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/au-au-altura-credit-card.svg",
+    "imagePath": "assets/images/cards/au-au-altura-credit-card.svg"
   },
   {
     "bank": "AU Small Finance Bank",
@@ -1819,7 +2058,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.99%",
     "monthlyInterest": "3.49% p.m.",
     "productUrl": "https://www.aubank.in/personal-banking/credit-cards/nomad-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/au-au-nomad-credit-card.svg",
+    "imagePath": "assets/images/cards/au-au-nomad-credit-card.svg"
   },
   {
     "bank": "RBL Bank",
@@ -1834,7 +2075,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.00%",
     "monthlyInterest": "2.50% p.m. (30.0% p.a.)",
     "productUrl": "https://www.rblbank.com/product/credit-cards/insignia-preferred-banking-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/rbl-rbl-insignia-preferred-banking-card.svg",
+    "imagePath": "assets/images/cards/rbl-rbl-insignia-preferred-banking-card.svg"
   },
   {
     "bank": "RBL Bank",
@@ -1849,7 +2092,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.rblbank.com/product/credit-cards/cookies-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/rbl-rbl-bank-cookies-credit-card.svg",
+    "imagePath": "assets/images/cards/rbl-rbl-bank-cookies-credit-card.svg"
   },
   {
     "bank": "RBL Bank",
@@ -1864,7 +2109,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.99% p.m. (47.88% p.a.)",
     "productUrl": "https://www.rblbank.com/product/credit-cards/bajaj-finserv-rbl-bank-supercard",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/rbl-bajaj-finserv-rbl-supercard-platinum-plus.svg",
+    "imagePath": "assets/images/cards/rbl-bajaj-finserv-rbl-supercard-platinum-plus.svg"
   },
   {
     "bank": "RBL Bank",
@@ -1879,7 +2126,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m.",
     "productUrl": "https://www.rblbank.com/product/credit-cards/monthly-treats-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/rbl-rbl-monthly-treats-credit-card.svg",
+    "imagePath": "assets/images/cards/rbl-rbl-monthly-treats-credit-card.svg"
   },
   {
     "bank": "Bank of Baroda (BOBCARD)",
@@ -1894,7 +2143,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.25% p.m. (39.0% p.a.)",
     "productUrl": "https://www.bobcard.co.in/select.htm",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/bobcard-bobcard-select-credit-card.svg",
+    "imagePath": "assets/images/cards/bobcard-bobcard-select-credit-card.svg"
   },
   {
     "bank": "Bank of Baroda (BOBCARD)",
@@ -1909,7 +2160,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.25% p.m. (39.0% p.a.)",
     "productUrl": "https://www.bobcard.co.in/easy.htm",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/bobcard-bobcard-easy-credit-card.svg",
+    "imagePath": "assets/images/cards/bobcard-bobcard-easy-credit-card.svg"
   },
   {
     "bank": "Bank of Baroda (BOBCARD)",
@@ -1924,7 +2177,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.50%",
     "monthlyInterest": "2.50% p.m. (30.0% p.a.)",
     "productUrl": "https://www.bobcard.co.in/varunah.htm",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/bobcard-bobcard-varunah-indian-navy-card.svg",
+    "imagePath": "assets/images/cards/bobcard-bobcard-varunah-indian-navy-card.svg"
   },
   {
     "bank": "Bank of Baroda (BOBCARD)",
@@ -1939,7 +2194,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.25% p.m.",
     "productUrl": "https://www.bobcard.co.in/snap.htm",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/bobcard-bobcard-snap-credit-card.svg",
+    "imagePath": "assets/images/cards/bobcard-bobcard-snap-credit-card.svg"
   },
   {
     "bank": "Standard Chartered",
@@ -1954,7 +2211,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.49% p.m. (41.88% p.a.)",
     "productUrl": "https://www.sc.com/in/credit-cards/platinum-elite/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/scb-standard-chartered-platinum-elite-card.svg",
+    "imagePath": "assets/images/cards/scb-standard-chartered-platinum-elite-card.svg"
   },
   {
     "bank": "Standard Chartered",
@@ -1969,7 +2228,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.49% p.m. (41.88% p.a.)",
     "productUrl": "https://www.sc.com/in/credit-cards/super-value-titanium/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/scb-standard-chartered-super-value-titanium.png",
+    "imagePath": "assets/images/cards/scb-standard-chartered-super-value-titanium.png"
   },
   {
     "bank": "American Express",
@@ -1984,7 +2245,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "No pre-set spending limit charge card; 3.50% on extended credit",
     "productUrl": "https://www.americanexpress.com/in/charge-cards/gold-card/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/amex-american-express-gold-card.svg",
+    "imagePath": "assets/images/cards/amex-american-express-gold-card.svg"
   },
   {
     "bank": "HSBC India",
@@ -1999,7 +2262,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.30% p.m. (39.6% p.a.)",
     "productUrl": "https://www.hsbc.co.in/credit-cards/products/platinum/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/hsbc-hsbc-platinum-credit-card.svg",
+    "imagePath": "assets/images/cards/hsbc-hsbc-platinum-credit-card.svg"
   },
   {
     "bank": "YES Bank",
@@ -2014,7 +2279,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m. (42.0% p.a.)",
     "productUrl": "https://www.yesbank.in/personal-banking/cards/credit-cards/byoc-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/yes-yes-bank-byoc-build-your-own-card.svg",
+    "imagePath": "assets/images/cards/yes-yes-bank-byoc-build-your-own-card.svg"
   },
   {
     "bank": "YES Bank",
@@ -2029,7 +2296,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.75%",
     "monthlyInterest": "2.99% p.m. (35.88% p.a.)",
     "productUrl": "https://www.yesbank.in/personal-banking/cards/credit-cards/yes-first-preferred",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/yes-yes-first-preferred-credit-card.svg",
+    "imagePath": "assets/images/cards/yes-yes-first-preferred-credit-card.svg"
   },
   {
     "bank": "YES Bank",
@@ -2044,7 +2313,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.50% p.m.",
     "productUrl": "https://www.yesbank.in/personal-banking/cards/credit-cards/ace-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/yes-yes-bank-ace-credit-card.svg",
+    "imagePath": "assets/images/cards/yes-yes-bank-ace-credit-card.svg"
   },
   {
     "bank": "Federal Bank",
@@ -2059,7 +2330,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.00%",
     "monthlyInterest": "2.50% to 3.49% p.m. (30.0% to 41.88% p.a.)",
     "productUrl": "https://www.federalbank.co.in/onecard",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/federal-onecard-federal-bank-metal-card.svg",
+    "imagePath": "assets/images/cards/federal-onecard-federal-bank-metal-card.svg"
   },
   {
     "bank": "Federal Bank",
@@ -2074,7 +2347,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.49% p.m.",
     "productUrl": "https://www.federalbank.co.in/wave-credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/federal-wave-federal-bank-credit-card.svg",
+    "imagePath": "assets/images/cards/federal-wave-federal-bank-credit-card.svg"
   },
   {
     "bank": "Punjab National Bank",
@@ -2089,7 +2364,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.95% p.m. (35.4% p.a.)",
     "productUrl": "https://pnb.bank.in/credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/pnb-pnb-rupay-platinum-credit-card.svg",
+    "imagePath": "assets/images/cards/pnb-pnb-rupay-platinum-credit-card.svg"
   },
   {
     "bank": "Punjab National Bank",
@@ -2104,7 +2381,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.95% p.m. (35.4% p.a.)",
     "productUrl": "https://pnb.bank.in/credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/pnb-pnb-rupay-select-credit-card.svg",
+    "imagePath": "assets/images/cards/pnb-pnb-rupay-select-credit-card.svg"
   },
   {
     "bank": "Punjab National Bank",
@@ -2119,7 +2398,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.50%",
     "monthlyInterest": "2.50% p.m. (30.0% p.a.)",
     "productUrl": "https://pnb.bank.in/credit-card.html",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/pnb-pnb-rakshak-rupay-platinum-card.svg",
+    "imagePath": "assets/images/cards/pnb-pnb-rakshak-rupay-platinum-card.svg"
   },
   {
     "bank": "Canara Bank",
@@ -2134,7 +2415,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.50% p.m. (30.0% p.a.)",
     "productUrl": "https://canarabank.com/pages/credit-cards",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/canbk-canara-visa-platinum-credit-card.svg",
+    "imagePath": "assets/images/cards/canbk-canara-visa-platinum-credit-card.svg"
   },
   {
     "bank": "Canara Bank",
@@ -2149,7 +2432,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "2.50%",
     "monthlyInterest": "2.50% p.m. (30.0% p.a.)",
     "productUrl": "https://canarabank.com/pages/credit-cards",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/canbk-canara-mastercard-world-credit-card.svg",
+    "imagePath": "assets/images/cards/canbk-canara-mastercard-world-credit-card.svg"
   },
   {
     "bank": "Union Bank of India",
@@ -2164,7 +2449,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.50% p.m. (30.0% p.a.)",
     "productUrl": "https://unionbankofindia.co.in/english/credit-card.aspx",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/ubi-union-visa-signature-credit-card.svg",
+    "imagePath": "assets/images/cards/ubi-union-visa-signature-credit-card.svg"
   },
   {
     "bank": "Union Bank of India",
@@ -2179,7 +2466,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.50% p.m. (30.0% p.a.)",
     "productUrl": "https://unionbankofindia.co.in/english/credit-card.aspx",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/ubi-union-platinum-credit-card.svg",
+    "imagePath": "assets/images/cards/ubi-union-platinum-credit-card.svg"
   },
   {
     "bank": "Bank of India",
@@ -2194,7 +2483,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.20% p.m. (26.4% p.a.)",
     "productUrl": "https://bankofindia.co.in/credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/boi-boi-rupay-select-credit-card.svg",
+    "imagePath": "assets/images/cards/boi-boi-rupay-select-credit-card.svg"
   },
   {
     "bank": "Bank of India",
@@ -2209,7 +2500,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.20% p.m. (26.4% p.a.)",
     "productUrl": "https://bankofindia.co.in/credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/boi-boi-visa-platinum-credit-card.svg",
+    "imagePath": "assets/images/cards/boi-boi-visa-platinum-credit-card.svg"
   },
   {
     "bank": "Indian Bank",
@@ -2224,7 +2517,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.50% p.m. (30.0% p.a.)",
     "productUrl": "https://indianbank.in/departments/credit-cards/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indianbk-indian-bank-rupay-platinum-card.svg",
+    "imagePath": "assets/images/cards/indianbk-indian-bank-rupay-platinum-card.svg"
   },
   {
     "bank": "Indian Bank",
@@ -2239,7 +2534,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.50% p.m.",
     "productUrl": "https://indianbank.in/departments/credit-cards/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/indianbk-indian-bank-visa-gold-credit-card.svg",
+    "imagePath": "assets/images/cards/indianbk-indian-bank-visa-gold-credit-card.svg"
   },
   {
     "bank": "Central Bank of India",
@@ -2254,7 +2551,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.50% p.m. (30.0% p.a.)",
     "productUrl": "https://centralbankofindia.co.in/en/credit-card",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/cbi-central-bank-aspire-credit-card.svg",
+    "imagePath": "assets/images/cards/cbi-central-bank-aspire-credit-card.svg"
   },
   {
     "bank": "South Indian Bank",
@@ -2269,7 +2568,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.00%",
     "monthlyInterest": "2.50% to 3.49% p.m.",
     "productUrl": "https://www.southindianbank.com/creditcard",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sib-south-indian-bank-onecard-metal.svg",
+    "imagePath": "assets/images/cards/sib-south-indian-bank-onecard-metal.svg"
   },
   {
     "bank": "South Indian Bank",
@@ -2284,7 +2585,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.50%",
     "monthlyInterest": "3.00% p.m. (36.0% p.a.)",
     "productUrl": "https://www.southindianbank.com/creditcard",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sib-sib-rupay-platinum-credit-card.svg",
+    "imagePath": "assets/images/cards/sib-sib-rupay-platinum-credit-card.svg"
   },
   {
     "bank": "Karur Vysya Bank",
@@ -2299,7 +2602,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.75% p.m. (33.0% p.a.)",
     "productUrl": "https://www.kvb.co.in/personal/cards/credit-cards/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/kvb-kvb-rupay-select-credit-card.svg",
+    "imagePath": "assets/images/cards/kvb-kvb-rupay-select-credit-card.svg"
   },
   {
     "bank": "Karnataka Bank",
@@ -2314,7 +2619,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.80% p.m. (33.6% p.a.)",
     "productUrl": "https://karnatakabank.com/personal-banking/cards/credit-cards",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/ktk-karnataka-bank-rupay-platinum-card.svg",
+    "imagePath": "assets/images/cards/ktk-karnataka-bank-rupay-platinum-card.svg"
   },
   {
     "bank": "Bandhan Bank",
@@ -2329,7 +2636,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.00%",
     "monthlyInterest": "2.50% to 3.49% p.m.",
     "productUrl": "https://bandhanbank.com/personal/cards/credit-cards",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/bandhan-bandhan-bank-onecard-metal.svg",
+    "imagePath": "assets/images/cards/bandhan-bandhan-bank-onecard-metal.svg"
   },
   {
     "bank": "CSB Bank",
@@ -2344,7 +2653,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.00%",
     "monthlyInterest": "2.50% to 3.49% p.m.",
     "productUrl": "https://www.csb.co.in/credit-cards",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/csb-csb-bank-onecard-metal.svg",
+    "imagePath": "assets/images/cards/csb-csb-bank-onecard-metal.svg"
   },
   {
     "bank": "SBM Bank India",
@@ -2359,7 +2670,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "1.00%",
     "monthlyInterest": "2.50% to 3.49% p.m.",
     "productUrl": "https://www.sbmbank.co.in/personal-banking/cards.php",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbm-sbm-onecard-metal-credit-card.svg",
+    "imagePath": "assets/images/cards/sbm-sbm-onecard-metal-credit-card.svg"
   },
   {
     "bank": "SBM Bank India",
@@ -2374,7 +2687,9 @@ export const creditCardsCatalog = [
     "forexMarkup": "0.00%",
     "monthlyInterest": "2.50% p.m. (30.0% p.a.)",
     "productUrl": "https://www.goniyo.com/niyo-sbm-credit-card/",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbm-niyo-sbm-global-credit-card.svg",
+    "imagePath": "assets/images/cards/sbm-niyo-sbm-global-credit-card.svg"
   },
   {
     "bank": "SBM Bank India",
@@ -2389,6 +2704,8 @@ export const creditCardsCatalog = [
     "forexMarkup": "3.00%",
     "monthlyInterest": "2.50% p.m.",
     "productUrl": "https://www.sbmbank.co.in/personal-banking/cards.php",
-    "status": "verified"
+    "status": "verified",
+    "imageUrl": "/assets/images/cards/sbm-sbm-credilio-credit-card.svg",
+    "imagePath": "assets/images/cards/sbm-sbm-credilio-credit-card.svg"
   }
 ];

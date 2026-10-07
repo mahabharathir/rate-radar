@@ -117,11 +117,12 @@ export async function runBanksScraper() {
 
       // Collect granular FD records dynamically
       if (extractedFds.length > 0) {
-        scrapedFdRecords.push(...extractedFds.slice(0, 6)); // top tranches
+        scrapedFdRecords.push(...extractedFds.slice(0, 6).map(f => ({ ...f, logoUrl: bank.logoUrl || '' }))); // top tranches
       } else if (bank.fixedDeposit) {
         // Fallback to audited bank ALCO filing schedule
         scrapedFdRecords.push({
           bank: bank.bankName,
+          logoUrl: bank.logoUrl || '',
           tenure: bank.fixedDeposit.highestRateTenure || '1 Year to 3 Years',
           generalRate: parseFloat((bank.fixedDeposit.generalRateRange || '').match(/\d+\.\d+/)?.[0] || '7.25'),
           seniorCitizenRate: parseFloat((bank.fixedDeposit.seniorCitizenRateRange || '').match(/\d+\.\d+/)?.[0] || '7.75'),
@@ -138,6 +139,7 @@ export async function runBanksScraper() {
         const rateMatches = bank.homeLoan.rateRange.match(/(\d+\.\d+)/g);
         scrapedHomeLoanRecords.push({
           bank: bank.bankName,
+          logoUrl: bank.logoUrl || '',
           product: bank.homeLoan.flagshipProduct || `${bank.bankName} Home Loan`,
           minRate: rateMatches ? parseFloat(rateMatches[0]) : 8.50,
           maxRate: rateMatches && rateMatches[1] ? parseFloat(rateMatches[1]) : 9.75,

@@ -9,8 +9,8 @@ export const marketIndicesCatalog = [
     "last": 22776.1,
     "change": "+220.35",
     "pChange": "+0.98%",
-    "pe": "19.3",
-    "pb": "2.77",
+    "pe": "19.49",
+    "pb": "2.8",
     "status": "verified"
   },
   {
@@ -18,8 +18,8 @@ export const marketIndicesCatalog = [
     "last": 69973.7,
     "change": "+759.95",
     "pChange": "+1.10%",
-    "pe": "18.14",
-    "pb": "3.33",
+    "pe": "18.34",
+    "pb": "3.36",
     "status": "verified"
   },
   {
@@ -27,8 +27,8 @@ export const marketIndicesCatalog = [
     "last": 55128.4,
     "change": "+414.30",
     "pChange": "+0.76%",
-    "pe": "12.97",
-    "pb": "1.65",
+    "pe": "13.07",
+    "pb": "1.66",
     "status": "verified"
   },
   {
@@ -36,8 +36,8 @@ export const marketIndicesCatalog = [
     "last": 24946.05,
     "change": "+289.65",
     "pChange": "+1.17%",
-    "pe": "15.11",
-    "pb": "2.28",
+    "pe": "15.29",
+    "pb": "2.3",
     "status": "verified"
   },
   {
@@ -45,8 +45,8 @@ export const marketIndicesCatalog = [
     "last": 13826,
     "change": "+176.70",
     "pChange": "+1.29%",
-    "pe": "28.93",
-    "pb": "4.09",
+    "pe": "29.3",
+    "pb": "4.14",
     "status": "verified"
   },
   {
@@ -54,8 +54,8 @@ export const marketIndicesCatalog = [
     "last": 1478.45,
     "change": "+14.95",
     "pChange": "+1.02%",
-    "pe": "21.13",
-    "pb": "3.14",
+    "pe": "21.34",
+    "pb": "3.17",
     "status": "verified"
   },
   {
@@ -63,8 +63,8 @@ export const marketIndicesCatalog = [
     "last": 23881.7,
     "change": "+236.40",
     "pChange": "+1.00%",
-    "pe": "19.07",
-    "pb": "2.86",
+    "pe": "19.26",
+    "pb": "2.89",
     "status": "verified"
   },
   {
@@ -72,8 +72,8 @@ export const marketIndicesCatalog = [
     "last": 13254.3,
     "change": "+133.25",
     "pChange": "+1.02%",
-    "pe": "20.37",
-    "pb": "3.01",
+    "pe": "20.58",
+    "pb": "3.04",
     "status": "verified"
   },
   {
@@ -81,8 +81,8 @@ export const marketIndicesCatalog = [
     "last": 22202.85,
     "change": "+231.25",
     "pChange": "+1.05%",
-    "pe": "21.67",
-    "pb": "3.08",
+    "pe": "21.9",
+    "pb": "3.11",
     "status": "verified"
   }
 ];

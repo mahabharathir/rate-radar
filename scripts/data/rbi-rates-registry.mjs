@@ -21,8 +21,8 @@ export const rbiRatesCatalog = [
     "impactOnBorrower": "External benchmark anchor for retail floating-rate home loans, personal loans, and MSME borrowing across all scheduled banks.",
     "officialUrl": "https://www.rbi.org.in/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:12:41.373Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:42 pm IST"
+    "lastUpdated": "2026-10-06T14:57:22.981Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:57 pm IST"
   },
   {
     "name": "Standing Deposit Facility (SDF)",
@@ -40,8 +40,8 @@ export const rbiRatesCatalog = [
     "impactOnBorrower": "Sets the operating lower bound for the weighted average call money rate (WACR) corridor in the interbank market.",
     "officialUrl": "https://www.rbi.org.in/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:12:41.373Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:42 pm IST"
+    "lastUpdated": "2026-10-06T14:57:22.981Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:57 pm IST"
   },
   {
     "name": "Marginal Standing Facility (MSF)",
@@ -59,8 +59,8 @@ export const rbiRatesCatalog = [
     "impactOnBorrower": "Acts as the ceiling of the policy interest rate corridor, capping spikes in interbank overnight borrowing costs.",
     "officialUrl": "https://www.rbi.org.in/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:12:41.373Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:42 pm IST"
+    "lastUpdated": "2026-10-06T14:57:22.981Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:57 pm IST"
   },
   {
     "name": "Bank Rate",
@@ -78,8 +78,8 @@ export const rbiRatesCatalog = [
     "impactOnBorrower": "Directly determines penal interest rates charged by the RBI on banks for shortfalls in meeting reserve requirements (CRR/SLR).",
     "officialUrl": "https://www.rbi.org.in/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:12:41.373Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:42 pm IST"
+    "lastUpdated": "2026-10-06T14:57:22.981Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:57 pm IST"
   },
   {
     "name": "Fixed Reverse Repo Rate",
@@ -97,8 +97,8 @@ export const rbiRatesCatalog = [
     "impactOnBorrower": "Provides a secondary baseline floor for money market short-term yields and commercial paper rates.",
     "officialUrl": "https://www.rbi.org.in/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:12:41.373Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:42 pm IST"
+    "lastUpdated": "2026-10-06T14:57:22.981Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:57 pm IST"
   },
   {
     "name": "Cash Reserve Ratio (CRR)",
@@ -116,8 +116,8 @@ export const rbiRatesCatalog = [
     "impactOnBorrower": "Directly influences total loanable funds available to banking institutions, impacting credit supply and deposit competition.",
     "officialUrl": "https://www.rbi.org.in/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:12:41.373Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:42 pm IST"
+    "lastUpdated": "2026-10-06T14:57:22.981Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:57 pm IST"
   },
   {
     "name": "Statutory Liquidity Ratio (SLR)",
@@ -135,8 +135,8 @@ export const rbiRatesCatalog = [
     "impactOnBorrower": "Guarantees bank solvency, cushions against run-on-bank systemic risks, and creates structural demand for sovereign debt issuance.",
     "officialUrl": "https://www.rbi.org.in/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:12:41.373Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:42 pm IST"
+    "lastUpdated": "2026-10-06T14:57:22.981Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:57 pm IST"
   },
   {
     "name": "Standing Liquidity Facility Base Rate (Base Rate)",
@@ -154,8 +154,8 @@ export const rbiRatesCatalog = [
     "impactOnBorrower": "Applicable to older pre-2016 corporate and mortgage advances that have not migrated to EBLR.",
     "officialUrl": "https://www.rbi.org.in/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:12:41.373Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:42 pm IST"
+    "lastUpdated": "2026-10-06T14:57:22.981Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:57 pm IST"
   },
   {
     "name": "Marginal Cost of Funds based Lending Rate (MCLR - 1 Year)",
@@ -173,7 +173,7 @@ export const rbiRatesCatalog = [
     "impactOnBorrower": "Governs corporate credit lines and legacy housing loans sanctioned between April 2016 and September 2019.",
     "officialUrl": "https://www.rbi.org.in/",
     "status": "verified",
-    "lastUpdated": "2026-10-06T10:12:41.373Z",
-    "lastUpdatedDisplay": "6 Oct 2026 03:42 pm IST"
+    "lastUpdated": "2026-10-06T14:57:22.981Z",
+    "lastUpdatedDisplay": "6 Oct 2026 02:57 pm IST"
   }
 ];

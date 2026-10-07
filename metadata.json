@@ -1,0 +1,8 @@
+{
+  "name": "Rate Radar – Live Indian Financial Rates Dashboard",
+  "description": "Live Indian financial rates dashboard: RBI policy rates, bank FD & home loan rates, foreign exchange, equity market indices, credit card tariffs, government savings schemes and the NSE/RBI calendar — all sourced directly from official feeds.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

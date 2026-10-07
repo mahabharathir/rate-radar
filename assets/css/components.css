@@ -262,3 +262,26 @@
   border-left: 3px solid #cbd5e1;
 }
 
+/* Card & Bank Image Thumbnails */
+.card-thumb {
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease;
+  will-change: transform;
+  cursor: pointer;
+}
+
+.card-thumb:hover {
+  transform: scale(1.45) translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35) !important;
+  z-index: 20;
+  position: relative;
+}
+
+.bank-logo-icon {
+  transition: transform 0.18s ease;
+}
+
+.bank-logo-icon:hover {
+  transform: scale(1.2);
+}
+
+
