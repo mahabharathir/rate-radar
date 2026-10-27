@@ -11,6 +11,8 @@ All records are structured as clean, typed JSON arrays designed for seamless con
 | Registry File | Description | Record Count | Authority / Primary Source | Update Frequency |
 |---|---|---|---|---|
 | `bank-register.json` | Comprehensive Directory of Scheduled Commercial, PSB, Private, Small Finance & Foreign Banks in India with Benchmark Lending Rates (EBLR/RLLR/MCLR), FD Rates & URLs | 53 Banks | Reserve Bank of India (RBI) & Bank Portals | Real-time / Daily |
+| `interest-rates-register.json` | Master Multi-Tenure Deposit & Lending Interest Rate Tables across 53 Scheduled Banks with FD, RD, Savings Slabs & MCLR | 53 Comprehensive Bank Tables | Official Bank Portals & Audited Schedules | Real-time / Daily |
+| `fd-rates-register.json` | Granular Fixed Deposit Tenor Brackets across Indian Banks with General Public, Senior & Super Senior Rates | 1,000+ Tenor Tranches | Official Bank Portals & Audited Schedules | Real-time / Daily |
 | `credit-cards-register.json` | Complete Master Registry of Active Indian Credit Cards with Fees, Joining Benefits, Reward Rates, Lounge Quotas, Forex Markup, and APR Schedules | 159 Cards across 27 Issuers | Official MITC Schedules & Bank Product Portals | Continuous Ingestion |
 | `rbi-rates-register.json` | RBI Monetary Policy Benchmark Rates, Policy Corridors (SDF/MSF) & Statutory Reserve Ratios (CRR, SLR) | 17 Key Policy Rates & Ratios | Reserve Bank of India (RBI Monetary Policy Committee) | Bi-monthly Policy Review |
 | `forex-rates-register.json` | Global Foreign Exchange Rates vs Indian Rupee (INR) for Major & Trading Partner Currencies | 43 Currency Pairs | Open Exchange Rates / European Central Bank / RBI Reference | Daily Fixings |

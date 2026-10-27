@@ -29,16 +29,22 @@ jobs:
 
       - name: Validate JSON Datasets
         run: |
-          echo "Validating JSON files in data/..."
+          echo "Validating JSON files in data/registries/..."
           node -e '
             const fs = require("fs");
-            const path = "./data";
+            const path = "./data/registries";
+            if (!fs.existsSync(path)) {
+              console.error("Missing data/registries directory");
+              process.exit(1);
+            }
             const files = fs.readdirSync(path).filter(f => f.endsWith(".json"));
+            console.log(`Found ${files.length} JSON registries to validate.`);
             for (const f of files) {
               const fullPath = `${path}/${f}`;
               try {
-                JSON.parse(fs.readFileSync(fullPath, "utf8"));
-                console.log(`✓ ${f} is valid JSON`);
+                const parsed = JSON.parse(fs.readFileSync(fullPath, "utf8"));
+                const count = Array.isArray(parsed) ? `${parsed.length} records` : "object";
+                console.log(`✓ ${f} is valid JSON (${count})`);
               } catch (e) {
                 console.error(`✗ ${f} has JSON syntax errors:`, e.message);
                 process.exit(1);
@@ -71,13 +77,20 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
+
+      - name: Ensure .nojekyll exists
+        run: touch .nojekyll
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

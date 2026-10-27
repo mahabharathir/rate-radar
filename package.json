@@ -12,6 +12,7 @@
     "update-data": "node scripts/update-data.mjs",
     "scrape:official": "node scripts/scrape-official.mjs",
     "scrape:banks": "node scripts/banks-scrape.mjs",
+    "scrape:interest-tables": "node scripts/interest-tables-scrape.mjs",
     "scrape:credit": "node scripts/credit-scrape.mjs",
     "scrape:images": "node scripts/scrape-images.mjs",
     "scrape:bank-images": "node scripts/scrape-bank-images.mjs",
@@ -22,8 +23,7 @@
     "scrape:market": "node scripts/market-scrape.mjs",
     "scrape:rbi": "node scripts/rbi-scrape.mjs",
     "scrape:calendar": "node scripts/calendar-scrape.mjs",
-    "import:credit-cards-india": "node scripts/credit-cards-india-import.mjs",
-    "postinstall": "playwright install chromium"
+    "import:credit-cards-india": "node scripts/credit-cards-india-import.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
